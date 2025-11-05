@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berita Acara - Dashboard</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h2>Dashboard</h2>
+            </div>
+            <nav class="sidebar-nav">
+                <a href="index.html" class="nav-item">
+                    <span class="nav-icon">🏠</span>
+                    <span class="nav-text">Halaman Utama</span>
+                </a>
+                <a href="berita-acara.html" class="nav-item active">
+                    <span class="nav-icon">📝</span>
+                    <span class="nav-text">Berita Acara</span>
+                </a>
+                <a href="jadwal.html" class="nav-item">
+                    <span class="nav-icon">📅</span>
+                    <span class="nav-text">Jadwal</span>
+                </a>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <div class="content-header">
+                <h1>Berita Acara</h1>
+                <div class="header-actions">
+                    <input type="text" id="search-berita" placeholder="Cari berita acara..." class="search-input">
+                </div>
+            </div>
+            <div class="content-body">
+                <div class="loading" id="loading-berita">Memuat data...</div>
+                
+                <!-- Breadcrumb Navigation -->
+                <div id="breadcrumb" class="breadcrumb" style="display: none;">
+                    <button id="btn-back-to-dosen" class="btn-back">← Kembali ke Dosen</button>
+                    <button id="btn-back-to-matkul" class="btn-back" style="display: none;">← Kembali ke Mata Kuliah</button>
+                </div>
+                
+                <!-- Level 1: List Dosen (Card View) -->
+                <div id="dosen-container" class="cards-container" style="display: none;">
+                    <div id="dosen-cards" class="cards-grid">
+                        <!-- Cards will be inserted here -->
+                    </div>
+                </div>
+                
+                <!-- Level 2: List Mata Kuliah -->
+                <div id="matkul-container" class="cards-container" style="display: none;">
+                    <div class="section-header">
+                        <h2 id="dosen-name-header"></h2>
+                        <p id="dosen-info-header"></p>
+                    </div>
+                    <div id="matkul-cards" class="cards-grid">
+                        <!-- Mata kuliah cards will be inserted here -->
+                    </div>
+                </div>
+                
+                <!-- Level 3: Detail Perkuliahan -->
+                <div id="detail-container" class="detail-container" style="display: none;">
+                    <div class="section-header">
+                        <h2 id="matkul-name-header"></h2>
+                        <p id="matkul-info-header"></p>
+                    </div>
+                    <div id="detail-table-wrapper">
+                        <table class="data-table">
+                            <thead>
+                                <tr>
+                                    <th>Pertemuan Ke</th>
+                                    <th>Tanggal</th>
+                                    <th>Keterangan</th>
+                                    <th>Lama Perkuliahan</th>
+                                    <th>Materi yang Diberikan</th>
+                                </tr>
+                            </thead>
+                            <tbody id="detail-table-body">
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                
+                <div id="error-berita" class="error-message" style="display: none;"></div>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        console.log('=== HTML: Scripts about to load ===');
+    </script>
+    <script src="js/main.js"></script>
+    <script>
+        console.log('=== HTML: main.js loaded ===');
+        if (typeof parseCSV === 'function') {
+            console.log('=== HTML: parseCSV function available ===');
+        } else {
+            console.error('=== HTML: parseCSV function NOT found ===');
+        }
+    </script>
+    <script src="js/berita-acara.js"></script>
+    <script>
+        console.log('=== HTML: berita-acara.js loaded ===');
+        if (typeof loadCSV === 'function') {
+            console.log('=== HTML: loadCSV function available ===');
+        } else {
+            console.error('=== HTML: loadCSV function NOT found ===');
+        }
+    </script>
+</body>
+</html>
+

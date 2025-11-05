@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jadwal - Dashboard</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h2>Dashboard</h2>
+            </div>
+            <nav class="sidebar-nav">
+                <a href="index.html" class="nav-item">
+                    <span class="nav-icon">🏠</span>
+                    <span class="nav-text">Halaman Utama</span>
+                </a>
+                <a href="berita-acara.html" class="nav-item">
+                    <span class="nav-icon">📝</span>
+                    <span class="nav-text">Berita Acara</span>
+                </a>
+                <a href="jadwal.html" class="nav-item active">
+                    <span class="nav-icon">📅</span>
+                    <span class="nav-text">Jadwal</span>
+                </a>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <div class="content-header">
+                <h1>Jadwal Mata Kuliah</h1>
+                <div class="header-actions">
+                    <input type="text" id="search-jadwal" placeholder="Cari jadwal..." class="search-input">
+                </div>
+            </div>
+            <div class="content-body">
+                <div class="loading" id="loading-jadwal">Memuat data...</div>
+                <div id="jadwal-container" class="table-container" style="display: none;">
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Nama Dosen</th>
+                                <th>Mata Kuliah - Kelas</th>
+                            </tr>
+                        </thead>
+                        <tbody id="jadwal-table-body">
+                        </tbody>
+                    </table>
+                </div>
+                <div id="error-jadwal" class="error-message" style="display: none;"></div>
+            </div>
+        </main>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/jadwal.js"></script>
+</body>
+</html>
+
