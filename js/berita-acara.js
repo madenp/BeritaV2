@@ -1,7 +1,14 @@
-let allBeritaData = [];
-let groupedByDosen = {};
+let allBeritaData = {
+    genap: [],
+    ganjil: []
+};
+let groupedByDosen = {
+    genap: {},
+    ganjil: {}
+};
 let currentDosen = null;
 let currentMatkul = null;
+let currentSemester = 'genap'; // Default semester genap
 
 // Load dan tampilkan data berita acara
 function initBeritaAcara() {
@@ -40,22 +47,41 @@ function initBeritaAcara() {
     (async () => {
 
     try {
-        console.log('=== BERITA ACARA: Loading CSV ===');
-        // Load CSV
-        allBeritaData = await loadCSV('data_perkuliahan.csv');
-        console.log('=== BERITA ACARA: CSV loaded, rows:', allBeritaData.length);
+        console.log('=== BERITA ACARA: Loading CSV files ===');
         
-        if (!allBeritaData || allBeritaData.length === 0) {
-            throw new Error('Data CSV kosong atau tidak valid');
-        }
+        // Load kedua file CSV secara parallel
+        const [genapData, ganjilData] = await Promise.all([
+            loadCSV('data_perkuliahan.csv').catch(err => {
+                console.warn('Error loading data_perkuliahan.csv:', err);
+                return [];
+            }),
+            loadCSV('data_perkuliahanGa26.csv').catch(err => {
+                console.warn('Error loading data_perkuliahanGa26.csv:', err);
+                return [];
+            })
+        ]);
         
+        allBeritaData.genap = genapData;
+        allBeritaData.ganjil = ganjilData;
+        
+        console.log('=== BERITA ACARA: CSV loaded ===');
+        console.log('  - Genap rows:', allBeritaData.genap.length);
+        console.log('  - Ganjil rows:', allBeritaData.ganjil.length);
+        
+        // Group data untuk kedua semester
         console.log('=== BERITA ACARA: Grouping data ===');
-        // Group data berdasarkan dosen
-        groupDataByDosen();
-        console.log('=== BERITA ACARA: Data grouped, dosen count:', Object.keys(groupedByDosen).length);
+        groupDataByDosen('genap');
+        groupDataByDosen('ganjil');
+        
+        console.log('=== BERITA ACARA: Data grouped ===');
+        console.log('  - Genap dosen count:', Object.keys(groupedByDosen.genap).length);
+        console.log('  - Ganjil dosen count:', Object.keys(groupedByDosen.ganjil).length);
+        
+        // Setup semester selector
+        setupSemesterSelector();
         
         console.log('=== BERITA ACARA: Rendering cards ===');
-        // Render dosen cards
+        // Render dosen cards untuk semester aktif
         renderDosenCards();
         
         // Hide loading, show container
@@ -107,23 +133,119 @@ if (document.readyState === 'loading') {
 }
 
 // Group data berdasarkan dosen dan mata kuliah
-function groupDataByDosen() {
-    groupedByDosen = {};
+function groupDataByDosen(semester) {
+    groupedByDosen[semester] = {};
     
-    allBeritaData.forEach(item => {
+    allBeritaData[semester].forEach(item => {
         const dosenName = item['Pilih Nama Dosen'] || 'Tidak Diketahui';
         const matkulName = item['Mata Kuliah'] || 'Tidak Diketahui';
         
-        if (!groupedByDosen[dosenName]) {
-            groupedByDosen[dosenName] = {};
+        if (!groupedByDosen[semester][dosenName]) {
+            groupedByDosen[semester][dosenName] = {};
         }
         
-        if (!groupedByDosen[dosenName][matkulName]) {
-            groupedByDosen[dosenName][matkulName] = [];
+        if (!groupedByDosen[semester][dosenName][matkulName]) {
+            groupedByDosen[semester][dosenName][matkulName] = [];
         }
         
-        groupedByDosen[dosenName][matkulName].push(item);
+        groupedByDosen[semester][dosenName][matkulName].push(item);
     });
+}
+
+// Setup semester selector
+function setupSemesterSelector() {
+    console.log('=== SETUP SEMESTER SELECTOR: Setting up event listeners');
+    const tabGenap = document.getElementById('tab-genap');
+    const tabGanjil = document.getElementById('tab-ganjil');
+    
+    console.log('=== SETUP SEMESTER SELECTOR: Tab genap found:', !!tabGenap);
+    console.log('=== SETUP SEMESTER SELECTOR: Tab ganjil found:', !!tabGanjil);
+    
+    if (tabGenap) {
+        // Hapus event listener lama jika ada
+        const newTabGenap = tabGenap.cloneNode(true);
+        tabGenap.parentNode.replaceChild(newTabGenap, tabGenap);
+        
+        newTabGenap.addEventListener('click', (e) => {
+            e.preventDefault();
+            console.log('=== CLICK: Tab Genap clicked');
+            switchSemester('genap');
+        });
+    }
+    
+    if (tabGanjil) {
+        // Hapus event listener lama jika ada
+        const newTabGanjil = tabGanjil.cloneNode(true);
+        tabGanjil.parentNode.replaceChild(newTabGanjil, tabGanjil);
+        
+        newTabGanjil.addEventListener('click', (e) => {
+            e.preventDefault();
+            console.log('=== CLICK: Tab Ganjil clicked');
+            switchSemester('ganjil');
+        });
+    }
+}
+
+// Switch semester
+function switchSemester(semester) {
+    console.log('=== SWITCH SEMESTER: Switching to', semester);
+    console.log('=== SWITCH SEMESTER: Data available - Genap:', Object.keys(groupedByDosen.genap || {}).length, 'Ganjil:', Object.keys(groupedByDosen.ganjil || {}).length);
+    
+    currentSemester = semester;
+    
+    // Update active tab
+    const tabGenap = document.getElementById('tab-genap');
+    const tabGanjil = document.getElementById('tab-ganjil');
+    
+    if (tabGenap && tabGanjil) {
+        if (semester === 'genap') {
+            tabGenap.classList.add('active');
+            tabGanjil.classList.remove('active');
+        } else {
+            tabGanjil.classList.add('active');
+            tabGenap.classList.remove('active');
+        }
+    }
+    
+    // Reset current view
+    currentDosen = null;
+    currentMatkul = null;
+    
+    // Clear search
+    const searchInput = document.getElementById('search-berita');
+    if (searchInput) {
+        searchInput.value = '';
+    }
+    
+    // Show dosen view dengan data semester baru (ini akan memanggil renderDosenCards)
+    showDosenView();
+}
+
+// Helper function untuk menghitung statistik Online/Offline
+function calculateOnlineOfflineStats(perkuliahanList) {
+    let onlineCount = 0;
+    let offlineCount = 0;
+    
+    perkuliahanList.forEach(item => {
+        const keterangan = (item['Keterangan'] || '').toLowerCase().trim();
+        if (keterangan === 'online') {
+            onlineCount++;
+        } else if (keterangan === 'offline') {
+            offlineCount++;
+        }
+    });
+    
+    const total = onlineCount + offlineCount;
+    const onlinePercentage = total > 0 ? Math.round((onlineCount / total) * 100) : 0;
+    const offlinePercentage = total > 0 ? Math.round((offlineCount / total) * 100) : 0;
+    
+    return {
+        online: onlineCount,
+        offline: offlineCount,
+        total: total,
+        onlinePercentage: onlinePercentage,
+        offlinePercentage: offlinePercentage
+    };
 }
 
 // Render dosen cards
@@ -131,17 +253,39 @@ function renderDosenCards(filteredDosen = null) {
     const dosenCardsEl = document.getElementById('dosen-cards');
     dosenCardsEl.innerHTML = '';
     
-    const dosenList = filteredDosen || Object.keys(groupedByDosen);
+    console.log('=== RENDER DOSEN CARDS: Current semester =', currentSemester);
+    const currentGroupedData = groupedByDosen[currentSemester] || {};
+    console.log('=== RENDER DOSEN CARDS: Dosen count =', Object.keys(currentGroupedData).length);
+    
+    const dosenList = filteredDosen || Object.keys(currentGroupedData);
     
     if (dosenList.length === 0) {
-        dosenCardsEl.innerHTML = '<div class="no-data">Tidak ada data ditemukan</div>';
+        dosenCardsEl.innerHTML = '<div class="no-data">Tidak ada data ditemukan untuk semester ini</div>';
         return;
     }
     
     dosenList.forEach(dosenName => {
-        const matkulCount = Object.keys(groupedByDosen[dosenName]).length;
-        const totalPerkuliahan = Object.values(groupedByDosen[dosenName])
+        const dosenData = currentGroupedData[dosenName] || {};
+        const matkulCount = Object.keys(dosenData).length;
+        const totalPerkuliahan = Object.values(dosenData)
             .reduce((sum, arr) => sum + arr.length, 0);
+        
+        // Hitung statistik Online/Offline untuk semua perkuliahan dosen ini
+        const allPerkuliahan = [];
+        Object.values(dosenData).forEach(matkulPerkuliahan => {
+            allPerkuliahan.push(...matkulPerkuliahan);
+        });
+        const stats = calculateOnlineOfflineStats(allPerkuliahan);
+        
+        // Debug log untuk verifikasi data
+        if (dosenName.includes('Si Made Ngurah Purnaman')) {
+            console.log('=== DEBUG: Rendering card for', dosenName);
+            console.log('=== DEBUG: Semester =', currentSemester);
+            console.log('=== DEBUG: Mata Kuliah =', matkulCount);
+            console.log('=== DEBUG: Total Perkuliahan =', totalPerkuliahan);
+            console.log('=== DEBUG: Online =', stats.onlinePercentage + '%');
+            console.log('=== DEBUG: Offline =', stats.offlinePercentage + '%');
+        }
         
         const card = document.createElement('div');
         card.className = 'dosen-card';
@@ -157,6 +301,16 @@ function renderDosenCards(filteredDosen = null) {
                     <div class="stat-item">
                         <span class="stat-label">Total Perkuliahan</span>
                         <span class="stat-value">${totalPerkuliahan}</span>
+                    </div>
+                </div>
+                <div class="card-stats" style="margin-top: 12px;">
+                    <div class="stat-item">
+                        <span class="stat-label">Online</span>
+                        <span class="stat-value online-stat">${stats.onlinePercentage}%</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Offline</span>
+                        <span class="stat-value offline-stat">${stats.offlinePercentage}%</span>
                     </div>
                 </div>
             </div>
@@ -178,7 +332,8 @@ function filterDosenCards(searchTerm) {
         return;
     }
     
-    const filtered = Object.keys(groupedByDosen).filter(dosenName => 
+    const currentGroupedData = groupedByDosen[currentSemester];
+    const filtered = Object.keys(currentGroupedData).filter(dosenName => 
         dosenName.toLowerCase().includes(searchTerm)
     );
     
@@ -199,9 +354,11 @@ function showMatkulView(dosenName) {
     matkulContainer.style.display = 'block';
     
     // Update header
+    const currentGroupedData = groupedByDosen[currentSemester] || {};
+    const dosenData = currentGroupedData[dosenName] || {};
     document.getElementById('dosen-name-header').textContent = dosenName;
-    const matkulCount = Object.keys(groupedByDosen[dosenName]).length;
-    const totalPerkuliahan = Object.values(groupedByDosen[dosenName])
+    const matkulCount = Object.keys(dosenData).length;
+    const totalPerkuliahan = Object.values(dosenData)
         .reduce((sum, arr) => sum + arr.length, 0);
     document.getElementById('dosen-info-header').textContent = 
         `${matkulCount} Mata Kuliah • ${totalPerkuliahan} Total Perkuliahan`;
@@ -219,11 +376,16 @@ function renderMatkulCards(dosenName) {
     const matkulCardsEl = document.getElementById('matkul-cards');
     matkulCardsEl.innerHTML = '';
     
-    const matkulList = Object.keys(groupedByDosen[dosenName]);
+    const currentGroupedData = groupedByDosen[currentSemester] || {};
+    const dosenData = currentGroupedData[dosenName] || {};
+    const matkulList = Object.keys(dosenData);
     
     matkulList.forEach(matkulName => {
-        const perkuliahanList = groupedByDosen[dosenName][matkulName];
+        const perkuliahanList = dosenData[matkulName] || [];
         const pertemuanCount = perkuliahanList.length;
+        
+        // Hitung statistik Online/Offline untuk mata kuliah ini
+        const stats = calculateOnlineOfflineStats(perkuliahanList);
         
         const card = document.createElement('div');
         card.className = 'matkul-card';
@@ -235,6 +397,16 @@ function renderMatkulCards(dosenName) {
                     <div class="stat-item">
                         <span class="stat-label">Total Pertemuan</span>
                         <span class="stat-value">${pertemuanCount}</span>
+                    </div>
+                </div>
+                <div class="card-stats" style="margin-top: 10px;">
+                    <div class="stat-item">
+                        <span class="stat-label">Online</span>
+                        <span class="stat-value online-stat">${stats.onlinePercentage}%</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Offline</span>
+                        <span class="stat-value offline-stat">${stats.offlinePercentage}%</span>
                     </div>
                 </div>
             </div>
@@ -301,7 +473,9 @@ function renderDetailTable(dosenName, matkulName) {
     const tableBody = document.getElementById('detail-table-body');
     tableBody.innerHTML = '';
     
-    const perkuliahanList = groupedByDosen[dosenName][matkulName];
+    const currentGroupedData = groupedByDosen[currentSemester] || {};
+    const dosenData = currentGroupedData[dosenName] || {};
+    const perkuliahanList = dosenData[matkulName] || [];
     
     if (perkuliahanList.length === 0) {
         tableBody.innerHTML = '<tr><td colspan="5" style="text-align: center; padding: 20px;">Tidak ada data</td></tr>';
@@ -411,6 +585,9 @@ function showDosenView() {
     // Update breadcrumb
     document.getElementById('btn-back-to-dosen').style.display = 'none';
     document.getElementById('btn-back-to-matkul').style.display = 'none';
+    
+    // Render dosen cards untuk semester aktif
+    renderDosenCards();
 }
 
 function escapeHtml(text) {
