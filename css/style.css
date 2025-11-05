@@ -506,6 +506,54 @@ body {
     transform: translateX(5px);
 }
 
+/* Online/Offline Statistics */
+.online-stat {
+    color: #10b981 !important;
+}
+
+.offline-stat {
+    color: #f59e0b !important;
+}
+
+/* Semester Selector */
+.semester-selector {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.semester-tab {
+    flex: 1;
+    padding: 12px 24px;
+    border: 2px solid #e0e0e0;
+    background: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 14px;
+    font-weight: 500;
+    color: #666;
+    text-align: center;
+}
+
+.semester-tab:hover {
+    border-color: #667eea;
+    color: #667eea;
+    background: #f8f9ff;
+}
+
+.semester-tab.active {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-color: #667eea;
+    color: white;
+    font-weight: 600;
+    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+}
+
 /* Section Header */
 .section-header {
     margin-bottom: 25px;
