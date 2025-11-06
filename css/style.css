@@ -594,6 +594,11 @@ body {
     grid-column: 1 / -1;
 }
 
+/* Section Content */
+.section-content {
+    margin-top: 20px;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .sidebar {
