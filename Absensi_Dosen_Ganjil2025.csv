@@ -1,474 +1,483 @@
-No,Nama Dosen,Matakuliah-Kelas,Pertemuan,Status,Tanggal,Jam
-1,"Si Made Ngurah Purnaman, S.Ak, M.Ak",Pengantar Akuntansi I - Kelas LAMA,1,offline,02/09/2025,11:08:35
-2,"Si Made Ngurah Purnaman, S.Ak, M.Ak",Pengantar Akuntansi I - Kelas LAMA,2,offline,02/09/2025,11:08:46
-3,"Syaiah, S.E., M.Si",AKUNTANSI KEUANGAN MENENGAH 1 - Kelas D,1,offline,03/09/2025,7:33:22
-4,"LA ODE MUHAMMAD SAUM FASIHU, S.Ak., M.Ak.",Praktikum Audit - Kelas A,1,offline,03/09/2025,7:34:05
-5,"Yuli Lestari Labangu, S.E., M.Sc.",Analisa Laporan Keuangan - Kelas B,1,online,03/09/2025,7:50:43
-6,"Si Made Ngurah Purnaman, S.Ak, M.Ak",Manajemen Strategi - Kelas E,1,offline,03/09/2025,9:13:59
-7,"Dr. Mulyati Akib, SE, M.Si, Ak, CA, CTA, CPA",AKUNTANSI KEUANGAN MENENGAH 1 - Kelas C,1,offline,03/09/2025,10:09:24
-8,"Ika Maya Sari, SE., M.Si, Ak, CA, CTT, CRA, CRP",AKUNTANSI KEUANGAN MENENGAH 1 - Kelas C,1,offline,03/09/2025,10:22:26
-9,"Hasnidar, S.E., M.Si.",AKUNTANSI KEUANGAN MENENGAH 1 - Kelas B,1,offline,03/09/2025,11:48:51
-10,"Vina Olivia Pebrianty, SE., ME",Analisa Laporan Keuangan - Kelas A,1,offline,03/09/2025,13:41:42
-11,"MUTMAINNAH, S.Ak., M.Acc",Analisa Laporan Keuangan - Kelas C,1,offline,03/09/2025,15:28:45
-12,"LA ODE MUHAMMAD SAUM FASIHU, S.Ak., M.Ak.",Pasar Modal dan Manajemen Portofolio - Kelas A,1,offline,04/09/2025,7:34:46
-13,"Vina Olivia Pebrianty, SE., ME",Pengantar Bisnis - Kelas C,1,offline,04/09/2025,7:39:23
-14,"Prof. Dr. H. Hasbudin, SE, M.Si, Ak, QIA, CA, ACPA, CTA",Pasar Modal dan Manajemen Portofolio - Kelas A,1,offline,04/09/2025,8:16:16
-15,"Prof. Dr. H. Hasbudin, SE, M.Si, Ak, QIA, CA, ACPA, CTA",Pasar Modal dan Manajemen Portofolio - Kelas D,1,offline,04/09/2025,11:01:38
-16,"Hasnidar, S.E., M.Si.",Pasar Modal dan Manajemen Portofolio - Kelas D,1,offline,04/09/2025,11:02:56
-17,"Si Made Ngurah Purnaman, S.Ak, M.Ak",Manajemen Keuangan II - Kelas A,1,offline,04/09/2025,13:34:07
-18,"Dr. Nitri Mirosea, S.E., M.Si., MA.",AKUNTANSI KEUANGAN LANJUTAN 1 - Kelas D,1,offline,04/09/2025,13:40:31
-19,"MUTMAINNAH, S.Ak., M.Acc",Praktikum Audit - Kelas D,1,offline,05/09/2025,10:44:11
-20,"Safaruddin, SE., M.S.A, Ak, CA",Pengantar Akuntansi I - Kelas B,1,offline,08/09/2025,8:20:55
-21,"Dr. Tuti Dharmawati, SE, M.Si, Ak, QIA, CA, ACPA, CRMP, CMA",Etika Bisnis dan Profesi Akuntan - Kelas A,1,offline,08/09/2025,8:22:17
-22,"Dr. Nitri Mirosea, S.E., M.Si., MA.",AKUNTANSI KEUANGAN LANJUTAN 1 - Kelas B,1,offline,08/09/2025,8:29:29
-23,"Dr. Mulyati Akib, SE, M.Si, Ak, CA, CTA, CPA",Pengantar Akuntansi I - Kelas B,1,offline,08/09/2025,8:33:10
-24,"Prof. Dr. H. Arifuddin, SE, M.Si, Ak, CA, ACPA, CTA",Auditing I - Kelas A,1,offline,08/09/2025,8:35:11
-25,"Prof. Dr. H. Hasbudin, SE, M.Si, Ak, QIA, CA, ACPA, CTA",Etika Bisnis dan Profesi Akuntan - Kelas A,1,offline,08/09/2025,9:48:17
-26,"Prof. Dr. H. Hasbudin, SE, M.Si, Ak, QIA, CA, ACPA, CTA",Etika Bisnis dan Profesi Akuntan - Kelas B,1,offline,08/09/2025,10:51:33
-27,"Dr. Tuti Dharmawati, SE, M.Si, Ak, QIA, CA, ACPA, CRMP, CMA",Etika Bisnis dan Profesi Akuntan - Kelas B,1,offline,08/09/2025,12:24:53
-28,"Syaiah, S.E., M.Si",Sistem Informasi Manajemen - Kelas C,1,offline,08/09/2025,13:35:12
-29,"Vina Olivia Pebrianty, SE., ME",Pengantar Ilmu Ekonomi - Kelas E,1,offline,08/09/2025,13:45:00
-30,"Dr. Tajuddin, SE., M.Si.",Pengantar Ilmu Ekonomi - Kelas D,1,offline,08/09/2025,13:48:31
-31,"Taufan Sufatriansa Awal, S.Ak., M.Acc.",Sistem Informasi Manajemen - Kelas B,1,offline,08/09/2025,14:27:38
-32,"Dr. Mulyati Akib, SE, M.Si, Ak, CA, CTA, CPA",Auditing I - Kelas C,1,offline,09/09/2025,7:43:22
-33,"MUTMAINNAH, S.Ak., M.Acc",INTERNAL AUDIT - Kelas E,1,offline,09/09/2025,7:54:16
-34,"Si Made Ngurah Purnaman, S.Ak, M.Ak",Manajemen Strategi - Kelas A,1,offline,09/09/2025,8:13:13
-35,"Si Made Ngurah Purnaman, S.Ak, M.Ak",Akuntansi Keuangan Daerah - Kelas C,1,offline,09/09/2025,12:12:00
-36,"Prof. Dr. Wali Aya Rumbia. SE., MSi.",Statistik Ekonomi - Kelas A,1,offline,09/09/2025,13:38:19
-37,"Hasnidar, S.E., M.Si.",Statistik Ekonomi - Kelas B,1,offline,09/09/2025,13:49:04
-38,"MUTMAINNAH, S.Ak., M.Acc",Statistik Ekonomi - Kelas A,1,offline,09/09/2025,14:02:27
-39,"Yuli Lestari Labangu, S.E., M.Sc.",Akuntansi Keuangan Daerah - Kelas E,1,offline,09/09/2025,14:35:26
-40,"Prof. Dr. Rosnawintang, S.E., M.Si.",Statistik Ekonomi - Kelas B,1,offline,09/09/2025,15:55:25
-41,"Harmin, S.Pd., M.Pd",Bahasa Indonesia - Kelas A,1,offline,09/09/2025,16:25:06
-42,"Yuli Lestari Labangu, S.E., M.Sc.",Analisa Laporan Keuangan - Kelas B,2,offline,10/09/2025,7:33:52
-43,"Syaiah, S.E., M.Si",AKUNTANSI KEUANGAN MENENGAH 1 - Kelas D,2,offline,10/09/2025,7:38:24
-44,"LA ODE MUHAMMAD SAUM FASIHU, S.Ak., M.Ak.",Praktikum Audit - Kelas A,2,offline,10/09/2025,7:59:02
-45,"Si Made Ngurah Purnaman, S.Ak, M.Ak",Manajemen Strategi - Kelas E,2,offline,10/09/2025,8:22:39
-46,"La Ode Muhammad Arfan Samrin, S.E., M.Ak.",Perpajakan I - Kelas A,1,offline,10/09/2025,9:36:14
-47,"Dr. Mulyati Akib, S.E (Akt)., M.Si.",Teori Akuntansi - Kelas D,2,offline,10/09/2025,10:33:07
-48,"Dr. Mulyati Akib, SE, M.Si, Ak, CA, CTA, CPA",AKUNTANSI KEUANGAN MENENGAH 1 - Kelas C,2,offline,10/09/2025,10:36:23
-49,"Hasnidar, S.E., M.Si.",AKUNTANSI KEUANGAN MENENGAH 1 - Kelas B,2,offline,10/09/2025,13:01:17
-50,"MUTMAINNAH, S.Ak., M.Acc",Analisa Laporan Keuangan - Kelas C,2,offline,10/09/2025,13:31:39
-51,"Dr. Tuti Dharmawati, SE, M.Si, Ak, QIA, CA, ACPA, CRMP, CMA",Pengantar Akuntansi I - Kelas E,1,online,10/09/2025,15:14:15
-52,"Vina Olivia Pebrianty, SE., ME",Pengantar Bisnis - Kelas C,2,offline,11/09/2025,8:19:59
-53,"Taufan Sufatriansa Awal, S.Ak., M.Acc.",Praktikum Audit - Kelas B,1,offline,11/09/2025,9:27:49
-54,"MUTMAINNAH, S.Ak., M.Acc",Praktikum Audit - Kelas D,2,offline,11/09/2025,9:32:45
-55,"Prof. Dr. H. Andi Basru Wawo, SE, M.Si, Ak, CA",Praktikum Audit - Kelas D,1,offline,11/09/2025,9:33:11
-56,"Prof. Dr. H. Andi Basru Wawo, SE, M.Si, Ak, CA",Praktikum Audit - Kelas D,2,offline,11/09/2025,9:33:22
-57,"Hasnidar, S.E., M.Si.",Pasar Modal dan Manajemen Portofolio - Kelas D,2,offline,11/09/2025,12:33:26
-58,"Si Made Ngurah Purnaman, S.Ak, M.Ak",Manajemen Keuangan II - Kelas A,2,offline,11/09/2025,13:45:00
-59,"Hasnidar, S.E., M.Si.",Metodologi Penelitian - Kelas LAMA,1,offline,11/09/2025,13:50:59
-60,"Hasnidar, S.E., M.Si.",Metodologi Penelitian - Kelas LAMA,2,offline,11/09/2025,13:51:08
-61,"Dr. Nitri Mirosea, S.E., M.Si., MA.",AKUNTANSI KEUANGAN LANJUTAN 1 - Kelas D,2,offline,11/09/2025,13:57:15
-62,"Yuli Lestari Labangu, S.E., M.Sc.",Akuntansi Keuangan Daerah - Kelas B,1,online,12/09/2025,7:39:05
-63,"MUTMAINNAH, S.Ak., M.Acc",Etika Bisnis dan Profesi Akuntan - Kelas E,1,offline,12/09/2025,13:33:58
-64,"LA ODE MUHAMMAD SAUM FASIHU, S.Ak., M.Ak.",Sistem Informasi Manajemen - Kelas A,1,offline,12/09/2025,13:47:09
-65,"Dr. H. Nasrullah Dali, SE, M.Si, Ak, CA",Etika Bisnis dan Profesi Akuntan - Kelas E,1,online,12/09/2025,14:39:38
-66,"Dr. Mulyati Akib, SE, M.Si, Ak, CA, CTA, CPA",Pengantar Akuntansi I - Kelas B,2,offline,15/09/2025,7:50:47
-67,"Prof. Dr. H. Hasbudin, SE, M.Si, Ak, QIA, CA, ACPA, CTA",Etika Bisnis dan Profesi Akuntan - Kelas A,2,offline,15/09/2025,8:06:17
-68,"Dr. Tuti Dharmawati, SE, M.Si, Ak, QIA, CA, ACPA, CRMP, CMA",Etika Bisnis dan Profesi Akuntan - Kelas A,2,offline,15/09/2025,8:10:43
-69,"Dr. Nitri Mirosea, S.E., M.Si., MA.",AKUNTANSI KEUANGAN LANJUTAN 1 - Kelas B,2,offline,15/09/2025,8:29:01
-70,"Dr. Muh. Nur Afiat, SE., M.Si.",Pengantar Ilmu Ekonomi - Kelas B,2,offline,15/09/2025,11:34:48
-71,"Dr. Tajuddin, SE., M.Si.",Pengantar Ilmu Ekonomi - Kelas D,2,offline,15/09/2025,13:18:38
-72,"Taufan Sufatriansa Awal, S.Ak., M.Acc.",Sistem Informasi Manajemen - Kelas B,2,offline,15/09/2025,16:58:04
-73,"Dr. Tuti Dharmawati, SE, M.Si, Ak, QIA, CA, ACPA, CRMP, CMA",Etika Bisnis dan Profesi Akuntan - Kelas B,2,offline,15/09/2025,22:42:52
-74,"Prof. Dr. H. Hasbudin, SE, M.Si, Ak, QIA, CA, ACPA, CTA",Etika Bisnis dan Profesi Akuntan - Kelas B,2,offline,15/09/2025,22:43:51
-75,"Dr. Mulyati Akib, SE, M.Si, Ak, CA, CTA, CPA",Auditing I - Kelas C,2,offline,16/09/2025,7:36:54
-76,"MUTMAINNAH, S.Ak., M.Acc",INTERNAL AUDIT - Kelas E,2,offline,16/09/2025,7:45:02
-77,"Si Made Ngurah Purnaman, S.Ak, M.Ak",Manajemen Strategi - Kelas A,2,offline,16/09/2025,8:19:58
-78,"Prof. Dr. La Ode Muhammad Harafah, S.E., M.Si",Pengantar Ilmu Ekonomi - Kelas A,2,offline,16/09/2025,10:46:59
-79,"Si Made Ngurah Purnaman, S.Ak, M.Ak",Akuntansi Keuangan Daerah - Kelas C,2,offline,16/09/2025,10:48:48
-80,"Prof. Dr. Rosnawintang, S.E., M.Si.",Statistik Ekonomi - Kelas B,2,offline,16/09/2025,15:19:03
-81,"Harmin, S.Pd., M.Pd",Bahasa Indonesia - Kelas A,2,offline,16/09/2025,16:10:45
-82,"Si Made Ngurah Purnaman, S.Ak, M.Ak",Manajemen Strategi - Kelas E,3,offline,17/09/2025,8:12:19
-83,"LA ODE MUHAMMAD SAUM FASIHU, S.Ak., M.Ak.",Praktikum Audit - Kelas A,3,offline,17/09/2025,8:22:03
-84,"Dr. Tuti Dharmawati, SE, M.Si, Ak, QIA, CA, ACPA, CRMP, CMA",Pengantar Akuntansi I - Kelas E,2,offline,17/09/2025,8:44:08
-85,"Dr. Intihanah, SE, M.Si, QIA",Pengantar Akuntansi I - Kelas C,1,online,17/09/2025,8:46:13
-86,"Dr. Intihanah, SE, M.Si, QIA",Pengantar Akuntansi I - Kelas C,2,offline,17/09/2025,8:46:33
-87,"Dr. Intihanah, SE, M.Si, QIA",Pengantar Akuntansi I - Kelas D,1,offline,17/09/2025,8:47:13
-88,"Wa Ode Aswati, S.E., M.Si., CRP",MANAJEMEN RISIKO - Kelas B,1,offline,17/09/2025,9:05:49
-89,"Wa Ode Aswati, S.E., M.Si., CRP",MANAJEMEN RISIKO - Kelas B,2,offline,17/09/2025,9:06:08
-90,"Dr. Muntu Abdullah, SE, M.Si, Ak, CA, ACPA",Analisa Laporan Keuangan - Kelas E,1,online,17/09/2025,9:06:30
-91,"Dr. Nur Asni, SE., M.Si.",AKUNTANSI KEUANGAN MENENGAH 1 - Kelas A,2,offline,17/09/2025,9:06:50
-92,"Dr. Muntu Abdullah, SE, M.Si, Ak, CA, ACPA",Teori Akuntansi - Kelas B,1,offline,17/09/2025,9:07:02
-93,"Dr. Nur Asni, SE., M.Si.",AKUNTANSI KEUANGAN MENENGAH 1 - Kelas A,1,offline,17/09/2025,9:07:12
-94,"Dr. Muntu Abdullah, SE, M.Si, Ak, CA, ACPA",Teori Akuntansi - Kelas C,1,offline,17/09/2025,9:07:24
-95,"Wa Ode Aswati, S.E., M.Si., CRP",MANAJEMEN RISIKO - Kelas C,1,offline,17/09/2025,9:07:44
-96,"Wa Ode Aswati, S.E., M.Si., CRP",MANAJEMEN RISIKO - Kelas C,2,offline,17/09/2025,9:08:09
-97,"La Ode Muhammad Arfan Samrin, S.E., M.Ak.",Perpajakan I - Kelas A,2,offline,17/09/2025,9:09:47
-98,"Prof. Dr. H. Ishak Awaluddin, SE, M.Si, Ak, CA, CPA",Perpajakan I - Kelas B,1,offline,17/09/2025,10:14:59
-99,"Prof. Dr. H. Ishak Awaluddin, SE, M.Si, Ak, CA, CPA",Perpajakan I - Kelas B,2,offline,17/09/2025,10:15:14
-100,"Prof. Dr. H. Ishak Awaluddin, SE, M.Si, Ak, CA, CPA",Pengantar Bisnis - Kelas A,1,offline,17/09/2025,10:15:37
-101,"Prof. Dr. H. Ishak Awaluddin, SE, M.Si, Ak, CA, CPA",Perpajakan I - Kelas E,1,offline,17/09/2025,10:34:00
-102,"Dr. Muntu Abdullah, SE, M.Si, Ak, CA, ACPA",Teori Akuntansi - Kelas B,2,offline,17/09/2025,10:36:00
-103,"Dr. Muntu Abdullah, SE, M.Si, Ak, CA, ACPA",Teori Akuntansi - Kelas C,2,offline,17/09/2025,10:36:33
-104,"Dr. Mulyati Akib, SE, M.Si, Ak, CA, CTA, CPA",AKUNTANSI KEUANGAN MENENGAH 1 - Kelas C,3,offline,17/09/2025,10:37:55
-105,"Dr. Mulyati Akib, S.E (Akt)., M.Si.",Teori Akuntansi - Kelas D,1,offline,17/09/2025,10:39:06
-106,"Dr. Mulyati Akib, S.E (Akt)., M.Si.",Teori Akuntansi - Kelas D,3,offline,17/09/2025,10:39:35
-107,"Hasnidar, S.E., M.Si.",AKUNTANSI KEUANGAN MENENGAH 1 - Kelas B,3,offline,17/09/2025,12:01:53
-108,"Vina Olivia Pebrianty, SE., ME",Analisa Laporan Keuangan - Kelas A,2,offline,17/09/2025,13:04:09
-109,"Vina Olivia Pebrianty, SE., ME",Analisa Laporan Keuangan - Kelas A,3,offline,17/09/2025,13:04:31
-110,"Prof. Dr. H. Arifuddin, SE, M.Si, Ak, CA, ACPA, CTA",Praktikum Audit - Kelas E,1,online,17/09/2025,13:11:25
-111,"Prof. Dr. H. Arifuddin, SE, M.Si, Ak, CA, ACPA, CTA",Praktikum Audit - Kelas E,2,offline,17/09/2025,13:12:01
-112,"MUTMAINNAH, S.Ak., M.Acc",Analisa Laporan Keuangan - Kelas C,3,offline,17/09/2025,13:31:06
-113,"Prof. Dr. La Ode Anto, SE.,M.Si.Ak, QIA.,CA",AKUNTANSI KEUANGAN LANJUTAN 1 - Kelas E,1,online,17/09/2025,16:23:29
-114,"Prof. Dr. La Ode Anto, SE.,M.Si.Ak, QIA.,CA",AKUNTANSI KEUANGAN LANJUTAN 1 - Kelas E,2,offline,17/09/2025,16:23:49
-115,"Satira Yusuf, SE., M.Si.",Pengantar Bisnis - Kelas E,1,offline,17/09/2025,19:44:54
-116,"MUHAMMAD ZAIKIN, S.Ak., M.Ak.",Analisa Laporan Keuangan - Kelas D,2,offline,18/09/2025,7:49:49
-117,"Dr. Intihanah, SE, M.Si, QIA",AKUNTANSI KEUANGAN MENENGAH 1 - Kelas E,1,online,18/09/2025,7:51:46
-118,"Dr. Intihanah, SE, M.Si, QIA",AKUNTANSI KEUANGAN MENENGAH 1 - Kelas E,2,offline,18/09/2025,7:52:03
-119,"Vina Olivia Pebrianty, SE., ME",Pengantar Bisnis - Kelas C,3,offline,18/09/2025,7:59:39
-120,"Prof. Dr. H. Hasbudin, SE, M.Si, Ak, QIA, CA, ACPA, CTA",Pasar Modal dan Manajemen Portofolio - Kelas A,3,offline,18/09/2025,8:00:22
-121,"Dr. Emillia Nurdin, S.E., M.Si.",AKUNTANSI KEUANGAN LANJUTAN 1 - Kelas C,2,offline,18/09/2025,8:28:12
-122,"Dr. Emillia Nurdin, S.E., M.Si.",AKUNTANSI KEUANGAN LANJUTAN 1 - Kelas C,1,offline,18/09/2025,9:17:08
-123,"MUTMAINNAH, S.Ak., M.Acc",Praktikum Audit - Kelas D,3,offline,18/09/2025,10:34:10
-124,"Prof. Dr. H. Andi Basru Wawo, SE, M.Si, Ak, CA",Praktikum Audit - Kelas D,3,offline,18/09/2025,10:34:39
-125,"Prof. Dr. H. Ishak Awaluddin, SE, M.Si, Ak, CA, CPA",Pengantar Bisnis - Kelas A,2,offline,18/09/2025,10:47:00
-126,"Dr. Muntu Abdullah, SE, M.Si, Ak, CA, ACPA",Analisa Laporan Keuangan - Kelas E,3,offline,18/09/2025,10:49:36
-127,"Dr. Intihanah, SE, M.Si, QIA",INTERNAL AUDIT - Kelas A,1,online,18/09/2025,10:50:50
-128,"Dr. Intihanah, SE, M.Si, QIA",INTERNAL AUDIT - Kelas A,2,offline,18/09/2025,10:51:03
-129,"Ika Maya Sari, SE., M.Si, Ak, CA, CTT, CRA, CRP",INTERNAL AUDIT - Kelas C,2,offline,18/09/2025,11:19:06
-130,"Prof. Dr. H. Hasbudin, SE, M.Si, Ak, QIA, CA, ACPA, CTA",Pasar Modal dan Manajemen Portofolio - Kelas D,2,offline,18/09/2025,11:27:32
-131,"Prof. Dr. H. Hasbudin, SE, M.Si, Ak, QIA, CA, ACPA, CTA",Pasar Modal dan Manajemen Portofolio - Kelas D,3,offline,18/09/2025,11:27:58
-132,"Hasnidar, S.E., M.Si.",Pasar Modal dan Manajemen Portofolio - Kelas D,3,offline,18/09/2025,12:36:59
-133,"Si Made Ngurah Purnaman, S.Ak, M.Ak",Manajemen Strategi - Kelas A,3,offline,18/09/2025,13:39:05
-134,"Si Made Ngurah Purnaman, S.Ak, M.Ak",Manajemen Keuangan II - Kelas A,3,offline,18/09/2025,13:45:12
-135,"Dr. Nitri Mirosea, S.E., M.Si., MA.",AKUNTANSI KEUANGAN LANJUTAN 1 - Kelas D,3,offline,18/09/2025,14:04:29
-136,"Dr. Nur Asni, SE., M.Si.",Teori Akuntansi - Kelas E,1,offline,18/09/2025,14:21:00
-137,"Wa Ode Aswati, S.E., M.Si., CRP",MANAJEMEN RISIKO - Kelas C,3,offline,18/09/2025,14:22:25
-138,"Dr. Muntu Abdullah, SE, M.Si, Ak, CA, ACPA",Analisa Laporan Keuangan - Kelas E,2,offline,18/09/2025,14:23:40
-139,"Hasnidar, S.E., M.Si.",Metodologi Penelitian - Kelas LAMA,3,offline,18/09/2025,15:42:46
-140,"Wa Ode Aswati, S.E., M.Si., CRP",MANAJEMEN RISIKO - Kelas B,3,offline,18/09/2025,15:55:29
-141,"Satira Yusuf, SE., M.Si.",Pengantar Bisnis - Kelas D,1,offline,18/09/2025,19:30:33
-142,"Yuli Lestari Labangu, S.E., M.Sc.",Akuntansi Keuangan Daerah - Kelas B,2,offline,19/09/2025,7:46:38
-143,"Si Made Ngurah Purnaman, S.Ak, M.Ak",Statistik Ekonomi - Kelas C,1,offline,19/09/2025,8:00:32
-144,"Taufan Sufatriansa Awal, S.Ak., M.Acc.",Manajemen Keuangan II - Kelas C,1,offline,19/09/2025,8:50:04
-145,"Dr. La Hatani, SE., MM.",Statistik Ekonomi - Kelas D,1,offline,19/09/2025,8:51:29
-146,"Dr. La Hatani, SE., MM.",Statistik Ekonomi - Kelas D,2,offline,19/09/2025,8:51:40
-147,"Dr. Sujono, SE., M.Si.",Manajemen Keuangan II - Kelas E,1,offline,19/09/2025,8:52:06
-148,"Dr. Sujono, SE., M.Si.",Manajemen Keuangan II - Kelas E,2,offline,19/09/2025,8:52:14
-149,"La Ode Muhammad Arfan Samrin, S.E., M.Ak.",Statistik Ekonomi - Kelas E,1,offline,19/09/2025,11:16:04
-150,"Prof. Dr. Wali Aya Rumbia. SE., MSi.",Statistik Ekonomi - Kelas A,2,offline,19/09/2025,13:21:15
-151,"MUTMAINNAH, S.Ak., M.Acc",Etika Bisnis dan Profesi Akuntan - Kelas E,2,offline,19/09/2025,13:31:52
-152,"LA ODE MUHAMMAD SAUM FASIHU, S.Ak., M.Ak.",Sistem Informasi Manajemen - Kelas A,2,offline,19/09/2025,13:42:44
-153,"MUHAMMAD ZAIKIN, S.Ak., M.Ak.",Praktikum Audit - Kelas C,2,offline,19/09/2025,15:43:57
-154,"Dr. Mulyati Akib, SE, M.Si, Ak, CA, CTA, CPA",Pengantar Akuntansi I - Kelas B,3,offline,22/09/2025,7:36:48
-155,"Dr. Intihanah, SE, M.Si, QIA",Pengantar Akuntansi I - Kelas C,3,offline,22/09/2025,8:20:41
-156,"Dr. Nitri Mirosea, S.E., M.Si., MA.",AKUNTANSI KEUANGAN LANJUTAN 1 - Kelas B,3,offline,22/09/2025,8:31:00
-157,"Vina Olivia Pebrianty, SE., ME",Pengantar Ilmu Ekonomi - Kelas E,2,offline,22/09/2025,13:16:14
-158,"Vina Olivia Pebrianty, SE., ME",Pengantar Ilmu Ekonomi - Kelas E,3,offline,22/09/2025,13:16:33
-159,"Taufan Sufatriansa Awal, S.Ak., M.Acc.",Sistem Informasi Manajemen - Kelas B,3,offline,22/09/2025,14:56:25
-160,"Dr. Mulyati Akib, SE, M.Si, Ak, CA, CTA, CPA",Auditing I - Kelas C,3,offline,23/09/2025,7:36:10
-161,"MUTMAINNAH, S.Ak., M.Acc",INTERNAL AUDIT - Kelas E,3,offline,23/09/2025,7:49:59
-162,"Dr. Intihanah, SE, M.Si, QIA",Pengantar Akuntansi I - Kelas D,2,offline,23/09/2025,10:24:29
-163,"Prof. Dr. La Ode Muhammad Harafah, S.E., M.Si",Pengantar Ilmu Ekonomi - Kelas A,3,offline,23/09/2025,11:01:27
-164,"Dr. Intihanah, SE, M.Si, QIA",Pengantar Akuntansi I - Kelas D,3,offline,23/09/2025,11:48:10
-165,"Dr. Tajuddin, SE., M.Si.",Pengantar Ilmu Ekonomi - Kelas D,3,offline,23/09/2025,13:35:54
-166,"Yuli Lestari Labangu, S.E., M.Sc.",Akuntansi Keuangan Daerah - Kelas E,2,offline,23/09/2025,13:56:28
-167,"Prof. Dr. Rosnawintang, S.E., M.Si.",Statistik Ekonomi - Kelas B,3,offline,23/09/2025,15:21:14
-168,"Harmin, S.Pd., M.Pd",Bahasa Indonesia - Kelas A,3,offline,23/09/2025,16:21:29
-169,"Yuli Lestari Labangu, S.E., M.Sc.",Analisa Laporan Keuangan - Kelas B,3,offline,24/09/2025,7:41:55
-170,"Si Made Ngurah Purnaman, S.Ak, M.Ak",Manajemen Strategi - Kelas E,4,offline,24/09/2025,8:15:05
-171,"LA ODE MUHAMMAD SAUM FASIHU, S.Ak., M.Ak.",Praktikum Audit - Kelas A,4,offline,24/09/2025,8:16:00
-172,"Prof. Dr. H. Hasbudin, SE, M.Si, Ak, QIA, CA, ACPA, CTA",Manajemen Strategi - Kelas D,2,offline,24/09/2025,8:28:55
-173,"Prof. Dr. H. Hasbudin, SE, M.Si, Ak, QIA, CA, ACPA, CTA",Manajemen Strategi - Kelas D,1,offline,24/09/2025,8:29:16
-174,"Prof. Dr. H. Ishak Awaluddin, SE, M.Si, Ak, CA, CPA",Perpajakan I - Kelas E,3,offline,24/09/2025,10:36:13
-175,"Dr. Mulyati Akib, SE, M.Si, Ak, CA, CTA, CPA",AKUNTANSI KEUANGAN MENENGAH 1 - Kelas C,4,offline,24/09/2025,11:09:50
-176,"Prof. Dr. H. Arifuddin, SE, M.Si, Ak, CA, ACPA, CTA",Praktikum Audit - Kelas E,3,offline,24/09/2025,13:23:35
-177,"Prof. Dr. H. Arifuddin, SE, M.Si, Ak, CA, ACPA, CTA",Praktikum Audit - Kelas E,4,offline,24/09/2025,13:23:53
-178,"Dr. Mulyati Akib, S.E (Akt)., M.Si.",Teori Akuntansi - Kelas D,4,offline,24/09/2025,13:23:54
-179,"Prof. Dr. Wali Aya Rumbia. SE., MSi.",Statistik Ekonomi - Kelas A,3,offline,24/09/2025,13:29:18
-180,"MUTMAINNAH, S.Ak., M.Acc",Analisa Laporan Keuangan - Kelas C,4,offline,24/09/2025,13:31:27
-181,"Vina Olivia Pebrianty, SE., ME",Analisa Laporan Keuangan - Kelas A,4,offline,24/09/2025,13:35:34
-182,"Hasnidar, S.E., M.Si.",AKUNTANSI KEUANGAN MENENGAH 1 - Kelas B,4,offline,24/09/2025,14:11:45
-183,"Prof. Dr. La Ode Anto, SE.,M.Si.Ak, QIA.,CA",AKUNTANSI KEUANGAN LANJUTAN 1 - Kelas E,3,offline,24/09/2025,15:13:12
-184,"Prof. Dr. H. Hasbudin, SE, M.Si, Ak, QIA, CA, ACPA, CTA",Pasar Modal dan Manajemen Portofolio - Kelas A,4,offline,25/09/2025,8:04:09
-185,"Dr. Intihanah, SE, M.Si, QIA",AKUNTANSI KEUANGAN MENENGAH 1 - Kelas E,3,offline,25/09/2025,8:04:19
-186,"Vina Olivia Pebrianty, SE., ME",Pengantar Bisnis - Kelas C,4,offline,25/09/2025,8:04:49
-187,"Dr. Tuti Dharmawati, SE, M.Si, Ak, QIA, CA, ACPA, CRMP, CMA",Etika Bisnis dan Profesi Akuntan - Kelas A,3,offline,25/09/2025,8:22:20
-188,"Prof. Dr. H. Andi Basru Wawo, SE, M.Si, Ak, CA",Praktikum Audit - Kelas D,4,offline,25/09/2025,10:31:15
-189,"MUTMAINNAH, S.Ak., M.Acc",Praktikum Audit - Kelas D,4,offline,25/09/2025,10:31:52
-190,"Dr. Intihanah, SE, M.Si, QIA",INTERNAL AUDIT - Kelas A,3,offline,25/09/2025,11:11:18
-191,"Prof. Dr. H. Ishak Awaluddin, SE, M.Si, Ak, CA, CPA",Pengantar Bisnis - Kelas A,3,offline,25/09/2025,12:48:52
-192,"Si Made Ngurah Purnaman, S.Ak, M.Ak",Manajemen Keuangan II - Kelas A,4,offline,25/09/2025,13:33:16
-193,"Hasnidar, S.E., M.Si.",Pasar Modal dan Manajemen Portofolio - Kelas D,4,offline,25/09/2025,13:43:45
-194,"Hasnidar, S.E., M.Si.",Metodologi Penelitian - Kelas LAMA,4,online,25/09/2025,13:44:03
-195,"Taufan Sufatriansa Awal, S.Ak., M.Acc.",Praktikum Audit - Kelas B,2,offline,25/09/2025,14:32:04
-196,"Prof. Dr. H. Arifuddin, SE, M.Si, Ak, CA, ACPA, CTA",Pengantar Akuntansi I - Kelas A,3,offline,25/09/2025,14:56:27
-197,"Dr. Nitri Mirosea, S.E., M.Si., MA.",AKUNTANSI KEUANGAN LANJUTAN 1 - Kelas D,4,offline,25/09/2025,15:05:28
-198,"Dr. Tuti Dharmawati, SE, M.Si, Ak, QIA, CA, ACPA, CRMP, CMA",Etika Bisnis dan Profesi Akuntan - Kelas B,3,offline,25/09/2025,16:21:45
-199,"Dr. Tuti Dharmawati, SE, M.Si, Ak, QIA, CA, ACPA, CRMP, CMA",Pengantar Akuntansi I - Kelas E,3,offline,25/09/2025,16:23:20
-200,"Yuli Lestari Labangu, S.E., M.Sc.",Akuntansi Keuangan Daerah - Kelas B,3,offline,26/09/2025,7:35:47
-201,"Taufan Sufatriansa Awal, S.Ak., M.Acc.",Manajemen Keuangan II - Kelas C,2,offline,26/09/2025,9:43:25
-202,"Si Made Ngurah Purnaman, S.Ak, M.Ak",Statistik Ekonomi - Kelas C,2,offline,26/09/2025,10:50:40
-203,"MUHAMMAD ZAIKIN, S.Ak., M.Ak.",Analisa Laporan Keuangan - Kelas D,3,offline,26/09/2025,12:06:15
-204,"MUTMAINNAH, S.Ak., M.Acc",Etika Bisnis dan Profesi Akuntan - Kelas E,3,offline,26/09/2025,13:32:27
-205,"Prof. Dr. H. Ishak Awaluddin, SE, M.Si, Ak, CA, CPA",Perpajakan I - Kelas B,4,offline,26/09/2025,13:53:29
-206,"Prof. Dr. H. Ishak Awaluddin, SE, M.Si, Ak, CA, CPA",Perpajakan I - Kelas B,3,offline,26/09/2025,13:53:52
-207,"MUHAMMAD ZAIKIN, S.Ak., M.Ak.",Praktikum Audit - Kelas C,3,offline,26/09/2025,16:46:48
-208,"Prof. Dr. H. Hasbudin, SE, M.Si, Ak, QIA, CA, ACPA, CTA",Manajemen Strategi - Kelas D,3,offline,27/09/2025,8:16:50
-209,"Prof. Dr. H. Hasbudin, SE, M.Si, Ak, QIA, CA, ACPA, CTA",Manajemen Strategi - Kelas D,4,offline,27/09/2025,9:47:40
-210,"Prof. Dr. H. Ishak Awaluddin, SE, M.Si, Ak, CA, CPA",Perpajakan I - Kelas E,2,offline,27/09/2025,11:43:00
-211,"Dr. Mulyati Akib, SE, M.Si, Ak, CA, CTA, CPA",Pengantar Akuntansi I - Kelas B,4,offline,29/09/2025,7:54:25
-212,"Dr. Intihanah, SE, M.Si, QIA",Pengantar Akuntansi I - Kelas C,4,offline,29/09/2025,9:16:29
-213,"Dr. Nitri Mirosea, S.E., M.Si., MA.",AKUNTANSI KEUANGAN LANJUTAN 1 - Kelas B,4,offline,29/09/2025,9:29:40
-214,"Dr. Tuti Dharmawati, SE, M.Si, Ak, QIA, CA, ACPA, CRMP, CMA",Etika Bisnis dan Profesi Akuntan - Kelas A,4,offline,29/09/2025,9:45:23
-215,"Prof. Dr. H. Hasbudin, SE, M.Si, Ak, QIA, CA, ACPA, CTA",Etika Bisnis dan Profesi Akuntan - Kelas A,4,offline,29/09/2025,9:49:10
-216,"Prof. Dr. H. Hasbudin, SE, M.Si, Ak, QIA, CA, ACPA, CTA",Etika Bisnis dan Profesi Akuntan - Kelas B,3,offline,29/09/2025,10:48:53
-217,"Dr. Tajuddin, SE., M.Si.",Pengantar Ilmu Ekonomi - Kelas D,4,offline,29/09/2025,13:52:55
-218,"Wa Ode Reni, S.Pd., M.H.",Pancasila - Kelas C,3,offline,29/09/2025,14:51:14
-219,"Wa Ode Reni, S.Pd., M.H.",Pancasila - Kelas C,1,offline,29/09/2025,14:51:46
-220,"Wa Ode Reni, S.Pd., M.H.",Pancasila - Kelas C,2,offline,29/09/2025,14:52:31
-221,"Dr. Mulyati Akib, SE, M.Si, Ak, CA, CTA, CPA",Auditing I - Kelas C,4,offline,30/09/2025,7:45:31
-222,"MUTMAINNAH, S.Ak., M.Acc",INTERNAL AUDIT - Kelas E,4,offline,30/09/2025,7:55:57
-223,"Si Made Ngurah Purnaman, S.Ak, M.Ak",Manajemen Strategi - Kelas A,4,offline,30/09/2025,8:13:19
-224,"Dr. Intihanah, SE, M.Si, QIA",Pengantar Akuntansi I - Kelas D,4,offline,30/09/2025,10:43:24
-225,"Prof. Dr. La Ode Muhammad Harafah, S.E., M.Si",Pengantar Ilmu Ekonomi - Kelas A,4,offline,30/09/2025,10:53:47
-226,"Si Made Ngurah Purnaman, S.Ak, M.Ak",Akuntansi Keuangan Daerah - Kelas C,3,offline,30/09/2025,11:10:51
-227,"Si Made Ngurah Purnaman, S.Ak, M.Ak",Akuntansi Keuangan Daerah - Kelas C,4,offline,30/09/2025,11:11:15
-228,"Prof. Dr. Wali Aya Rumbia. SE., MSi.",Statistik Ekonomi - Kelas A,4,offline,30/09/2025,13:31:37
-229,"Yuli Lestari Labangu, S.E., M.Sc.",Akuntansi Keuangan Daerah - Kelas E,3,online,30/09/2025,14:49:36
-230,"Prof. Dr. Rosnawintang, S.E., M.Si.",Statistik Ekonomi - Kelas B,4,offline,30/09/2025,16:06:48
-231,"Harmin, S.Pd., M.Pd",Bahasa Indonesia - Kelas A,4,offline,30/09/2025,16:50:40
-232,"Si Made Ngurah Purnaman, S.Ak, M.Ak",Manajemen Strategi - Kelas E,5,offline,01/10/2025,8:14:00
-233,"Yuli Lestari Labangu, S.E., M.Sc.",Analisa Laporan Keuangan - Kelas B,4,offline,01/10/2025,8:17:54
-234,"La Ode Muhammad Arfan Samrin, S.E., M.Ak.",Perpajakan I - Kelas A,3,offline,01/10/2025,8:33:24
-235,"LA ODE MUHAMMAD SAUM FASIHU, S.Ak., M.Ak.",Praktikum Audit - Kelas A,5,offline,01/10/2025,9:21:18
-236,"Dr. Mulyati Akib, SE, M.Si, Ak, CA, CTA, CPA",AKUNTANSI KEUANGAN MENENGAH 1 - Kelas C,5,offline,01/10/2025,10:47:06
-237,"Prof. Dr. H. Arifuddin, SE, M.Si, Ak, CA, ACPA, CTA",Praktikum Audit - Kelas E,5,offline,01/10/2025,12:49:33
-238,"MUTMAINNAH, S.Ak., M.Acc",Analisa Laporan Keuangan - Kelas C,5,offline,01/10/2025,13:31:29
-239,"Dr. Mulyati Akib, S.E (Akt)., M.Si.",Teori Akuntansi - Kelas D,5,offline,01/10/2025,13:34:27
-240,"Vina Olivia Pebrianty, SE., ME",Analisa Laporan Keuangan - Kelas A,5,offline,01/10/2025,13:36:41
-241,"Prof. Dr. La Ode Anto, SE.,M.Si.Ak, QIA.,CA",AKUNTANSI KEUANGAN LANJUTAN 1 - Kelas E,4,offline,01/10/2025,15:14:04
-242,"Hasnidar, S.E., M.Si.",AKUNTANSI KEUANGAN MENENGAH 1 - Kelas B,5,offline,01/10/2025,17:28:39
-243,"Dr. Intihanah, SE, M.Si, QIA",AKUNTANSI KEUANGAN MENENGAH 1 - Kelas E,4,offline,02/10/2025,7:23:20
-244,"Vina Olivia Pebrianty, SE., ME",Pengantar Bisnis - Kelas C,5,offline,02/10/2025,7:53:06
-245,"Prof. Dr. H. Hasbudin, SE, M.Si, Ak, QIA, CA, ACPA, CTA",Pasar Modal dan Manajemen Portofolio - Kelas A,5,offline,02/10/2025,7:59:52
-246,"MUHAMMAD ZAIKIN, S.Ak., M.Ak.",Analisa Laporan Keuangan - Kelas D,4,offline,02/10/2025,8:18:49
-247,"MUTMAINNAH, S.Ak., M.Acc",Praktikum Audit - Kelas D,5,offline,02/10/2025,10:38:37
-248,"Prof. Dr. H. Andi Basru Wawo, SE, M.Si, Ak, CA",Praktikum Audit - Kelas D,5,offline,02/10/2025,10:39:13
-249,"Prof. Dr. H. Ishak Awaluddin, SE, M.Si, Ak, CA, CPA",Perpajakan I - Kelas E,4,offline,02/10/2025,10:51:47
-250,"Prof. Dr. H. Ishak Awaluddin, SE, M.Si, Ak, CA, CPA",Pengantar Bisnis - Kelas A,4,offline,02/10/2025,10:52:43
-251,"Dr. Intihanah, SE, M.Si, QIA",INTERNAL AUDIT - Kelas A,4,offline,02/10/2025,11:49:13
-252,"Hasnidar, S.E., M.Si.",Pasar Modal dan Manajemen Portofolio - Kelas D,5,offline,02/10/2025,14:12:40
-253,"Hasnidar, S.E., M.Si.",Metodologi Penelitian - Kelas LAMA,5,offline,02/10/2025,14:13:15
-254,"Dr. Nur Asni, SE., M.Si.",Teori Akuntansi - Kelas E,2,offline,02/10/2025,15:00:06
-255,"Yuli Lestari Labangu, S.E., M.Sc.",Akuntansi Keuangan Daerah - Kelas B,4,offline,03/10/2025,8:15:23
-256,"Si Made Ngurah Purnaman, S.Ak, M.Ak",Statistik Ekonomi - Kelas C,3,offline,03/10/2025,8:40:57
-257,"MUTMAINNAH, S.Ak., M.Acc",Etika Bisnis dan Profesi Akuntan - Kelas E,4,offline,03/10/2025,13:31:45
-258,"LA ODE MUHAMMAD SAUM FASIHU, S.Ak., M.Ak.",Sistem Informasi Manajemen - Kelas A,3,offline,03/10/2025,14:11:26
-259,"MUHAMMAD ZAIKIN, S.Ak., M.Ak.",Praktikum Audit - Kelas C,4,offline,03/10/2025,16:50:10
-260,"Dr. Intihanah, SE, M.Si, QIA",Pengantar Akuntansi I - Kelas C,5,offline,06/10/2025,8:22:00
-261,"Dr. Nitri Mirosea, S.E., M.Si., MA.",AKUNTANSI KEUANGAN LANJUTAN 1 - Kelas B,5,offline,06/10/2025,10:14:09
-262,"Wa Ode Reni, S.Pd., M.H.",Pancasila - Kelas C,4,online,06/10/2025,10:37:09
-263,"Wa Ode Reni, S.Pd., M.H.",Kewarganegaraan - Kelas E,2,offline,06/10/2025,10:39:52
-264,"Wa Ode Reni, S.Pd., M.H.",Kewarganegaraan - Kelas E,3,offline,06/10/2025,10:40:51
-265,"MUTMAINNAH, S.Ak., M.Acc",INTERNAL AUDIT - Kelas E,5,offline,07/10/2025,7:45:06
-266,"Si Made Ngurah Purnaman, S.Ak, M.Ak",Manajemen Strategi - Kelas A,5,offline,07/10/2025,9:12:38
-267,"Dr. Tuti Dharmawati, SE, M.Si, Ak, QIA, CA, ACPA, CRMP, CMA",Pengantar Akuntansi I - Kelas E,4,offline,07/10/2025,9:57:13
-268,"Prof. Dr. La Ode Muhammad Harafah, S.E., M.Si",Pengantar Ilmu Ekonomi - Kelas A,5,offline,07/10/2025,10:31:11
-269,"Dr. Intihanah, SE, M.Si, QIA",Pengantar Akuntansi I - Kelas D,5,offline,07/10/2025,10:58:41
-270,"Taufan Sufatriansa Awal, S.Ak., M.Acc.",Sistem Informasi Manajemen - Kelas B,4,offline,07/10/2025,12:14:41
-271,"Taufan Sufatriansa Awal, S.Ak., M.Acc.",Sistem Informasi Manajemen - Kelas B,5,offline,07/10/2025,12:14:52
-272,"Yuli Lestari Labangu, S.E., M.Sc.",Akuntansi Keuangan Daerah - Kelas E,4,offline,07/10/2025,13:41:39
-273,"Harmin, S.Pd., M.Pd",Bahasa Indonesia - Kelas A,5,offline,07/10/2025,15:43:05
-274,"Prof. Dr. Wali Aya Rumbia. SE., MSi.",Statistik Ekonomi - Kelas A,5,offline,07/10/2025,15:47:57
-275,"Prof. Dr. Rosnawintang, S.E., M.Si.",Statistik Ekonomi - Kelas B,5,offline,07/10/2025,16:03:48
-276,"Si Made Ngurah Purnaman, S.Ak, M.Ak",Manajemen Strategi - Kelas E,6,offline,08/10/2025,8:08:58
-277,"LA ODE MUHAMMAD SAUM FASIHU, S.Ak., M.Ak.",Praktikum Audit - Kelas A,6,offline,08/10/2025,8:12:58
-278,"Yuli Lestari Labangu, S.E., M.Sc.",Analisa Laporan Keuangan - Kelas B,5,offline,08/10/2025,8:22:16
-279,"MUTMAINNAH, S.Ak., M.Acc",Analisa Laporan Keuangan - Kelas C,6,offline,08/10/2025,13:30:41
-280,"Vina Olivia Pebrianty, SE., ME",Pengantar Bisnis - Kelas C,6,offline,09/10/2025,7:59:22
-281,"Dr. Intihanah, SE, M.Si, QIA",AKUNTANSI KEUANGAN MENENGAH 1 - Kelas E,5,offline,09/10/2025,8:16:59
-282,"MUTMAINNAH, S.Ak., M.Acc",Praktikum Audit - Kelas D,6,offline,09/10/2025,10:33:41
-283,"Prof. Dr. H. Andi Basru Wawo, SE, M.Si, Ak, CA",Praktikum Audit - Kelas D,6,offline,09/10/2025,10:34:09
-284,"Dr. Intihanah, SE, M.Si, QIA",INTERNAL AUDIT - Kelas A,5,offline,09/10/2025,10:46:23
-285,"Hasnidar, S.E., M.Si.",Pasar Modal dan Manajemen Portofolio - Kelas D,6,offline,09/10/2025,11:06:48
-286,"Taufan Sufatriansa Awal, S.Ak., M.Acc.",Praktikum Audit - Kelas B,3,offline,09/10/2025,13:28:07
-287,"Taufan Sufatriansa Awal, S.Ak., M.Acc.",Praktikum Audit - Kelas B,4,offline,09/10/2025,13:28:17
-288,"Prof. Dr. H. Ishak Awaluddin, SE, M.Si, Ak, CA, CPA",Praktikum Audit - Kelas B,3,offline,09/10/2025,13:28:51
-289,"Prof. Dr. H. Ishak Awaluddin, SE, M.Si, Ak, CA, CPA",Praktikum Audit - Kelas B,4,offline,09/10/2025,13:29:01
-290,"Si Made Ngurah Purnaman, S.Ak, M.Ak",Manajemen Keuangan II - Kelas A,5,offline,09/10/2025,13:33:50
-291,"Hasnidar, S.E., M.Si.",Metodologi Penelitian - Kelas LAMA,6,online,09/10/2025,15:39:18
-292,"Yuli Lestari Labangu, S.E., M.Sc.",Akuntansi Keuangan Daerah - Kelas B,5,offline,10/10/2025,8:15:51
-293,"Taufan Sufatriansa Awal, S.Ak., M.Acc.",Statistik Ekonomi - Kelas D,3,offline,10/10/2025,9:01:34
-294,"Taufan Sufatriansa Awal, S.Ak., M.Acc.",Statistik Ekonomi - Kelas D,4,offline,10/10/2025,9:02:18
-295,"Taufan Sufatriansa Awal, S.Ak., M.Acc.",Manajemen Keuangan II - Kelas C,3,offline,10/10/2025,9:19:27
-296,"Taufan Sufatriansa Awal, S.Ak., M.Acc.",Manajemen Keuangan II - Kelas C,4,offline,10/10/2025,9:19:37
-297,"Dr. Intihanah, SE, M.Si, QIA",INTERNAL AUDIT - Kelas A,6,offline,10/10/2025,9:23:44
-298,"Si Made Ngurah Purnaman, S.Ak, M.Ak",Statistik Ekonomi - Kelas C,4,offline,10/10/2025,9:30:00
-299,"MUTMAINNAH, S.Ak., M.Acc",Etika Bisnis dan Profesi Akuntan - Kelas E,5,offline,10/10/2025,13:42:08
-300,"LA ODE MUHAMMAD SAUM FASIHU, S.Ak., M.Ak.",Sistem Informasi Manajemen - Kelas A,4,offline,10/10/2025,13:43:50
-301,"MUHAMMAD ZAIKIN, S.Ak., M.Ak.",Analisa Laporan Keuangan - Kelas D,5,offline,10/10/2025,13:58:05
-302,"MUHAMMAD ZAIKIN, S.Ak., M.Ak.",Praktikum Audit - Kelas C,5,offline,10/10/2025,13:58:35
-303,"Dr. Mulyati Akib, SE, M.Si, Ak, CA, CTA, CPA",Pengantar Akuntansi I - Kelas B,5,offline,13/10/2025,7:44:11
-304,"Dr. Mulyati Akib, SE, M.Si, Ak, CA, CTA, CPA",Pengantar Akuntansi I - Kelas B,6,offline,13/10/2025,7:44:30
-305,"Dr. Intihanah, SE, M.Si, QIA",Pengantar Akuntansi I - Kelas C,6,offline,13/10/2025,7:58:46
-306,"Dr. Nitri Mirosea, S.E., M.Si., MA.",AKUNTANSI KEUANGAN LANJUTAN 1 - Kelas B,6,offline,13/10/2025,11:18:48
-307,"Dr. Tajuddin, SE., M.Si.",Pengantar Ilmu Ekonomi - Kelas D,5,offline,13/10/2025,14:13:23
-308,"Taufan Sufatriansa Awal, S.Ak., M.Acc.",Sistem Informasi Manajemen - Kelas B,6,offline,13/10/2025,15:47:17
-309,"Dr. Mulyati Akib, SE, M.Si, Ak, CA, CTA, CPA",Auditing I - Kelas C,5,offline,14/10/2025,7:42:47
-310,"Dr. Mulyati Akib, SE, M.Si, Ak, CA, CTA, CPA",Auditing I - Kelas C,6,offline,14/10/2025,7:43:08
-311,"MUTMAINNAH, S.Ak., M.Acc",INTERNAL AUDIT - Kelas E,6,offline,14/10/2025,7:45:21
-312,"Dr. Tuti Dharmawati, SE, M.Si, Ak, QIA, CA, ACPA, CRMP, CMA",Pengantar Akuntansi I - Kelas E,5,offline,14/10/2025,9:38:41
-313,"Dr. Tuti Dharmawati, SE, M.Si, Ak, QIA, CA, ACPA, CRMP, CMA",Etika Bisnis dan Profesi Akuntan - Kelas A,5,offline,14/10/2025,9:39:37
-314,"Dr. Tuti Dharmawati, SE, M.Si, Ak, QIA, CA, ACPA, CRMP, CMA",Etika Bisnis dan Profesi Akuntan - Kelas B,4,offline,14/10/2025,9:40:03
-315,"Dr. Tuti Dharmawati, SE, M.Si, Ak, QIA, CA, ACPA, CRMP, CMA",Etika Bisnis dan Profesi Akuntan - Kelas B,5,offline,14/10/2025,9:40:37
-316,"Dr. Intihanah, SE, M.Si, QIA",Pengantar Akuntansi I - Kelas D,6,offline,14/10/2025,10:43:06
-317,"Prof. Dr. La Ode Muhammad Harafah, S.E., M.Si",Pengantar Ilmu Ekonomi - Kelas A,6,offline,14/10/2025,11:25:28
-318,"Yuli Lestari Labangu, S.E., M.Sc.",Akuntansi Keuangan Daerah - Kelas E,5,offline,14/10/2025,13:40:12
-319,"Prof. Dr. Wali Aya Rumbia. SE., MSi.",Statistik Ekonomi - Kelas A,6,offline,14/10/2025,14:14:06
-320,"Taufan Sufatriansa Awal, S.Ak., M.Acc.",Statistik Ekonomi - Kelas D,5,offline,14/10/2025,15:54:09
-321,"Harmin, S.Pd., M.Pd",Bahasa Indonesia - Kelas A,6,offline,14/10/2025,15:54:34
-322,"Prof. Dr. H. Ishak Awaluddin, SE, M.Si, Ak, CA, CPA",Perpajakan I - Kelas B,5,offline,14/10/2025,22:10:16
-323,"Yuli Lestari Labangu, S.E., M.Sc.",Analisa Laporan Keuangan - Kelas B,6,offline,15/10/2025,7:45:26
-324,"La Ode Muhammad Arfan Samrin, S.E., M.Ak.",Perpajakan I - Kelas A,4,offline,15/10/2025,9:13:32
-325,"Wa Ode Reni, S.Pd., M.H.",Pancasila - Kelas C,5,online,15/10/2025,10:02:41
-326,"Wa Ode Reni, S.Pd., M.H.",Kewarganegaraan - Kelas A,1,offline,15/10/2025,10:08:04
-327,"Wa Ode Reni, S.Pd., M.H.",Kewarganegaraan - Kelas A,2,offline,15/10/2025,10:08:22
-328,"Wa Ode Reni, S.Pd., M.H.",Kewarganegaraan - Kelas A,3,offline,15/10/2025,10:08:40
-329,"Wa Ode Reni, S.Pd., M.H.",Kewarganegaraan - Kelas A,4,online,15/10/2025,10:09:00
-330,"Wa Ode Reni, S.Pd., M.H.",Kewarganegaraan - Kelas A,5,offline,15/10/2025,10:09:20
-331,"Wa Ode Reni, S.Pd., M.H.",Kewarganegaraan - Kelas A,6,offline,15/10/2025,10:10:09
-332,"Wa Ode Reni, S.Pd., M.H.",Kewarganegaraan - Kelas E,1,online,15/10/2025,10:12:33
-333,"Wa Ode Reni, S.Pd., M.H.",Kewarganegaraan - Kelas E,4,offline,15/10/2025,10:12:56
-334,"Wa Ode Reni, S.Pd., M.H.",Kewarganegaraan - Kelas E,5,offline,15/10/2025,10:13:16
-335,"Wa Ode Reni, S.Pd., M.H.",Kewarganegaraan - Kelas E,6,offline,15/10/2025,10:14:09
-336,"Wa Ode Reni, S.Pd., M.H.",Kewarganegaraan - Kelas C,1,online,15/10/2025,10:15:41
-337,"Wa Ode Reni, S.Pd., M.H.",Kewarganegaraan - Kelas C,2,offline,15/10/2025,10:16:07
-338,"Wa Ode Reni, S.Pd., M.H.",Kewarganegaraan - Kelas C,3,offline,15/10/2025,10:16:30
-339,"Wa Ode Reni, S.Pd., M.H.",Kewarganegaraan - Kelas C,4,offline,15/10/2025,10:17:56
-340,"Wa Ode Reni, S.Pd., M.H.",Kewarganegaraan - Kelas C,5,offline,15/10/2025,10:18:54
-341,"Wa Ode Reni, S.Pd., M.H.",Kewarganegaraan - Kelas C,6,offline,15/10/2025,10:19:47
-342,"Vina Olivia Pebrianty, SE., ME",Analisa Laporan Keuangan - Kelas A,6,offline,15/10/2025,10:32:28
-343,"Vina Olivia Pebrianty, SE., ME",Analisa Laporan Keuangan - Kelas A,7,offline,15/10/2025,10:32:41
-344,"Vina Olivia Pebrianty, SE., ME",Pengantar Ilmu Ekonomi - Kelas E,4,offline,15/10/2025,10:33:18
-345,"Vina Olivia Pebrianty, SE., ME",Pengantar Ilmu Ekonomi - Kelas E,5,offline,15/10/2025,10:33:33
-346,"Vina Olivia Pebrianty, SE., ME",Pengantar Ilmu Ekonomi - Kelas E,6,offline,15/10/2025,10:34:05
-347,"Prof. Dr. H. Arifuddin, SE, M.Si, Ak, CA, ACPA, CTA",Praktikum Audit - Kelas E,6,offline,15/10/2025,11:32:36
-348,"Prof. Dr. H. Arifuddin, SE, M.Si, Ak, CA, ACPA, CTA",Praktikum Audit - Kelas E,7,offline,15/10/2025,11:32:49
-349,"Dr. Mulyati Akib, SE, M.Si, Ak, CA, CTA, CPA",AKUNTANSI KEUANGAN MENENGAH 1 - Kelas C,6,offline,15/10/2025,13:20:32
-350,"Dr. Mulyati Akib, SE, M.Si, Ak, CA, CTA, CPA",AKUNTANSI KEUANGAN MENENGAH 1 - Kelas C,7,offline,15/10/2025,13:20:48
-351,"Dr. Mulyati Akib, S.E (Akt)., M.Si.",Teori Akuntansi - Kelas D,6,offline,15/10/2025,13:21:37
-352,"Dr. Mulyati Akib, S.E (Akt)., M.Si.",Teori Akuntansi - Kelas D,7,offline,15/10/2025,13:21:56
-353,"MUTMAINNAH, S.Ak., M.Acc",Analisa Laporan Keuangan - Kelas C,7,offline,15/10/2025,13:39:44
-354,"Prof. Dr. H. Ishak Awaluddin, SE, M.Si, Ak, CA, CPA",Perpajakan I - Kelas E,5,offline,15/10/2025,20:20:16
-355,"Dr. Intihanah, SE, M.Si, QIA",AKUNTANSI KEUANGAN MENENGAH 1 - Kelas E,6,offline,16/10/2025,8:07:23
-356,"Vina Olivia Pebrianty, SE., ME",Pengantar Bisnis - Kelas C,7,offline,16/10/2025,8:20:46
-357,"Dr. Intihanah, SE, M.Si, QIA",INTERNAL AUDIT - Kelas A,7,offline,16/10/2025,10:47:03
-358,"MUHAMMAD ZAIKIN, S.Ak., M.Ak.",Analisa Laporan Keuangan - Kelas D,6,offline,16/10/2025,12:39:09
-359,"MUHAMMAD ZAIKIN, S.Ak., M.Ak.",Analisa Laporan Keuangan - Kelas D,1,offline,16/10/2025,12:39:20
-360,"MUHAMMAD ZAIKIN, S.Ak., M.Ak.",Analisa Laporan Keuangan - Kelas D,7,offline,16/10/2025,12:40:04
-361,"Yuli Lestari Labangu, S.E., M.Sc.",Akuntansi Keuangan Daerah - Kelas B,6,offline,17/10/2025,8:01:33
-362,"Prof. Dr. H. Ishak Awaluddin, SE, M.Si, Ak, CA, CPA",Perpajakan I - Kelas E,6,offline,17/10/2025,10:08:24
-363,"Taufan Sufatriansa Awal, S.Ak., M.Acc.",Manajemen Keuangan II - Kelas C,5,offline,17/10/2025,11:52:30
-364,"Taufan Sufatriansa Awal, S.Ak., M.Acc.",Manajemen Keuangan II - Kelas C,6,offline,17/10/2025,11:52:53
-365,"Taufan Sufatriansa Awal, S.Ak., M.Acc.",Manajemen Keuangan II - Kelas C,7,offline,17/10/2025,11:53:05
-366,"MUTMAINNAH, S.Ak., M.Acc",Etika Bisnis dan Profesi Akuntan - Kelas E,6,offline,17/10/2025,13:33:25
-367,"Wa Ode Aswati, S.E., M.Si., CRP",MANAJEMEN RISIKO - Kelas B,4,offline,17/10/2025,15:57:52
-368,"Wa Ode Aswati, S.E., M.Si., CRP",MANAJEMEN RISIKO - Kelas C,4,offline,17/10/2025,15:58:39
-369,"MUHAMMAD ZAIKIN, S.Ak., M.Ak.",Praktikum Audit - Kelas C,6,offline,17/10/2025,16:02:39
-370,"MUHAMMAD ZAIKIN, S.Ak., M.Ak.",Praktikum Audit - Kelas C,1,offline,17/10/2025,16:03:16
-371,"Dr. Intihanah, SE, M.Si, QIA",Pengantar Akuntansi I - Kelas C,7,offline,20/10/2025,9:05:14
-372,"Dr. Mulyati Akib, SE, M.Si, Ak, CA, CTA, CPA",AKUNTANSI KEUANGAN MENENGAH 1 - Kelas C,8,offline,20/10/2025,9:47:02
-373,"Prof. Dr. H. Ishak Awaluddin, SE, M.Si, Ak, CA, CPA",Perpajakan I - Kelas B,6,offline,20/10/2025,10:24:46
-374,"Prof. Dr. H. Ishak Awaluddin, SE, M.Si, Ak, CA, CPA",Perpajakan I - Kelas B,7,offline,20/10/2025,10:25:08
-375,"Prof. Dr. H. Ishak Awaluddin, SE, M.Si, Ak, CA, CPA",Perpajakan I - Kelas B,8,offline,20/10/2025,10:25:28
-376,"Wa Ode Reni, S.Pd., M.H.",Pancasila - Kelas C,6,offline,20/10/2025,10:29:09
-377,"Dr. Muh. Nur Afiat, SE., M.Si.",Pengantar Ilmu Ekonomi - Kelas B,5,offline,20/10/2025,10:47:07
-378,"Dr. Tajuddin, SE., M.Si.",Pengantar Ilmu Ekonomi - Kelas D,6,offline,20/10/2025,14:05:46
-379,"Wa Ode Reni, S.Pd., M.H.",Kewarganegaraan - Kelas C,7,offline,20/10/2025,15:53:16
-380,"Wa Ode Reni, S.Pd., M.H.",Kewarganegaraan - Kelas C,8,offline,20/10/2025,15:56:17
-381,"Wa Ode Reni, S.Pd., M.H.",Kewarganegaraan - Kelas A,7,offline,20/10/2025,15:57:27
-382,"MUTMAINNAH, S.Ak., M.Acc",INTERNAL AUDIT - Kelas E,7,offline,21/10/2025,7:42:48
-383,"Dr. Mulyati Akib, SE, M.Si, Ak, CA, CTA, CPA",Auditing I - Kelas C,7,offline,21/10/2025,8:08:55
-384,"Si Made Ngurah Purnaman, S.Ak, M.Ak",Manajemen Strategi - Kelas A,6,offline,21/10/2025,8:29:59
-385,"Dr. Tuti Dharmawati, SE, M.Si, Ak, QIA, CA, ACPA, CRMP, CMA",Pengantar Akuntansi I - Kelas E,6,offline,21/10/2025,8:40:02
-386,"Dr. Intihanah, SE, M.Si, QIA",Pengantar Akuntansi I - Kelas D,7,offline,21/10/2025,10:55:23
-387,"Dr. Intihanah, SE, M.Si, QIA",Pengantar Akuntansi I - Kelas D,8,offline,21/10/2025,10:56:11
-388,"Dr. Intihanah, SE, M.Si, QIA",Pengantar Akuntansi I - Kelas C,8,offline,21/10/2025,10:57:06
-389,"Taufan Sufatriansa Awal, S.Ak., M.Acc.",Sistem Informasi Manajemen - Kelas B,7,offline,21/10/2025,11:32:29
-390,"Prof. Dr. Wali Aya Rumbia. SE., MSi.",Statistik Ekonomi - Kelas A,7,offline,21/10/2025,13:32:42
-391,"Yuli Lestari Labangu, S.E., M.Sc.",Akuntansi Keuangan Daerah - Kelas E,6,offline,21/10/2025,13:36:15
-392,"Prof. Dr. Rosnawintang, S.E., M.Si.",Statistik Ekonomi - Kelas B,7,offline,21/10/2025,15:59:25
-393,"Yuli Lestari Labangu, S.E., M.Sc.",Analisa Laporan Keuangan - Kelas B,7,offline,22/10/2025,8:01:52
-394,"Si Made Ngurah Purnaman, S.Ak, M.Ak",Manajemen Strategi - Kelas E,7,offline,22/10/2025,8:15:40
-395,"Si Made Ngurah Purnaman, S.Ak, M.Ak",Akuntansi Keuangan Daerah - Kelas C,5,offline,22/10/2025,8:16:55
-396,"Si Made Ngurah Purnaman, S.Ak, M.Ak",Akuntansi Keuangan Daerah - Kelas C,6,offline,22/10/2025,8:17:36
-397,"Si Made Ngurah Purnaman, S.Ak, M.Ak",Akuntansi Keuangan Daerah - Kelas C,7,offline,22/10/2025,8:17:57
-398,"MUTMAINNAH, S.Ak., M.Acc",Analisa Laporan Keuangan - Kelas C,8,offline,22/10/2025,13:35:08
-399,"Dr. Mulyati Akib, S.E (Akt)., M.Si.",Teori Akuntansi - Kelas D,8,offline,22/10/2025,22:37:56
-400,"Dr. Intihanah, SE, M.Si, QIA",AKUNTANSI KEUANGAN MENENGAH 1 - Kelas E,7,offline,23/10/2025,8:22:36
-401,"Dr. Tuti Dharmawati, SE, M.Si, Ak, QIA, CA, ACPA, CRMP, CMA",Etika Bisnis dan Profesi Akuntan - Kelas A,6,offline,23/10/2025,9:14:19
-402,"Dr. Tuti Dharmawati, SE, M.Si, Ak, QIA, CA, ACPA, CRMP, CMA",Etika Bisnis dan Profesi Akuntan - Kelas B,6,offline,23/10/2025,9:14:43
-403,"MUTMAINNAH, S.Ak., M.Acc",Praktikum Audit - Kelas D,7,offline,23/10/2025,10:44:58
-404,"Prof. Dr. H. Andi Basru Wawo, SE, M.Si, Ak, CA",Praktikum Audit - Kelas D,7,offline,23/10/2025,10:45:35
-405,"Dr. Intihanah, SE, M.Si, QIA",INTERNAL AUDIT - Kelas A,8,offline,23/10/2025,10:50:28
-406,"Prof. Dr. H. Ishak Awaluddin, SE, M.Si, Ak, CA, CPA",Pengantar Bisnis - Kelas A,5,offline,23/10/2025,11:36:24
-407,"Prof. Dr. H. Ishak Awaluddin, SE, M.Si, Ak, CA, CPA",Pengantar Bisnis - Kelas A,6,offline,23/10/2025,11:37:06
-408,"Prof. Dr. H. Ishak Awaluddin, SE, M.Si, Ak, CA, CPA",Perpajakan I - Kelas E,7,offline,23/10/2025,12:16:48
-409,"Prof. Dr. H. Ishak Awaluddin, SE, M.Si, Ak, CA, CPA",Perpajakan I - Kelas E,8,offline,23/10/2025,12:17:22
-410,"Hasnidar, S.E., M.Si.",Pasar Modal dan Manajemen Portofolio - Kelas D,7,offline,23/10/2025,12:18:20
-411,"Dr. Nitri Mirosea, S.E., M.Si., MA.",AKUNTANSI KEUANGAN LANJUTAN 1 - Kelas D,5,offline,23/10/2025,15:20:37
-412,"Dr. Nitri Mirosea, S.E., M.Si., MA.",AKUNTANSI KEUANGAN LANJUTAN 1 - Kelas D,6,offline,23/10/2025,15:21:04
-413,"Dr. Nitri Mirosea, S.E., M.Si., MA.",AKUNTANSI KEUANGAN LANJUTAN 1 - Kelas D,7,offline,23/10/2025,15:21:25
-414,"Dr. Nitri Mirosea, S.E., M.Si., MA.",AKUNTANSI KEUANGAN LANJUTAN 1 - Kelas D,8,offline,23/10/2025,15:21:40
-415,"Yuli Lestari Labangu, S.E., M.Sc.",Akuntansi Keuangan Daerah - Kelas B,7,online,24/10/2025,7:42:06
-416,"Taufan Sufatriansa Awal, S.Ak., M.Acc.",Statistik Ekonomi - Kelas D,6,offline,24/10/2025,8:35:26
-417,"Taufan Sufatriansa Awal, S.Ak., M.Acc.",Praktikum Audit - Kelas B,5,offline,24/10/2025,8:36:17
-418,"Taufan Sufatriansa Awal, S.Ak., M.Acc.",Praktikum Audit - Kelas B,6,offline,24/10/2025,8:36:30
-419,"Prof. Dr. H. Ishak Awaluddin, SE, M.Si, Ak, CA, CPA",Praktikum Audit - Kelas B,5,offline,24/10/2025,8:37:32
-420,"Prof. Dr. H. Ishak Awaluddin, SE, M.Si, Ak, CA, CPA",Praktikum Audit - Kelas B,6,offline,24/10/2025,8:37:43
-421,"MUTMAINNAH, S.Ak., M.Acc",Etika Bisnis dan Profesi Akuntan - Kelas E,7,offline,24/10/2025,13:32:21
-422,"Dr. Mulyati Akib, SE, M.Si, Ak, CA, CTA, CPA",Pengantar Akuntansi I - Kelas B,7,offline,27/10/2025,8:29:48
-423,"Dr. Mulyati Akib, SE, M.Si, Ak, CA, CTA, CPA",Pengantar Akuntansi I - Kelas B,8,offline,27/10/2025,8:30:06
-424,"MUHAMMAD ZAIKIN, S.Ak., M.Ak.",Praktikum Audit - Kelas C,7,offline,27/10/2025,9:39:25
-425,"MUHAMMAD ZAIKIN, S.Ak., M.Ak.",Praktikum Audit - Kelas C,8,offline,27/10/2025,9:39:36
-426,"Dr. Muh. Nur Afiat, SE., M.Si.",Pengantar Ilmu Ekonomi - Kelas B,7,offline,27/10/2025,10:53:53
-427,"Wa Ode Reni, S.Pd., M.H.",Pancasila - Kelas C,7,offline,27/10/2025,13:21:55
-428,"Wa Ode Reni, S.Pd., M.H.",Pancasila - Kelas C,8,offline,27/10/2025,13:22:51
-429,"Taufan Sufatriansa Awal, S.Ak., M.Acc.",Sistem Informasi Manajemen - Kelas B,8,offline,27/10/2025,13:51:37
-430,"Dr. Dzulfikri Azis Muthalib, S.E., M.Si.",Manajemen Strategi - Kelas C,1,offline,27/10/2025,16:10:40
-431,"Dr. Tajuddin, SE., M.Si.",Pengantar Ilmu Ekonomi - Kelas D,7,offline,27/10/2025,16:45:35
-432,"Dr. Drs. Husin, M.Si",Sistem Informasi Manajemen - Kelas C,9,offline,27/10/2025,19:06:18
-433,"Yuli Lestari Labangu, S.E., M.Sc.",Sistem Informasi Manajemen - Kelas E,9,offline,28/10/2025,10:54:16
-434,"MUTMAINNAH, S.Ak., M.Acc",Statistik Ekonomi - Kelas A,8,offline,28/10/2025,13:39:47
-435,"Yuli Lestari Labangu, S.E., M.Sc.",Akuntansi Keuangan Daerah - Kelas E,7,offline,28/10/2025,13:47:13
-436,"Prof. Dr. Rosnawintang, S.E., M.Si.",Statistik Ekonomi - Kelas B,8,offline,28/10/2025,14:52:05
-437,"Yuli Lestari Labangu, S.E., M.Sc.",Analisa Laporan Keuangan - Kelas B,8,offline,29/10/2025,7:51:50
-438,"Prof. Dr. H. Ishak Awaluddin, SE, M.Si, Ak, CA, CPA",Pengantar Bisnis - Kelas A,7,offline,29/10/2025,15:18:59
-439,"MUTMAINNAH, S.Ak., M.Acc",Praktikum Audit - Kelas D,8,offline,30/10/2025,10:40:50
-440,"Prof. Dr. H. Andi Basru Wawo, SE, M.Si, Ak, CA",Praktikum Audit - Kelas D,8,offline,30/10/2025,10:41:24
-441,"Prof. Dr. H. Hasbudin, SE, M.Si, Ak, QIA, CA, ACPA, CTA",Pasar Modal dan Manajemen Portofolio - Kelas D,9,offline,30/10/2025,11:06:04
-442,"Hasnidar, S.E., M.Si.",Pasar Modal dan Manajemen Portofolio - Kelas D,8,offline,30/10/2025,12:17:38
-443,"Hasnidar, S.E., M.Si.",Metodologi Penelitian - Kelas LAMA,7,online,30/10/2025,12:17:59
-444,"Hasnidar, S.E., M.Si.",Metodologi Penelitian - Kelas LAMA,8,offline,30/10/2025,12:18:14
-445,"Hasnidar, S.E., M.Si.",Metodologi Penelitian - Kelas LAMA,9,online,30/10/2025,12:18:26
-446,"Wa Ode Aswati, S.E., M.Si., CRP",MANAJEMEN RISIKO - Kelas B,5,offline,01/11/2025,11:12:29
-447,"Wa Ode Aswati, S.E., M.Si., CRP",MANAJEMEN RISIKO - Kelas B,6,online,01/11/2025,11:12:43
-448,"Wa Ode Aswati, S.E., M.Si., CRP",MANAJEMEN RISIKO - Kelas B,7,online,01/11/2025,11:13:01
-449,"Wa Ode Aswati, S.E., M.Si., CRP",MANAJEMEN RISIKO - Kelas B,8,offline,01/11/2025,11:13:23
-450,"Wa Ode Aswati, S.E., M.Si., CRP",MANAJEMEN RISIKO - Kelas C,5,offline,01/11/2025,11:14:18
-451,"Wa Ode Aswati, S.E., M.Si., CRP",MANAJEMEN RISIKO - Kelas C,6,offline,01/11/2025,11:14:30
-452,"Wa Ode Aswati, S.E., M.Si., CRP",MANAJEMEN RISIKO - Kelas C,7,online,01/11/2025,11:14:43
-453,"Wa Ode Aswati, S.E., M.Si., CRP",MANAJEMEN RISIKO - Kelas C,8,offline,01/11/2025,11:14:56
-454,"La Ode Muhammad Arfan Samrin, S.E., M.Ak.",MANAJEMEN RISIKO - Kelas E,9,offline,03/11/2025,12:35:05
-455,"Wa Ode Reni, S.Pd., M.H.",Kewarganegaraan - Kelas E,7,offline,03/11/2025,13:06:56
-456,"Wa Ode Reni, S.Pd., M.H.",Kewarganegaraan - Kelas A,8,offline,03/11/2025,13:10:43
-457,"Wa Ode Reni, S.Pd., M.H.",Pancasila - Kelas D,9,online,04/11/2025,8:27:28
-458,"Ika Maya Sari, SE., M.Si, Ak, CA, CTT, CRA, CRP",Auditing I - Kelas C,1,offline,04/11/2025,9:43:55
-459,"Ika Maya Sari, SE., M.Si, Ak, CA, CTT, CRA, CRP",Pengantar Akuntansi I - Kelas D,1,offline,04/11/2025,9:46:08
-460,"Ika Maya Sari, SE., M.Si, Ak, CA, CTT, CRA, CRP",Pengantar Akuntansi I - Kelas D,2,offline,04/11/2025,9:46:23
-461,"Yuli Lestari Labangu, S.E., M.Sc.",Sistem Informasi Manajemen - Kelas E,10,offline,04/11/2025,11:51:30
-462,"MUTMAINNAH, S.Ak., M.Acc",Statistik Ekonomi - Kelas A,9,offline,04/11/2025,13:33:02
-463,"MUTMAINNAH, S.Ak., M.Acc",Statistik Ekonomi - Kelas A,10,offline,04/11/2025,13:33:58
-464,"Yuli Lestari Labangu, S.E., M.Sc.",Akuntansi Keuangan Daerah - Kelas E,8,offline,04/11/2025,14:15:20
-465,"Hasnidar, S.E., M.Si.",Statistik Ekonomi - Kelas B,9,offline,04/11/2025,14:49:26
-466,"Wa Ode Reni, S.Pd., M.H.",Kewarganegaraan - Kelas E,8,online,04/11/2025,15:53:20
-467,"Dr. Intihanah, SE, M.Si, QIA",AKUNTANSI KEUANGAN MENENGAH 1 - Kelas D,9,offline,05/11/2025,8:05:01
-468,"Ika Maya Sari, SE., M.Si, Ak, CA, CTT, CRA, CRP",Analisa Laporan Keuangan - Kelas A,9,offline,05/11/2025,14:39:01
-469,"Prof. Dr. H. Andi Basru Wawo, SE, M.Si, Ak, CA",Praktikum Audit - Kelas D,9,offline,06/11/2025,10:39:44
-470,"MUTMAINNAH, S.Ak., M.Acc",Praktikum Audit - Kelas D,9,offline,06/11/2025,10:40:09
-471,"Dr. Intihanah, SE, M.Si, QIA",INTERNAL AUDIT - Kelas C,9,offline,06/11/2025,10:54:08
-472,"Prof. Dr. H. Hasbudin, SE, M.Si, Ak, QIA, CA, ACPA, CTA",Pasar Modal dan Manajemen Portofolio - Kelas D,10,offline,06/11/2025,10:57:54
-473,"La Ode Muhammad Arfan Samrin, S.E., M.Ak.",INTERNAL AUDIT - Kelas B,9,offline,06/11/2025,11:08:10
+No,Nama Dosen,Matakuliah-Kelas,Pertemuan,Status,Tanggal,Jam,Kesesuaian
+1,"Si Made Ngurah Purnaman, S.Ak, M.Ak",Pengantar Akuntansi I - Kelas LAMA,1,offline,02/09/2025,10:30:54,Tepat Waktu
+2,"Si Made Ngurah Purnaman, S.Ak, M.Ak",Pengantar Akuntansi I - Kelas LAMA,2,offline,02/09/2025,10:35:00,Tepat Waktu
+3,"Syaiah, S.E., M.Si",AKUNTANSI KEUANGAN MENENGAH 1 - Kelas D,1,offline,03/09/2025,7:33:22,Tepat Waktu
+4,"LA ODE MUHAMMAD SAUM FASIHU, S.Ak., M.Ak.",Praktikum Audit - Kelas A,1,offline,03/09/2025,7:34:05,Tepat Waktu
+5,"Yuli Lestari Labangu, S.E., M.Sc.",Analisa Laporan Keuangan - Kelas B,1,online,03/09/2025,7:50:43,Tepat Waktu
+6,"Si Made Ngurah Purnaman, S.Ak, M.Ak",Manajemen Strategi - Kelas E,1,offline,03/09/2025,7:59:00,Tepat Waktu
+7,"Dr. Mulyati Akib, SE, M.Si, Ak, CA, CTA, CPA",AKUNTANSI KEUANGAN MENENGAH 1 - Kelas C,1,offline,03/09/2025,10:30:00,Tepat Waktu
+8,"Ika Maya Sari, SE., M.Si, Ak, CA, CTT, CRA, CRP",AKUNTANSI KEUANGAN MENENGAH 1 - Kelas C,1,offline,03/09/2025,8:00:00,Tepat Waktu
+9,"Hasnidar, S.E., M.Si.",AKUNTANSI KEUANGAN MENENGAH 1 - Kelas B,1,offline,03/09/2025,10:35:08,Tepat Waktu
+10,"Vina Olivia Pebrianty, SE., ME",Analisa Laporan Keuangan - Kelas A,1,offline,03/09/2025,13:41:42,Tepat Waktu
+11,"MUTMAINNAH, S.Ak., M.Acc",Analisa Laporan Keuangan - Kelas C,1,offline,03/09/2025,13:45:00,Tepat Waktu
+12,"LA ODE MUHAMMAD SAUM FASIHU, S.Ak., M.Ak.",Pasar Modal dan Manajemen Portofolio - Kelas A,1,offline,04/09/2025,7:34:46,Tepat Waktu
+13,"Vina Olivia Pebrianty, SE., ME",Pengantar Bisnis - Kelas C,1,offline,04/09/2025,7:39:23,Tepat Waktu
+14,"Prof. Dr. H. Hasbudin, SE, M.Si, Ak, QIA, CA, ACPA, CTA",Pasar Modal dan Manajemen Portofolio - Kelas A,1,offline,04/09/2025,7:43:07,Tepat Waktu
+15,"Prof. Dr. H. Hasbudin, SE, M.Si, Ak, QIA, CA, ACPA, CTA",Pasar Modal dan Manajemen Portofolio - Kelas D,1,offline,04/09/2025,10:36:07,Tepat Waktu
+16,"Hasnidar, S.E., M.Si.",Pasar Modal dan Manajemen Portofolio - Kelas D,1,offline,04/09/2025,10:32:56,Tepat Waktu
+17,"Si Made Ngurah Purnaman, S.Ak, M.Ak",Manajemen Keuangan II - Kelas A,1,offline,04/09/2025,13:34:07,Tepat Waktu
+18,"Dr. Nitri Mirosea, S.E., M.Si., MA.",AKUNTANSI KEUANGAN LANJUTAN 1 - Kelas D,1,offline,04/09/2025,13:40:31,Tepat Waktu
+19,"MUTMAINNAH, S.Ak., M.Acc",Praktikum Audit - Kelas D,1,offline,05/09/2025,10:44:11,Tepat Waktu
+20,"Safaruddin, SE., M.S.A, Ak, CA",Pengantar Akuntansi I - Kelas B,1,offline,08/09/2025,8:20:55,Tidak Tepat Waktu
+21,"Dr. Tuti Dharmawati, SE, M.Si, Ak, QIA, CA, ACPA, CRMP, CMA",Etika Bisnis dan Profesi Akuntan - Kelas A,1,offline,08/09/2025,8:22:17,Tidak Tepat Waktu
+22,"Dr. Nitri Mirosea, S.E., M.Si., MA.",AKUNTANSI KEUANGAN LANJUTAN 1 - Kelas B,1,offline,08/09/2025,8:29:29,Tidak Tepat Waktu
+23,"Dr. Mulyati Akib, SE, M.Si, Ak, CA, CTA, CPA",Pengantar Akuntansi I - Kelas B,1,offline,08/09/2025,8:33:10,Tidak Tepat Waktu
+24,"Prof. Dr. H. Arifuddin, SE, M.Si, Ak, CA, ACPA, CTA",Auditing I - Kelas A,1,offline,08/09/2025,8:35:11,Tidak Tepat Waktu
+25,"Prof. Dr. H. Hasbudin, SE, M.Si, Ak, QIA, CA, ACPA, CTA",Etika Bisnis dan Profesi Akuntan - Kelas A,1,offline,08/09/2025,9:48:17,Tidak Tepat Waktu
+26,"Prof. Dr. H. Hasbudin, SE, M.Si, Ak, QIA, CA, ACPA, CTA",Etika Bisnis dan Profesi Akuntan - Kelas B,1,offline,08/09/2025,10:51:33,Tepat Waktu
+27,"Dr. Tuti Dharmawati, SE, M.Si, Ak, QIA, CA, ACPA, CRMP, CMA",Etika Bisnis dan Profesi Akuntan - Kelas B,1,offline,08/09/2025,12:24:53,Tidak Tepat Waktu
+28,"Syaiah, S.E., M.Si",Sistem Informasi Manajemen - Kelas C,1,offline,08/09/2025,13:35:12,Tepat Waktu
+29,"Vina Olivia Pebrianty, SE., ME",Pengantar Ilmu Ekonomi - Kelas E,1,offline,08/09/2025,13:45:00,Tepat Waktu
+30,"Dr. Tajuddin, SE., M.Si.",Pengantar Ilmu Ekonomi - Kelas D,1,offline,08/09/2025,13:48:31,Tepat Waktu
+31,"Taufan Sufatriansa Awal, S.Ak., M.Acc.",Sistem Informasi Manajemen - Kelas B,1,offline,08/09/2025,14:27:38,Tidak Tepat Waktu
+32,"Dr. Mulyati Akib, SE, M.Si, Ak, CA, CTA, CPA",Auditing I - Kelas C,1,offline,09/09/2025,7:43:22,Tepat Waktu
+33,"MUTMAINNAH, S.Ak., M.Acc",INTERNAL AUDIT - Kelas E,1,offline,09/09/2025,7:54:16,Tepat Waktu
+34,"Si Made Ngurah Purnaman, S.Ak, M.Ak",Manajemen Strategi - Kelas A,1,offline,09/09/2025,8:13:13,Tidak Tepat Waktu
+35,"Si Made Ngurah Purnaman, S.Ak, M.Ak",Akuntansi Keuangan Daerah - Kelas C,1,offline,09/09/2025,12:12:00,Tidak Tepat Waktu
+36,"Prof. Dr. Wali Aya Rumbia. SE., MSi.",Statistik Ekonomi - Kelas A,1,offline,09/09/2025,13:38:19,Tepat Waktu
+37,"Hasnidar, S.E., M.Si.",Statistik Ekonomi - Kelas B,1,offline,09/09/2025,13:49:04,Tepat Waktu
+38,"MUTMAINNAH, S.Ak., M.Acc",Statistik Ekonomi - Kelas A,1,offline,09/09/2025,14:02:27,Tidak Tepat Waktu
+39,"Yuli Lestari Labangu, S.E., M.Sc.",Akuntansi Keuangan Daerah - Kelas E,1,offline,09/09/2025,14:35:26,Tidak Tepat Waktu
+40,"Prof. Dr. Rosnawintang, S.E., M.Si.",Statistik Ekonomi - Kelas B,1,offline,09/09/2025,15:55:25,Tidak Tepat Waktu
+41,"Harmin, S.Pd., M.Pd",Bahasa Indonesia - Kelas A,1,offline,09/09/2025,16:25:06,Tidak Tepat Waktu
+42,"Yuli Lestari Labangu, S.E., M.Sc.",Analisa Laporan Keuangan - Kelas B,2,offline,10/09/2025,7:33:52,Tepat Waktu
+43,"Syaiah, S.E., M.Si",AKUNTANSI KEUANGAN MENENGAH 1 - Kelas D,2,offline,10/09/2025,7:38:24,Tepat Waktu
+44,"LA ODE MUHAMMAD SAUM FASIHU, S.Ak., M.Ak.",Praktikum Audit - Kelas A,2,offline,10/09/2025,7:59:02,Tepat Waktu
+45,"Si Made Ngurah Purnaman, S.Ak, M.Ak",Manajemen Strategi - Kelas E,2,offline,10/09/2025,8:22:39,Tidak Tepat Waktu
+46,"La Ode Muhammad Arfan Samrin, S.E., M.Ak.",Perpajakan I - Kelas A,1,offline,10/09/2025,9:36:14,Tidak Tepat Waktu
+47,"Dr. Mulyati Akib, S.E (Akt)., M.Si.",Teori Akuntansi - Kelas D,2,offline,10/09/2025,10:33:07,Tepat Waktu
+48,"Dr. Mulyati Akib, SE, M.Si, Ak, CA, CTA, CPA",AKUNTANSI KEUANGAN MENENGAH 1 - Kelas C,2,offline,10/09/2025,10:36:23,Tepat Waktu
+49,"Hasnidar, S.E., M.Si.",AKUNTANSI KEUANGAN MENENGAH 1 - Kelas B,2,offline,10/09/2025,13:01:17,Tidak Tepat Waktu
+50,"MUTMAINNAH, S.Ak., M.Acc",Analisa Laporan Keuangan - Kelas C,2,offline,10/09/2025,13:31:39,Tepat Waktu
+51,"Dr. Tuti Dharmawati, SE, M.Si, Ak, QIA, CA, ACPA, CRMP, CMA",Pengantar Akuntansi I - Kelas E,1,online,10/09/2025,15:14:15,Tidak Tepat Waktu
+52,"Vina Olivia Pebrianty, SE., ME",Pengantar Bisnis - Kelas C,2,offline,11/09/2025,8:19:59,Tidak Tepat Waktu
+53,"Taufan Sufatriansa Awal, S.Ak., M.Acc.",Praktikum Audit - Kelas B,1,offline,11/09/2025,9:27:49,Tidak Tepat Waktu
+54,"MUTMAINNAH, S.Ak., M.Acc",Praktikum Audit - Kelas D,2,offline,11/09/2025,9:32:45,Tidak Tepat Waktu
+55,"Prof. Dr. H. Andi Basru Wawo, SE, M.Si, Ak, CA",Praktikum Audit - Kelas D,1,offline,11/09/2025,9:33:11,Tidak Tepat Waktu
+56,"Prof. Dr. H. Andi Basru Wawo, SE, M.Si, Ak, CA",Praktikum Audit - Kelas D,2,offline,11/09/2025,9:33:22,Tidak Tepat Waktu
+57,"Hasnidar, S.E., M.Si.",Pasar Modal dan Manajemen Portofolio - Kelas D,2,offline,11/09/2025,12:33:26,Tidak Tepat Waktu
+58,"Si Made Ngurah Purnaman, S.Ak, M.Ak",Manajemen Keuangan II - Kelas A,2,offline,11/09/2025,13:45:00,Tepat Waktu
+59,"Hasnidar, S.E., M.Si.",Metodologi Penelitian - Kelas LAMA,1,offline,11/09/2025,13:50:59,Tepat Waktu
+60,"Hasnidar, S.E., M.Si.",Metodologi Penelitian - Kelas LAMA,2,offline,11/09/2025,13:51:08,Tepat Waktu
+61,"Dr. Nitri Mirosea, S.E., M.Si., MA.",AKUNTANSI KEUANGAN LANJUTAN 1 - Kelas D,2,offline,11/09/2025,13:57:15,Tepat Waktu
+62,"Yuli Lestari Labangu, S.E., M.Sc.",Akuntansi Keuangan Daerah - Kelas B,1,online,12/09/2025,7:39:05,Tepat Waktu
+63,"MUTMAINNAH, S.Ak., M.Acc",Etika Bisnis dan Profesi Akuntan - Kelas E,1,offline,12/09/2025,13:33:58,Tepat Waktu
+64,"LA ODE MUHAMMAD SAUM FASIHU, S.Ak., M.Ak.",Sistem Informasi Manajemen - Kelas A,1,offline,12/09/2025,13:47:09,Tepat Waktu
+65,"Dr. H. Nasrullah Dali, SE, M.Si, Ak, CA",Etika Bisnis dan Profesi Akuntan - Kelas E,1,online,12/09/2025,14:39:38,Tidak Tepat Waktu
+66,"Dr. Mulyati Akib, SE, M.Si, Ak, CA, CTA, CPA",Pengantar Akuntansi I - Kelas B,2,offline,15/09/2025,7:50:47,Tepat Waktu
+67,"Prof. Dr. H. Hasbudin, SE, M.Si, Ak, QIA, CA, ACPA, CTA",Etika Bisnis dan Profesi Akuntan - Kelas A,2,offline,15/09/2025,8:06:17,Tidak Tepat Waktu
+68,"Dr. Tuti Dharmawati, SE, M.Si, Ak, QIA, CA, ACPA, CRMP, CMA",Etika Bisnis dan Profesi Akuntan - Kelas A,2,offline,15/09/2025,8:10:43,Tidak Tepat Waktu
+69,"Dr. Nitri Mirosea, S.E., M.Si., MA.",AKUNTANSI KEUANGAN LANJUTAN 1 - Kelas B,2,offline,15/09/2025,8:29:01,Tidak Tepat Waktu
+70,"Dr. Muh. Nur Afiat, SE., M.Si.",Pengantar Ilmu Ekonomi - Kelas B,2,offline,15/09/2025,11:34:48,Tidak Tepat Waktu
+71,"Dr. Tajuddin, SE., M.Si.",Pengantar Ilmu Ekonomi - Kelas D,2,offline,15/09/2025,13:18:38,Tidak Tepat Waktu
+72,"Taufan Sufatriansa Awal, S.Ak., M.Acc.",Sistem Informasi Manajemen - Kelas B,2,offline,15/09/2025,16:58:04,Tepat Waktu
+73,"Dr. Tuti Dharmawati, SE, M.Si, Ak, QIA, CA, ACPA, CRMP, CMA",Etika Bisnis dan Profesi Akuntan - Kelas B,2,offline,15/09/2025,22:42:52,Tidak Tepat Waktu
+74,"Prof. Dr. H. Hasbudin, SE, M.Si, Ak, QIA, CA, ACPA, CTA",Etika Bisnis dan Profesi Akuntan - Kelas B,2,offline,15/09/2025,22:43:51,Tidak Tepat Waktu
+75,"Dr. Mulyati Akib, SE, M.Si, Ak, CA, CTA, CPA",Auditing I - Kelas C,2,offline,16/09/2025,7:36:54,Tepat Waktu
+76,"MUTMAINNAH, S.Ak., M.Acc",INTERNAL AUDIT - Kelas E,2,offline,16/09/2025,7:45:02,Tepat Waktu
+77,"Si Made Ngurah Purnaman, S.Ak, M.Ak",Manajemen Strategi - Kelas A,2,offline,16/09/2025,8:19:58,Tidak Tepat Waktu
+78,"Prof. Dr. La Ode Muhammad Harafah, S.E., M.Si",Pengantar Ilmu Ekonomi - Kelas A,2,offline,16/09/2025,10:46:59,Tepat Waktu
+79,"Si Made Ngurah Purnaman, S.Ak, M.Ak",Akuntansi Keuangan Daerah - Kelas C,2,offline,16/09/2025,10:48:48,Tepat Waktu
+80,"Prof. Dr. Rosnawintang, S.E., M.Si.",Statistik Ekonomi - Kelas B,2,offline,16/09/2025,15:19:03,Tidak Tepat Waktu
+81,"Harmin, S.Pd., M.Pd",Bahasa Indonesia - Kelas A,2,offline,16/09/2025,16:10:45,Tidak Tepat Waktu
+82,"Si Made Ngurah Purnaman, S.Ak, M.Ak",Manajemen Strategi - Kelas E,3,offline,17/09/2025,8:12:19,Tidak Tepat Waktu
+83,"LA ODE MUHAMMAD SAUM FASIHU, S.Ak., M.Ak.",Praktikum Audit - Kelas A,3,offline,17/09/2025,8:22:03,Tidak Tepat Waktu
+84,"Dr. Tuti Dharmawati, SE, M.Si, Ak, QIA, CA, ACPA, CRMP, CMA",Pengantar Akuntansi I - Kelas E,2,offline,17/09/2025,8:44:08,Tidak Tepat Waktu
+85,"Dr. Intihanah, SE, M.Si, QIA",Pengantar Akuntansi I - Kelas C,1,online,17/09/2025,8:46:13,Tidak Tepat Waktu
+86,"Dr. Intihanah, SE, M.Si, QIA",Pengantar Akuntansi I - Kelas C,2,offline,17/09/2025,8:46:33,Tidak Tepat Waktu
+87,"Dr. Intihanah, SE, M.Si, QIA",Pengantar Akuntansi I - Kelas D,1,offline,17/09/2025,8:47:13,Tidak Tepat Waktu
+88,"Wa Ode Aswati, S.E., M.Si., CRP",MANAJEMEN RISIKO - Kelas B,1,offline,17/09/2025,9:05:49,Tidak Tepat Waktu
+89,"Wa Ode Aswati, S.E., M.Si., CRP",MANAJEMEN RISIKO - Kelas B,2,offline,17/09/2025,9:06:08,Tidak Tepat Waktu
+90,"Dr. Muntu Abdullah, SE, M.Si, Ak, CA, ACPA",Analisa Laporan Keuangan - Kelas E,1,online,17/09/2025,9:06:30,Tidak Tepat Waktu
+91,"Dr. Nur Asni, SE., M.Si.",AKUNTANSI KEUANGAN MENENGAH 1 - Kelas A,2,offline,17/09/2025,9:06:50,Tidak Tepat Waktu
+92,"Dr. Muntu Abdullah, SE, M.Si, Ak, CA, ACPA",Teori Akuntansi - Kelas B,1,offline,17/09/2025,9:07:02,Tidak Tepat Waktu
+93,"Dr. Nur Asni, SE., M.Si.",AKUNTANSI KEUANGAN MENENGAH 1 - Kelas A,1,offline,17/09/2025,9:07:12,Tidak Tepat Waktu
+94,"Dr. Muntu Abdullah, SE, M.Si, Ak, CA, ACPA",Teori Akuntansi - Kelas C,1,offline,17/09/2025,9:07:24,Tidak Tepat Waktu
+95,"Wa Ode Aswati, S.E., M.Si., CRP",MANAJEMEN RISIKO - Kelas C,1,offline,17/09/2025,9:07:44,Tidak Tepat Waktu
+96,"Wa Ode Aswati, S.E., M.Si., CRP",MANAJEMEN RISIKO - Kelas C,2,offline,17/09/2025,9:08:09,Tidak Tepat Waktu
+97,"La Ode Muhammad Arfan Samrin, S.E., M.Ak.",Perpajakan I - Kelas A,2,offline,17/09/2025,9:09:47,Tidak Tepat Waktu
+98,"Prof. Dr. H. Ishak Awaluddin, SE, M.Si, Ak, CA, CPA",Perpajakan I - Kelas B,1,offline,17/09/2025,10:14:59,Tidak Tepat Waktu
+99,"Prof. Dr. H. Ishak Awaluddin, SE, M.Si, Ak, CA, CPA",Perpajakan I - Kelas B,2,offline,17/09/2025,10:15:14,Tidak Tepat Waktu
+100,"Prof. Dr. H. Ishak Awaluddin, SE, M.Si, Ak, CA, CPA",Pengantar Bisnis - Kelas A,1,offline,17/09/2025,10:15:37,Tidak Tepat Waktu
+101,"Prof. Dr. H. Ishak Awaluddin, SE, M.Si, Ak, CA, CPA",Perpajakan I - Kelas E,1,offline,17/09/2025,10:34:00,Tepat Waktu
+102,"Dr. Muntu Abdullah, SE, M.Si, Ak, CA, ACPA",Teori Akuntansi - Kelas B,2,offline,17/09/2025,10:36:00,Tepat Waktu
+103,"Dr. Muntu Abdullah, SE, M.Si, Ak, CA, ACPA",Teori Akuntansi - Kelas C,2,offline,17/09/2025,10:36:33,Tepat Waktu
+104,"Dr. Mulyati Akib, SE, M.Si, Ak, CA, CTA, CPA",AKUNTANSI KEUANGAN MENENGAH 1 - Kelas C,3,offline,17/09/2025,10:37:55,Tepat Waktu
+105,"Dr. Mulyati Akib, S.E (Akt)., M.Si.",Teori Akuntansi - Kelas D,1,offline,17/09/2025,10:39:06,Tepat Waktu
+106,"Dr. Mulyati Akib, S.E (Akt)., M.Si.",Teori Akuntansi - Kelas D,3,offline,17/09/2025,10:39:35,Tepat Waktu
+107,"Hasnidar, S.E., M.Si.",AKUNTANSI KEUANGAN MENENGAH 1 - Kelas B,3,offline,17/09/2025,12:01:53,Tidak Tepat Waktu
+108,"Vina Olivia Pebrianty, SE., ME",Analisa Laporan Keuangan - Kelas A,2,offline,17/09/2025,13:04:09,Tidak Tepat Waktu
+109,"Vina Olivia Pebrianty, SE., ME",Analisa Laporan Keuangan - Kelas A,3,offline,17/09/2025,13:04:31,Tidak Tepat Waktu
+110,"Prof. Dr. H. Arifuddin, SE, M.Si, Ak, CA, ACPA, CTA",Praktikum Audit - Kelas E,1,online,17/09/2025,13:11:25,Tidak Tepat Waktu
+111,"Prof. Dr. H. Arifuddin, SE, M.Si, Ak, CA, ACPA, CTA",Praktikum Audit - Kelas E,2,offline,17/09/2025,13:12:01,Tidak Tepat Waktu
+112,"MUTMAINNAH, S.Ak., M.Acc",Analisa Laporan Keuangan - Kelas C,3,offline,17/09/2025,13:31:06,Tepat Waktu
+113,"Prof. Dr. La Ode Anto, SE.,M.Si.Ak, QIA.,CA",AKUNTANSI KEUANGAN LANJUTAN 1 - Kelas E,1,online,17/09/2025,16:23:29,Tidak Tepat Waktu
+114,"Prof. Dr. La Ode Anto, SE.,M.Si.Ak, QIA.,CA",AKUNTANSI KEUANGAN LANJUTAN 1 - Kelas E,2,offline,17/09/2025,16:23:49,Tidak Tepat Waktu
+115,"Satira Yusuf, SE., M.Si.",Pengantar Bisnis - Kelas E,1,offline,17/09/2025,19:44:54,Tidak Tepat Waktu
+116,"MUHAMMAD ZAIKIN, S.Ak., M.Ak.",Analisa Laporan Keuangan - Kelas D,2,offline,18/09/2025,7:49:49,Tepat Waktu
+117,"Dr. Intihanah, SE, M.Si, QIA",AKUNTANSI KEUANGAN MENENGAH 1 - Kelas E,1,online,18/09/2025,7:51:46,Tepat Waktu
+118,"Dr. Intihanah, SE, M.Si, QIA",AKUNTANSI KEUANGAN MENENGAH 1 - Kelas E,2,offline,18/09/2025,7:52:03,Tepat Waktu
+119,"Vina Olivia Pebrianty, SE., ME",Pengantar Bisnis - Kelas C,3,offline,18/09/2025,7:59:39,Tepat Waktu
+120,"Prof. Dr. H. Hasbudin, SE, M.Si, Ak, QIA, CA, ACPA, CTA",Pasar Modal dan Manajemen Portofolio - Kelas A,3,offline,18/09/2025,8:00:22,Tidak Tepat Waktu
+121,"Dr. Emillia Nurdin, S.E., M.Si.",AKUNTANSI KEUANGAN LANJUTAN 1 - Kelas C,2,offline,18/09/2025,8:28:12,Tidak Tepat Waktu
+122,"Dr. Emillia Nurdin, S.E., M.Si.",AKUNTANSI KEUANGAN LANJUTAN 1 - Kelas C,1,offline,18/09/2025,9:17:08,Tidak Tepat Waktu
+123,"MUTMAINNAH, S.Ak., M.Acc",Praktikum Audit - Kelas D,3,offline,18/09/2025,10:34:10,Tepat Waktu
+124,"Prof. Dr. H. Andi Basru Wawo, SE, M.Si, Ak, CA",Praktikum Audit - Kelas D,3,offline,18/09/2025,10:34:39,Tepat Waktu
+125,"Prof. Dr. H. Ishak Awaluddin, SE, M.Si, Ak, CA, CPA",Pengantar Bisnis - Kelas A,2,offline,18/09/2025,10:47:00,Tepat Waktu
+126,"Dr. Muntu Abdullah, SE, M.Si, Ak, CA, ACPA",Analisa Laporan Keuangan - Kelas E,3,offline,18/09/2025,10:49:36,Tepat Waktu
+127,"Dr. Intihanah, SE, M.Si, QIA",INTERNAL AUDIT - Kelas A,1,online,18/09/2025,10:50:50,Tepat Waktu
+128,"Dr. Intihanah, SE, M.Si, QIA",INTERNAL AUDIT - Kelas A,2,offline,18/09/2025,10:51:03,Tepat Waktu
+129,"Ika Maya Sari, SE., M.Si, Ak, CA, CTT, CRA, CRP",INTERNAL AUDIT - Kelas C,2,offline,18/09/2025,11:19:06,Tidak Tepat Waktu
+130,"Prof. Dr. H. Hasbudin, SE, M.Si, Ak, QIA, CA, ACPA, CTA",Pasar Modal dan Manajemen Portofolio - Kelas D,2,offline,18/09/2025,11:27:32,Tidak Tepat Waktu
+131,"Prof. Dr. H. Hasbudin, SE, M.Si, Ak, QIA, CA, ACPA, CTA",Pasar Modal dan Manajemen Portofolio - Kelas D,3,offline,18/09/2025,11:27:58,Tidak Tepat Waktu
+132,"Hasnidar, S.E., M.Si.",Pasar Modal dan Manajemen Portofolio - Kelas D,3,offline,18/09/2025,12:36:59,Tidak Tepat Waktu
+133,"Si Made Ngurah Purnaman, S.Ak, M.Ak",Manajemen Strategi - Kelas A,3,offline,18/09/2025,13:39:05,Tepat Waktu
+134,"Si Made Ngurah Purnaman, S.Ak, M.Ak",Manajemen Keuangan II - Kelas A,3,offline,18/09/2025,13:45:12,Tepat Waktu
+135,"Dr. Nitri Mirosea, S.E., M.Si., MA.",AKUNTANSI KEUANGAN LANJUTAN 1 - Kelas D,3,offline,18/09/2025,14:04:29,Tidak Tepat Waktu
+136,"Dr. Nur Asni, SE., M.Si.",Teori Akuntansi - Kelas E,1,offline,18/09/2025,14:21:00,Tidak Tepat Waktu
+137,"Wa Ode Aswati, S.E., M.Si., CRP",MANAJEMEN RISIKO - Kelas C,3,offline,18/09/2025,14:22:25,Tidak Tepat Waktu
+138,"Dr. Muntu Abdullah, SE, M.Si, Ak, CA, ACPA",Analisa Laporan Keuangan - Kelas E,2,offline,18/09/2025,14:23:40,Tidak Tepat Waktu
+139,"Hasnidar, S.E., M.Si.",Metodologi Penelitian - Kelas LAMA,3,offline,18/09/2025,15:42:46,Tidak Tepat Waktu
+140,"Wa Ode Aswati, S.E., M.Si., CRP",MANAJEMEN RISIKO - Kelas B,3,offline,18/09/2025,15:55:29,Tidak Tepat Waktu
+141,"Satira Yusuf, SE., M.Si.",Pengantar Bisnis - Kelas D,1,offline,18/09/2025,19:30:33,Tidak Tepat Waktu
+142,"Yuli Lestari Labangu, S.E., M.Sc.",Akuntansi Keuangan Daerah - Kelas B,2,offline,19/09/2025,7:46:38,Tepat Waktu
+143,"Si Made Ngurah Purnaman, S.Ak, M.Ak",Statistik Ekonomi - Kelas C,1,offline,19/09/2025,8:00:32,Tidak Tepat Waktu
+144,"Taufan Sufatriansa Awal, S.Ak., M.Acc.",Manajemen Keuangan II - Kelas C,1,offline,19/09/2025,8:50:04,Tidak Tepat Waktu
+145,"Dr. La Hatani, SE., MM.",Statistik Ekonomi - Kelas D,1,offline,19/09/2025,8:51:29,Tidak Tepat Waktu
+146,"Dr. La Hatani, SE., MM.",Statistik Ekonomi - Kelas D,2,offline,19/09/2025,8:51:40,Tidak Tepat Waktu
+147,"Dr. Sujono, SE., M.Si.",Manajemen Keuangan II - Kelas E,1,offline,19/09/2025,8:52:06,Tidak Tepat Waktu
+148,"Dr. Sujono, SE., M.Si.",Manajemen Keuangan II - Kelas E,2,offline,19/09/2025,8:52:14,Tidak Tepat Waktu
+149,"La Ode Muhammad Arfan Samrin, S.E., M.Ak.",Statistik Ekonomi - Kelas E,1,offline,19/09/2025,11:16:04,Tidak Tepat Waktu
+150,"Prof. Dr. Wali Aya Rumbia. SE., MSi.",Statistik Ekonomi - Kelas A,2,offline,19/09/2025,13:21:15,Tidak Tepat Waktu
+151,"MUTMAINNAH, S.Ak., M.Acc",Etika Bisnis dan Profesi Akuntan - Kelas E,2,offline,19/09/2025,13:31:52,Tepat Waktu
+152,"LA ODE MUHAMMAD SAUM FASIHU, S.Ak., M.Ak.",Sistem Informasi Manajemen - Kelas A,2,offline,19/09/2025,13:42:44,Tepat Waktu
+153,"MUHAMMAD ZAIKIN, S.Ak., M.Ak.",Praktikum Audit - Kelas C,2,offline,19/09/2025,15:43:57,Tidak Tepat Waktu
+154,"Dr. Mulyati Akib, SE, M.Si, Ak, CA, CTA, CPA",Pengantar Akuntansi I - Kelas B,3,offline,22/09/2025,7:36:48,Tepat Waktu
+155,"Dr. Intihanah, SE, M.Si, QIA",Pengantar Akuntansi I - Kelas C,3,offline,22/09/2025,8:20:41,Tidak Tepat Waktu
+156,"Dr. Nitri Mirosea, S.E., M.Si., MA.",AKUNTANSI KEUANGAN LANJUTAN 1 - Kelas B,3,offline,22/09/2025,8:31:00,Tidak Tepat Waktu
+157,"Vina Olivia Pebrianty, SE., ME",Pengantar Ilmu Ekonomi - Kelas E,2,offline,22/09/2025,13:16:14,Tidak Tepat Waktu
+158,"Vina Olivia Pebrianty, SE., ME",Pengantar Ilmu Ekonomi - Kelas E,3,offline,22/09/2025,13:16:33,Tidak Tepat Waktu
+159,"Taufan Sufatriansa Awal, S.Ak., M.Acc.",Sistem Informasi Manajemen - Kelas B,3,offline,22/09/2025,14:56:25,Tidak Tepat Waktu
+160,"Dr. Mulyati Akib, SE, M.Si, Ak, CA, CTA, CPA",Auditing I - Kelas C,3,offline,23/09/2025,7:36:10,Tepat Waktu
+161,"MUTMAINNAH, S.Ak., M.Acc",INTERNAL AUDIT - Kelas E,3,offline,23/09/2025,7:49:59,Tepat Waktu
+162,"Dr. Intihanah, SE, M.Si, QIA",Pengantar Akuntansi I - Kelas D,2,offline,23/09/2025,10:24:29,Tidak Tepat Waktu
+163,"Prof. Dr. La Ode Muhammad Harafah, S.E., M.Si",Pengantar Ilmu Ekonomi - Kelas A,3,offline,23/09/2025,11:01:27,Tidak Tepat Waktu
+164,"Dr. Intihanah, SE, M.Si, QIA",Pengantar Akuntansi I - Kelas D,3,offline,23/09/2025,11:48:10,Tidak Tepat Waktu
+165,"Dr. Tajuddin, SE., M.Si.",Pengantar Ilmu Ekonomi - Kelas D,3,offline,23/09/2025,13:35:54,Tepat Waktu
+166,"Yuli Lestari Labangu, S.E., M.Sc.",Akuntansi Keuangan Daerah - Kelas E,2,offline,23/09/2025,13:56:28,Tepat Waktu
+167,"Prof. Dr. Rosnawintang, S.E., M.Si.",Statistik Ekonomi - Kelas B,3,offline,23/09/2025,15:21:14,Tidak Tepat Waktu
+168,"Harmin, S.Pd., M.Pd",Bahasa Indonesia - Kelas A,3,offline,23/09/2025,16:21:29,Tidak Tepat Waktu
+169,"Yuli Lestari Labangu, S.E., M.Sc.",Analisa Laporan Keuangan - Kelas B,3,offline,24/09/2025,7:41:55,Tepat Waktu
+170,"Si Made Ngurah Purnaman, S.Ak, M.Ak",Manajemen Strategi - Kelas E,4,offline,24/09/2025,8:15:05,Tidak Tepat Waktu
+171,"LA ODE MUHAMMAD SAUM FASIHU, S.Ak., M.Ak.",Praktikum Audit - Kelas A,4,offline,24/09/2025,8:16:00,Tidak Tepat Waktu
+172,"Prof. Dr. H. Hasbudin, SE, M.Si, Ak, QIA, CA, ACPA, CTA",Manajemen Strategi - Kelas D,2,offline,24/09/2025,8:28:55,Tidak Tepat Waktu
+173,"Prof. Dr. H. Hasbudin, SE, M.Si, Ak, QIA, CA, ACPA, CTA",Manajemen Strategi - Kelas D,1,offline,24/09/2025,8:29:16,Tidak Tepat Waktu
+174,"Prof. Dr. H. Ishak Awaluddin, SE, M.Si, Ak, CA, CPA",Perpajakan I - Kelas E,3,offline,24/09/2025,10:36:13,Tepat Waktu
+175,"Dr. Mulyati Akib, SE, M.Si, Ak, CA, CTA, CPA",AKUNTANSI KEUANGAN MENENGAH 1 - Kelas C,4,offline,24/09/2025,11:09:50,Tidak Tepat Waktu
+176,"Prof. Dr. H. Arifuddin, SE, M.Si, Ak, CA, ACPA, CTA",Praktikum Audit - Kelas E,3,offline,24/09/2025,13:23:35,Tidak Tepat Waktu
+177,"Prof. Dr. H. Arifuddin, SE, M.Si, Ak, CA, ACPA, CTA",Praktikum Audit - Kelas E,4,offline,24/09/2025,13:23:53,Tidak Tepat Waktu
+178,"Dr. Mulyati Akib, S.E (Akt)., M.Si.",Teori Akuntansi - Kelas D,4,offline,24/09/2025,13:23:54,Tidak Tepat Waktu
+179,"Prof. Dr. Wali Aya Rumbia. SE., MSi.",Statistik Ekonomi - Kelas A,3,offline,24/09/2025,13:29:18,Tidak Tepat Waktu
+180,"MUTMAINNAH, S.Ak., M.Acc",Analisa Laporan Keuangan - Kelas C,4,offline,24/09/2025,13:31:27,Tepat Waktu
+181,"Vina Olivia Pebrianty, SE., ME",Analisa Laporan Keuangan - Kelas A,4,offline,24/09/2025,13:35:34,Tepat Waktu
+182,"Hasnidar, S.E., M.Si.",AKUNTANSI KEUANGAN MENENGAH 1 - Kelas B,4,offline,24/09/2025,14:11:45,Tidak Tepat Waktu
+183,"Prof. Dr. La Ode Anto, SE.,M.Si.Ak, QIA.,CA",AKUNTANSI KEUANGAN LANJUTAN 1 - Kelas E,3,offline,24/09/2025,15:13:12,Tidak Tepat Waktu
+184,"Prof. Dr. H. Hasbudin, SE, M.Si, Ak, QIA, CA, ACPA, CTA",Pasar Modal dan Manajemen Portofolio - Kelas A,4,offline,25/09/2025,8:04:09,Tidak Tepat Waktu
+185,"Dr. Intihanah, SE, M.Si, QIA",AKUNTANSI KEUANGAN MENENGAH 1 - Kelas E,3,offline,25/09/2025,8:04:19,Tidak Tepat Waktu
+186,"Vina Olivia Pebrianty, SE., ME",Pengantar Bisnis - Kelas C,4,offline,25/09/2025,8:04:49,Tidak Tepat Waktu
+187,"Dr. Tuti Dharmawati, SE, M.Si, Ak, QIA, CA, ACPA, CRMP, CMA",Etika Bisnis dan Profesi Akuntan - Kelas A,3,offline,25/09/2025,8:22:20,Tidak Tepat Waktu
+188,"Prof. Dr. H. Andi Basru Wawo, SE, M.Si, Ak, CA",Praktikum Audit - Kelas D,4,offline,25/09/2025,10:31:15,Tepat Waktu
+189,"MUTMAINNAH, S.Ak., M.Acc",Praktikum Audit - Kelas D,4,offline,25/09/2025,10:31:52,Tepat Waktu
+190,"Dr. Intihanah, SE, M.Si, QIA",INTERNAL AUDIT - Kelas A,3,offline,25/09/2025,11:11:18,Tidak Tepat Waktu
+191,"Prof. Dr. H. Ishak Awaluddin, SE, M.Si, Ak, CA, CPA",Pengantar Bisnis - Kelas A,3,offline,25/09/2025,12:48:52,Tidak Tepat Waktu
+192,"Si Made Ngurah Purnaman, S.Ak, M.Ak",Manajemen Keuangan II - Kelas A,4,offline,25/09/2025,13:33:16,Tepat Waktu
+193,"Hasnidar, S.E., M.Si.",Pasar Modal dan Manajemen Portofolio - Kelas D,4,offline,25/09/2025,13:43:45,Tepat Waktu
+194,"Hasnidar, S.E., M.Si.",Metodologi Penelitian - Kelas LAMA,4,online,25/09/2025,13:44:03,Tepat Waktu
+195,"Taufan Sufatriansa Awal, S.Ak., M.Acc.",Praktikum Audit - Kelas B,2,offline,25/09/2025,14:32:04,Tidak Tepat Waktu
+196,"Prof. Dr. H. Arifuddin, SE, M.Si, Ak, CA, ACPA, CTA",Pengantar Akuntansi I - Kelas A,3,offline,25/09/2025,14:56:27,Tidak Tepat Waktu
+197,"Dr. Nitri Mirosea, S.E., M.Si., MA.",AKUNTANSI KEUANGAN LANJUTAN 1 - Kelas D,4,offline,25/09/2025,15:05:28,Tidak Tepat Waktu
+198,"Dr. Tuti Dharmawati, SE, M.Si, Ak, QIA, CA, ACPA, CRMP, CMA",Etika Bisnis dan Profesi Akuntan - Kelas B,3,offline,25/09/2025,16:21:45,Tidak Tepat Waktu
+199,"Dr. Tuti Dharmawati, SE, M.Si, Ak, QIA, CA, ACPA, CRMP, CMA",Pengantar Akuntansi I - Kelas E,3,offline,25/09/2025,16:23:20,Tidak Tepat Waktu
+200,"Yuli Lestari Labangu, S.E., M.Sc.",Akuntansi Keuangan Daerah - Kelas B,3,offline,26/09/2025,7:35:47,Tepat Waktu
+201,"Taufan Sufatriansa Awal, S.Ak., M.Acc.",Manajemen Keuangan II - Kelas C,2,offline,26/09/2025,9:43:25,Tidak Tepat Waktu
+202,"Si Made Ngurah Purnaman, S.Ak, M.Ak",Statistik Ekonomi - Kelas C,2,offline,26/09/2025,10:50:40,Tepat Waktu
+203,"MUHAMMAD ZAIKIN, S.Ak., M.Ak.",Analisa Laporan Keuangan - Kelas D,3,offline,26/09/2025,12:06:15,Tidak Tepat Waktu
+204,"MUTMAINNAH, S.Ak., M.Acc",Etika Bisnis dan Profesi Akuntan - Kelas E,3,offline,26/09/2025,13:32:27,Tepat Waktu
+205,"Prof. Dr. H. Ishak Awaluddin, SE, M.Si, Ak, CA, CPA",Perpajakan I - Kelas B,4,offline,26/09/2025,13:53:29,Tepat Waktu
+206,"Prof. Dr. H. Ishak Awaluddin, SE, M.Si, Ak, CA, CPA",Perpajakan I - Kelas B,3,offline,26/09/2025,13:53:52,Tepat Waktu
+207,"MUHAMMAD ZAIKIN, S.Ak., M.Ak.",Praktikum Audit - Kelas C,3,offline,26/09/2025,16:46:48,Tepat Waktu
+208,"Prof. Dr. H. Hasbudin, SE, M.Si, Ak, QIA, CA, ACPA, CTA",Manajemen Strategi - Kelas D,3,offline,27/09/2025,8:16:50,Tidak Tepat Waktu
+209,"Prof. Dr. H. Hasbudin, SE, M.Si, Ak, QIA, CA, ACPA, CTA",Manajemen Strategi - Kelas D,4,offline,27/09/2025,9:47:40,Tidak Tepat Waktu
+210,"Prof. Dr. H. Ishak Awaluddin, SE, M.Si, Ak, CA, CPA",Perpajakan I - Kelas E,2,offline,27/09/2025,11:43:00,Tidak Tepat Waktu
+211,"Dr. Mulyati Akib, SE, M.Si, Ak, CA, CTA, CPA",Pengantar Akuntansi I - Kelas B,4,offline,29/09/2025,7:54:25,Tepat Waktu
+212,"Dr. Intihanah, SE, M.Si, QIA",Pengantar Akuntansi I - Kelas C,4,offline,29/09/2025,9:16:29,Tidak Tepat Waktu
+213,"Dr. Nitri Mirosea, S.E., M.Si., MA.",AKUNTANSI KEUANGAN LANJUTAN 1 - Kelas B,4,offline,29/09/2025,9:29:40,Tidak Tepat Waktu
+214,"Dr. Tuti Dharmawati, SE, M.Si, Ak, QIA, CA, ACPA, CRMP, CMA",Etika Bisnis dan Profesi Akuntan - Kelas A,4,offline,29/09/2025,9:45:23,Tidak Tepat Waktu
+215,"Prof. Dr. H. Hasbudin, SE, M.Si, Ak, QIA, CA, ACPA, CTA",Etika Bisnis dan Profesi Akuntan - Kelas A,4,offline,29/09/2025,9:49:10,Tidak Tepat Waktu
+216,"Prof. Dr. H. Hasbudin, SE, M.Si, Ak, QIA, CA, ACPA, CTA",Etika Bisnis dan Profesi Akuntan - Kelas B,3,offline,29/09/2025,10:48:53,Tepat Waktu
+217,"Dr. Tajuddin, SE., M.Si.",Pengantar Ilmu Ekonomi - Kelas D,4,offline,29/09/2025,13:52:55,Tepat Waktu
+218,"Wa Ode Reni, S.Pd., M.H.",Pancasila - Kelas C,3,offline,29/09/2025,14:51:14,Tidak Tepat Waktu
+219,"Wa Ode Reni, S.Pd., M.H.",Pancasila - Kelas C,1,offline,29/09/2025,14:51:46,Tidak Tepat Waktu
+220,"Wa Ode Reni, S.Pd., M.H.",Pancasila - Kelas C,2,offline,29/09/2025,14:52:31,Tidak Tepat Waktu
+221,"Dr. Mulyati Akib, SE, M.Si, Ak, CA, CTA, CPA",Auditing I - Kelas C,4,offline,30/09/2025,7:45:31,Tepat Waktu
+222,"MUTMAINNAH, S.Ak., M.Acc",INTERNAL AUDIT - Kelas E,4,offline,30/09/2025,7:55:57,Tepat Waktu
+223,"Si Made Ngurah Purnaman, S.Ak, M.Ak",Manajemen Strategi - Kelas A,4,offline,30/09/2025,8:13:19,Tidak Tepat Waktu
+224,"Dr. Intihanah, SE, M.Si, QIA",Pengantar Akuntansi I - Kelas D,4,offline,30/09/2025,10:43:24,Tepat Waktu
+225,"Prof. Dr. La Ode Muhammad Harafah, S.E., M.Si",Pengantar Ilmu Ekonomi - Kelas A,4,offline,30/09/2025,10:53:47,Tepat Waktu
+226,"Si Made Ngurah Purnaman, S.Ak, M.Ak",Akuntansi Keuangan Daerah - Kelas C,3,offline,30/09/2025,11:10:51,Tidak Tepat Waktu
+227,"Si Made Ngurah Purnaman, S.Ak, M.Ak",Akuntansi Keuangan Daerah - Kelas C,4,offline,30/09/2025,11:11:15,Tidak Tepat Waktu
+228,"Prof. Dr. Wali Aya Rumbia. SE., MSi.",Statistik Ekonomi - Kelas A,4,offline,30/09/2025,13:31:37,Tepat Waktu
+229,"Yuli Lestari Labangu, S.E., M.Sc.",Akuntansi Keuangan Daerah - Kelas E,3,online,30/09/2025,14:49:36,Tidak Tepat Waktu
+230,"Prof. Dr. Rosnawintang, S.E., M.Si.",Statistik Ekonomi - Kelas B,4,offline,30/09/2025,16:06:48,Tidak Tepat Waktu
+231,"Harmin, S.Pd., M.Pd",Bahasa Indonesia - Kelas A,4,offline,30/09/2025,16:50:40,Tepat Waktu
+232,"Si Made Ngurah Purnaman, S.Ak, M.Ak",Manajemen Strategi - Kelas E,5,offline,01/10/2025,8:14:00,Tidak Tepat Waktu
+233,"Yuli Lestari Labangu, S.E., M.Sc.",Analisa Laporan Keuangan - Kelas B,4,offline,01/10/2025,8:17:54,Tidak Tepat Waktu
+234,"La Ode Muhammad Arfan Samrin, S.E., M.Ak.",Perpajakan I - Kelas A,3,offline,01/10/2025,8:33:24,Tidak Tepat Waktu
+235,"LA ODE MUHAMMAD SAUM FASIHU, S.Ak., M.Ak.",Praktikum Audit - Kelas A,5,offline,01/10/2025,9:21:18,Tidak Tepat Waktu
+236,"Dr. Mulyati Akib, SE, M.Si, Ak, CA, CTA, CPA",AKUNTANSI KEUANGAN MENENGAH 1 - Kelas C,5,offline,01/10/2025,10:47:06,Tepat Waktu
+237,"Prof. Dr. H. Arifuddin, SE, M.Si, Ak, CA, ACPA, CTA",Praktikum Audit - Kelas E,5,offline,01/10/2025,12:49:33,Tidak Tepat Waktu
+238,"MUTMAINNAH, S.Ak., M.Acc",Analisa Laporan Keuangan - Kelas C,5,offline,01/10/2025,13:31:29,Tepat Waktu
+239,"Dr. Mulyati Akib, S.E (Akt)., M.Si.",Teori Akuntansi - Kelas D,5,offline,01/10/2025,13:34:27,Tepat Waktu
+240,"Vina Olivia Pebrianty, SE., ME",Analisa Laporan Keuangan - Kelas A,5,offline,01/10/2025,13:36:41,Tepat Waktu
+241,"Prof. Dr. La Ode Anto, SE.,M.Si.Ak, QIA.,CA",AKUNTANSI KEUANGAN LANJUTAN 1 - Kelas E,4,offline,01/10/2025,15:14:04,Tidak Tepat Waktu
+242,"Hasnidar, S.E., M.Si.",AKUNTANSI KEUANGAN MENENGAH 1 - Kelas B,5,offline,01/10/2025,17:28:39,Tidak Tepat Waktu
+243,"Dr. Intihanah, SE, M.Si, QIA",AKUNTANSI KEUANGAN MENENGAH 1 - Kelas E,4,offline,02/10/2025,7:23:20,Tidak Tepat Waktu
+244,"Vina Olivia Pebrianty, SE., ME",Pengantar Bisnis - Kelas C,5,offline,02/10/2025,7:53:06,Tepat Waktu
+245,"Prof. Dr. H. Hasbudin, SE, M.Si, Ak, QIA, CA, ACPA, CTA",Pasar Modal dan Manajemen Portofolio - Kelas A,5,offline,02/10/2025,7:59:52,Tepat Waktu
+246,"MUHAMMAD ZAIKIN, S.Ak., M.Ak.",Analisa Laporan Keuangan - Kelas D,4,offline,02/10/2025,8:18:49,Tidak Tepat Waktu
+247,"MUTMAINNAH, S.Ak., M.Acc",Praktikum Audit - Kelas D,5,offline,02/10/2025,10:38:37,Tepat Waktu
+248,"Prof. Dr. H. Andi Basru Wawo, SE, M.Si, Ak, CA",Praktikum Audit - Kelas D,5,offline,02/10/2025,10:39:13,Tepat Waktu
+249,"Prof. Dr. H. Ishak Awaluddin, SE, M.Si, Ak, CA, CPA",Perpajakan I - Kelas E,4,offline,02/10/2025,10:51:47,Tepat Waktu
+250,"Prof. Dr. H. Ishak Awaluddin, SE, M.Si, Ak, CA, CPA",Pengantar Bisnis - Kelas A,4,offline,02/10/2025,10:52:43,Tepat Waktu
+251,"Dr. Intihanah, SE, M.Si, QIA",INTERNAL AUDIT - Kelas A,4,offline,02/10/2025,11:49:13,Tidak Tepat Waktu
+252,"Hasnidar, S.E., M.Si.",Pasar Modal dan Manajemen Portofolio - Kelas D,5,offline,02/10/2025,14:12:40,Tidak Tepat Waktu
+253,"Hasnidar, S.E., M.Si.",Metodologi Penelitian - Kelas LAMA,5,offline,02/10/2025,14:13:15,Tidak Tepat Waktu
+254,"Dr. Nur Asni, SE., M.Si.",Teori Akuntansi - Kelas E,2,offline,02/10/2025,15:00:06,Tidak Tepat Waktu
+255,"Yuli Lestari Labangu, S.E., M.Sc.",Akuntansi Keuangan Daerah - Kelas B,4,offline,03/10/2025,8:15:23,Tidak Tepat Waktu
+256,"Si Made Ngurah Purnaman, S.Ak, M.Ak",Statistik Ekonomi - Kelas C,3,offline,03/10/2025,8:40:57,Tidak Tepat Waktu
+257,"MUTMAINNAH, S.Ak., M.Acc",Etika Bisnis dan Profesi Akuntan - Kelas E,4,offline,03/10/2025,13:31:45,Tepat Waktu
+258,"LA ODE MUHAMMAD SAUM FASIHU, S.Ak., M.Ak.",Sistem Informasi Manajemen - Kelas A,3,offline,03/10/2025,14:11:26,Tidak Tepat Waktu
+259,"MUHAMMAD ZAIKIN, S.Ak., M.Ak.",Praktikum Audit - Kelas C,4,offline,03/10/2025,16:50:10,Tepat Waktu
+260,"Dr. Intihanah, SE, M.Si, QIA",Pengantar Akuntansi I - Kelas C,5,offline,06/10/2025,8:22:00,Tidak Tepat Waktu
+261,"Dr. Nitri Mirosea, S.E., M.Si., MA.",AKUNTANSI KEUANGAN LANJUTAN 1 - Kelas B,5,offline,06/10/2025,10:14:09,Tidak Tepat Waktu
+262,"Wa Ode Reni, S.Pd., M.H.",Pancasila - Kelas C,4,online,06/10/2025,10:37:09,Tepat Waktu
+263,"Wa Ode Reni, S.Pd., M.H.",Kewarganegaraan - Kelas E,2,offline,06/10/2025,10:39:52,Tepat Waktu
+264,"Wa Ode Reni, S.Pd., M.H.",Kewarganegaraan - Kelas E,3,offline,06/10/2025,10:40:51,Tepat Waktu
+265,"MUTMAINNAH, S.Ak., M.Acc",INTERNAL AUDIT - Kelas E,5,offline,07/10/2025,7:45:06,Tepat Waktu
+266,"Si Made Ngurah Purnaman, S.Ak, M.Ak",Manajemen Strategi - Kelas A,5,offline,07/10/2025,9:12:38,Tidak Tepat Waktu
+267,"Dr. Tuti Dharmawati, SE, M.Si, Ak, QIA, CA, ACPA, CRMP, CMA",Pengantar Akuntansi I - Kelas E,4,offline,07/10/2025,9:57:13,Tidak Tepat Waktu
+268,"Prof. Dr. La Ode Muhammad Harafah, S.E., M.Si",Pengantar Ilmu Ekonomi - Kelas A,5,offline,07/10/2025,10:31:11,Tepat Waktu
+269,"Dr. Intihanah, SE, M.Si, QIA",Pengantar Akuntansi I - Kelas D,5,offline,07/10/2025,10:58:41,Tepat Waktu
+270,"Taufan Sufatriansa Awal, S.Ak., M.Acc.",Sistem Informasi Manajemen - Kelas B,4,offline,07/10/2025,12:14:41,Tidak Tepat Waktu
+271,"Taufan Sufatriansa Awal, S.Ak., M.Acc.",Sistem Informasi Manajemen - Kelas B,5,offline,07/10/2025,12:14:52,Tidak Tepat Waktu
+272,"Yuli Lestari Labangu, S.E., M.Sc.",Akuntansi Keuangan Daerah - Kelas E,4,offline,07/10/2025,13:41:39,Tepat Waktu
+273,"Harmin, S.Pd., M.Pd",Bahasa Indonesia - Kelas A,5,offline,07/10/2025,15:43:05,Tidak Tepat Waktu
+274,"Prof. Dr. Wali Aya Rumbia. SE., MSi.",Statistik Ekonomi - Kelas A,5,offline,07/10/2025,15:47:57,Tidak Tepat Waktu
+275,"Prof. Dr. Rosnawintang, S.E., M.Si.",Statistik Ekonomi - Kelas B,5,offline,07/10/2025,16:03:48,Tidak Tepat Waktu
+276,"Si Made Ngurah Purnaman, S.Ak, M.Ak",Manajemen Strategi - Kelas E,6,offline,08/10/2025,8:08:58,Tidak Tepat Waktu
+277,"LA ODE MUHAMMAD SAUM FASIHU, S.Ak., M.Ak.",Praktikum Audit - Kelas A,6,offline,08/10/2025,8:12:58,Tidak Tepat Waktu
+278,"Yuli Lestari Labangu, S.E., M.Sc.",Analisa Laporan Keuangan - Kelas B,5,offline,08/10/2025,8:22:16,Tidak Tepat Waktu
+279,"MUTMAINNAH, S.Ak., M.Acc",Analisa Laporan Keuangan - Kelas C,6,offline,08/10/2025,13:30:41,Tepat Waktu
+280,"Vina Olivia Pebrianty, SE., ME",Pengantar Bisnis - Kelas C,6,offline,09/10/2025,7:59:22,Tepat Waktu
+281,"Dr. Intihanah, SE, M.Si, QIA",AKUNTANSI KEUANGAN MENENGAH 1 - Kelas E,5,offline,09/10/2025,8:16:59,Tidak Tepat Waktu
+282,"MUTMAINNAH, S.Ak., M.Acc",Praktikum Audit - Kelas D,6,offline,09/10/2025,10:33:41,Tepat Waktu
+283,"Prof. Dr. H. Andi Basru Wawo, SE, M.Si, Ak, CA",Praktikum Audit - Kelas D,6,offline,09/10/2025,10:34:09,Tepat Waktu
+284,"Dr. Intihanah, SE, M.Si, QIA",INTERNAL AUDIT - Kelas A,5,offline,09/10/2025,10:46:23,Tepat Waktu
+285,"Hasnidar, S.E., M.Si.",Pasar Modal dan Manajemen Portofolio - Kelas D,6,offline,09/10/2025,11:06:48,Tidak Tepat Waktu
+286,"Taufan Sufatriansa Awal, S.Ak., M.Acc.",Praktikum Audit - Kelas B,3,offline,09/10/2025,13:28:07,Tidak Tepat Waktu
+287,"Taufan Sufatriansa Awal, S.Ak., M.Acc.",Praktikum Audit - Kelas B,4,offline,09/10/2025,13:28:17,Tidak Tepat Waktu
+288,"Prof. Dr. H. Ishak Awaluddin, SE, M.Si, Ak, CA, CPA",Praktikum Audit - Kelas B,3,offline,09/10/2025,13:28:51,Tidak Tepat Waktu
+289,"Prof. Dr. H. Ishak Awaluddin, SE, M.Si, Ak, CA, CPA",Praktikum Audit - Kelas B,4,offline,09/10/2025,13:29:01,Tidak Tepat Waktu
+290,"Si Made Ngurah Purnaman, S.Ak, M.Ak",Manajemen Keuangan II - Kelas A,5,offline,09/10/2025,13:33:50,Tepat Waktu
+291,"Hasnidar, S.E., M.Si.",Metodologi Penelitian - Kelas LAMA,6,online,09/10/2025,15:39:18,Tidak Tepat Waktu
+292,"Yuli Lestari Labangu, S.E., M.Sc.",Akuntansi Keuangan Daerah - Kelas B,5,offline,10/10/2025,8:15:51,Tidak Tepat Waktu
+293,"Taufan Sufatriansa Awal, S.Ak., M.Acc.",Statistik Ekonomi - Kelas D,3,offline,10/10/2025,9:01:34,Tidak Tepat Waktu
+294,"Taufan Sufatriansa Awal, S.Ak., M.Acc.",Statistik Ekonomi - Kelas D,4,offline,10/10/2025,9:02:18,Tidak Tepat Waktu
+295,"Taufan Sufatriansa Awal, S.Ak., M.Acc.",Manajemen Keuangan II - Kelas C,3,offline,10/10/2025,9:19:27,Tidak Tepat Waktu
+296,"Taufan Sufatriansa Awal, S.Ak., M.Acc.",Manajemen Keuangan II - Kelas C,4,offline,10/10/2025,9:19:37,Tidak Tepat Waktu
+297,"Dr. Intihanah, SE, M.Si, QIA",INTERNAL AUDIT - Kelas A,6,offline,10/10/2025,9:23:44,Tidak Tepat Waktu
+298,"Si Made Ngurah Purnaman, S.Ak, M.Ak",Statistik Ekonomi - Kelas C,4,offline,10/10/2025,9:30:00,Tidak Tepat Waktu
+299,"MUTMAINNAH, S.Ak., M.Acc",Etika Bisnis dan Profesi Akuntan - Kelas E,5,offline,10/10/2025,13:42:08,Tepat Waktu
+300,"LA ODE MUHAMMAD SAUM FASIHU, S.Ak., M.Ak.",Sistem Informasi Manajemen - Kelas A,4,offline,10/10/2025,13:43:50,Tepat Waktu
+301,"MUHAMMAD ZAIKIN, S.Ak., M.Ak.",Analisa Laporan Keuangan - Kelas D,5,offline,10/10/2025,13:58:05,Tepat Waktu
+302,"MUHAMMAD ZAIKIN, S.Ak., M.Ak.",Praktikum Audit - Kelas C,5,offline,10/10/2025,13:58:35,Tepat Waktu
+303,"Dr. Mulyati Akib, SE, M.Si, Ak, CA, CTA, CPA",Pengantar Akuntansi I - Kelas B,5,offline,13/10/2025,7:44:11,Tepat Waktu
+304,"Dr. Mulyati Akib, SE, M.Si, Ak, CA, CTA, CPA",Pengantar Akuntansi I - Kelas B,6,offline,13/10/2025,7:44:30,Tepat Waktu
+305,"Dr. Intihanah, SE, M.Si, QIA",Pengantar Akuntansi I - Kelas C,6,offline,13/10/2025,7:58:46,Tepat Waktu
+306,"Dr. Nitri Mirosea, S.E., M.Si., MA.",AKUNTANSI KEUANGAN LANJUTAN 1 - Kelas B,6,offline,13/10/2025,11:18:48,Tidak Tepat Waktu
+307,"Dr. Tajuddin, SE., M.Si.",Pengantar Ilmu Ekonomi - Kelas D,5,offline,13/10/2025,14:13:23,Tidak Tepat Waktu
+308,"Taufan Sufatriansa Awal, S.Ak., M.Acc.",Sistem Informasi Manajemen - Kelas B,6,offline,13/10/2025,15:47:17,Tidak Tepat Waktu
+309,"Dr. Mulyati Akib, SE, M.Si, Ak, CA, CTA, CPA",Auditing I - Kelas C,5,offline,14/10/2025,7:42:47,Tepat Waktu
+310,"Dr. Mulyati Akib, SE, M.Si, Ak, CA, CTA, CPA",Auditing I - Kelas C,6,offline,14/10/2025,7:43:08,Tepat Waktu
+311,"MUTMAINNAH, S.Ak., M.Acc",INTERNAL AUDIT - Kelas E,6,offline,14/10/2025,7:45:21,Tepat Waktu
+312,"Dr. Tuti Dharmawati, SE, M.Si, Ak, QIA, CA, ACPA, CRMP, CMA",Pengantar Akuntansi I - Kelas E,5,offline,14/10/2025,9:38:41,Tidak Tepat Waktu
+313,"Dr. Tuti Dharmawati, SE, M.Si, Ak, QIA, CA, ACPA, CRMP, CMA",Etika Bisnis dan Profesi Akuntan - Kelas A,5,offline,14/10/2025,9:39:37,Tidak Tepat Waktu
+314,"Dr. Tuti Dharmawati, SE, M.Si, Ak, QIA, CA, ACPA, CRMP, CMA",Etika Bisnis dan Profesi Akuntan - Kelas B,4,offline,14/10/2025,9:40:03,Tidak Tepat Waktu
+315,"Dr. Tuti Dharmawati, SE, M.Si, Ak, QIA, CA, ACPA, CRMP, CMA",Etika Bisnis dan Profesi Akuntan - Kelas B,5,offline,14/10/2025,9:40:37,Tidak Tepat Waktu
+316,"Dr. Intihanah, SE, M.Si, QIA",Pengantar Akuntansi I - Kelas D,6,offline,14/10/2025,10:43:06,Tepat Waktu
+317,"Prof. Dr. La Ode Muhammad Harafah, S.E., M.Si",Pengantar Ilmu Ekonomi - Kelas A,6,offline,14/10/2025,11:25:28,Tidak Tepat Waktu
+318,"Yuli Lestari Labangu, S.E., M.Sc.",Akuntansi Keuangan Daerah - Kelas E,5,offline,14/10/2025,13:40:12,Tepat Waktu
+319,"Prof. Dr. Wali Aya Rumbia. SE., MSi.",Statistik Ekonomi - Kelas A,6,offline,14/10/2025,14:14:06,Tidak Tepat Waktu
+320,"Taufan Sufatriansa Awal, S.Ak., M.Acc.",Statistik Ekonomi - Kelas D,5,offline,14/10/2025,15:54:09,Tidak Tepat Waktu
+321,"Harmin, S.Pd., M.Pd",Bahasa Indonesia - Kelas A,6,offline,14/10/2025,15:54:34,Tidak Tepat Waktu
+322,"Prof. Dr. H. Ishak Awaluddin, SE, M.Si, Ak, CA, CPA",Perpajakan I - Kelas B,5,offline,14/10/2025,22:10:16,Tidak Tepat Waktu
+323,"Yuli Lestari Labangu, S.E., M.Sc.",Analisa Laporan Keuangan - Kelas B,6,offline,15/10/2025,7:45:26,Tepat Waktu
+324,"La Ode Muhammad Arfan Samrin, S.E., M.Ak.",Perpajakan I - Kelas A,4,offline,15/10/2025,9:13:32,Tidak Tepat Waktu
+325,"Wa Ode Reni, S.Pd., M.H.",Pancasila - Kelas C,5,online,15/10/2025,10:02:41,Tidak Tepat Waktu
+326,"Wa Ode Reni, S.Pd., M.H.",Kewarganegaraan - Kelas A,1,offline,15/10/2025,10:08:04,Tidak Tepat Waktu
+327,"Wa Ode Reni, S.Pd., M.H.",Kewarganegaraan - Kelas A,2,offline,15/10/2025,10:08:22,Tidak Tepat Waktu
+328,"Wa Ode Reni, S.Pd., M.H.",Kewarganegaraan - Kelas A,3,offline,15/10/2025,10:08:40,Tidak Tepat Waktu
+329,"Wa Ode Reni, S.Pd., M.H.",Kewarganegaraan - Kelas A,4,online,15/10/2025,10:09:00,Tidak Tepat Waktu
+330,"Wa Ode Reni, S.Pd., M.H.",Kewarganegaraan - Kelas A,5,offline,15/10/2025,10:09:20,Tidak Tepat Waktu
+331,"Wa Ode Reni, S.Pd., M.H.",Kewarganegaraan - Kelas A,6,offline,15/10/2025,10:10:09,Tidak Tepat Waktu
+332,"Wa Ode Reni, S.Pd., M.H.",Kewarganegaraan - Kelas E,1,online,15/10/2025,10:12:33,Tidak Tepat Waktu
+333,"Wa Ode Reni, S.Pd., M.H.",Kewarganegaraan - Kelas E,4,offline,15/10/2025,10:12:56,Tidak Tepat Waktu
+334,"Wa Ode Reni, S.Pd., M.H.",Kewarganegaraan - Kelas E,5,offline,15/10/2025,10:13:16,Tidak Tepat Waktu
+335,"Wa Ode Reni, S.Pd., M.H.",Kewarganegaraan - Kelas E,6,offline,15/10/2025,10:14:09,Tidak Tepat Waktu
+336,"Wa Ode Reni, S.Pd., M.H.",Kewarganegaraan - Kelas C,1,online,15/10/2025,10:15:41,Tidak Tepat Waktu
+337,"Wa Ode Reni, S.Pd., M.H.",Kewarganegaraan - Kelas C,2,offline,15/10/2025,10:16:07,Tidak Tepat Waktu
+338,"Wa Ode Reni, S.Pd., M.H.",Kewarganegaraan - Kelas C,3,offline,15/10/2025,10:16:30,Tidak Tepat Waktu
+339,"Wa Ode Reni, S.Pd., M.H.",Kewarganegaraan - Kelas C,4,offline,15/10/2025,10:17:56,Tidak Tepat Waktu
+340,"Wa Ode Reni, S.Pd., M.H.",Kewarganegaraan - Kelas C,5,offline,15/10/2025,10:18:54,Tidak Tepat Waktu
+341,"Wa Ode Reni, S.Pd., M.H.",Kewarganegaraan - Kelas C,6,offline,15/10/2025,10:19:47,Tidak Tepat Waktu
+342,"Vina Olivia Pebrianty, SE., ME",Analisa Laporan Keuangan - Kelas A,6,offline,15/10/2025,10:32:28,Tepat Waktu
+343,"Vina Olivia Pebrianty, SE., ME",Analisa Laporan Keuangan - Kelas A,7,offline,15/10/2025,10:32:41,Tepat Waktu
+344,"Vina Olivia Pebrianty, SE., ME",Pengantar Ilmu Ekonomi - Kelas E,4,offline,15/10/2025,10:33:18,Tepat Waktu
+345,"Vina Olivia Pebrianty, SE., ME",Pengantar Ilmu Ekonomi - Kelas E,5,offline,15/10/2025,10:33:33,Tepat Waktu
+346,"Vina Olivia Pebrianty, SE., ME",Pengantar Ilmu Ekonomi - Kelas E,6,offline,15/10/2025,10:34:05,Tepat Waktu
+347,"Prof. Dr. H. Arifuddin, SE, M.Si, Ak, CA, ACPA, CTA",Praktikum Audit - Kelas E,6,offline,15/10/2025,11:32:36,Tidak Tepat Waktu
+348,"Prof. Dr. H. Arifuddin, SE, M.Si, Ak, CA, ACPA, CTA",Praktikum Audit - Kelas E,7,offline,15/10/2025,11:32:49,Tidak Tepat Waktu
+349,"Dr. Mulyati Akib, SE, M.Si, Ak, CA, CTA, CPA",AKUNTANSI KEUANGAN MENENGAH 1 - Kelas C,6,offline,15/10/2025,13:20:32,Tidak Tepat Waktu
+350,"Dr. Mulyati Akib, SE, M.Si, Ak, CA, CTA, CPA",AKUNTANSI KEUANGAN MENENGAH 1 - Kelas C,7,offline,15/10/2025,13:20:48,Tidak Tepat Waktu
+351,"Dr. Mulyati Akib, S.E (Akt)., M.Si.",Teori Akuntansi - Kelas D,6,offline,15/10/2025,13:21:37,Tidak Tepat Waktu
+352,"Dr. Mulyati Akib, S.E (Akt)., M.Si.",Teori Akuntansi - Kelas D,7,offline,15/10/2025,13:21:56,Tidak Tepat Waktu
+353,"MUTMAINNAH, S.Ak., M.Acc",Analisa Laporan Keuangan - Kelas C,7,offline,15/10/2025,13:39:44,Tepat Waktu
+354,"Prof. Dr. H. Ishak Awaluddin, SE, M.Si, Ak, CA, CPA",Perpajakan I - Kelas E,5,offline,15/10/2025,20:20:16,Tidak Tepat Waktu
+355,"Dr. Intihanah, SE, M.Si, QIA",AKUNTANSI KEUANGAN MENENGAH 1 - Kelas E,6,offline,16/10/2025,8:07:23,Tidak Tepat Waktu
+356,"Vina Olivia Pebrianty, SE., ME",Pengantar Bisnis - Kelas C,7,offline,16/10/2025,8:20:46,Tidak Tepat Waktu
+357,"Dr. Intihanah, SE, M.Si, QIA",INTERNAL AUDIT - Kelas A,7,offline,16/10/2025,10:47:03,Tepat Waktu
+358,"MUHAMMAD ZAIKIN, S.Ak., M.Ak.",Analisa Laporan Keuangan - Kelas D,6,offline,16/10/2025,12:39:09,Tidak Tepat Waktu
+359,"MUHAMMAD ZAIKIN, S.Ak., M.Ak.",Analisa Laporan Keuangan - Kelas D,1,offline,16/10/2025,12:39:20,Tidak Tepat Waktu
+360,"MUHAMMAD ZAIKIN, S.Ak., M.Ak.",Analisa Laporan Keuangan - Kelas D,7,offline,16/10/2025,12:40:04,Tidak Tepat Waktu
+361,"Yuli Lestari Labangu, S.E., M.Sc.",Akuntansi Keuangan Daerah - Kelas B,6,offline,17/10/2025,8:01:33,Tidak Tepat Waktu
+362,"Prof. Dr. H. Ishak Awaluddin, SE, M.Si, Ak, CA, CPA",Perpajakan I - Kelas E,6,offline,17/10/2025,10:08:24,Tidak Tepat Waktu
+363,"Taufan Sufatriansa Awal, S.Ak., M.Acc.",Manajemen Keuangan II - Kelas C,5,offline,17/10/2025,11:52:30,Tidak Tepat Waktu
+364,"Taufan Sufatriansa Awal, S.Ak., M.Acc.",Manajemen Keuangan II - Kelas C,6,offline,17/10/2025,11:52:53,Tidak Tepat Waktu
+365,"Taufan Sufatriansa Awal, S.Ak., M.Acc.",Manajemen Keuangan II - Kelas C,7,offline,17/10/2025,11:53:05,Tidak Tepat Waktu
+366,"MUTMAINNAH, S.Ak., M.Acc",Etika Bisnis dan Profesi Akuntan - Kelas E,6,offline,17/10/2025,13:33:25,Tepat Waktu
+367,"Wa Ode Aswati, S.E., M.Si., CRP",MANAJEMEN RISIKO - Kelas B,4,offline,17/10/2025,15:57:52,Tidak Tepat Waktu
+368,"Wa Ode Aswati, S.E., M.Si., CRP",MANAJEMEN RISIKO - Kelas C,4,offline,17/10/2025,15:58:39,Tidak Tepat Waktu
+369,"MUHAMMAD ZAIKIN, S.Ak., M.Ak.",Praktikum Audit - Kelas C,6,offline,17/10/2025,16:02:39,Tidak Tepat Waktu
+370,"MUHAMMAD ZAIKIN, S.Ak., M.Ak.",Praktikum Audit - Kelas C,1,offline,17/10/2025,16:03:16,Tidak Tepat Waktu
+371,"Dr. Intihanah, SE, M.Si, QIA",Pengantar Akuntansi I - Kelas C,7,offline,20/10/2025,9:05:14,Tidak Tepat Waktu
+372,"Dr. Mulyati Akib, SE, M.Si, Ak, CA, CTA, CPA",AKUNTANSI KEUANGAN MENENGAH 1 - Kelas C,8,offline,20/10/2025,9:47:02,Tidak Tepat Waktu
+373,"Prof. Dr. H. Ishak Awaluddin, SE, M.Si, Ak, CA, CPA",Perpajakan I - Kelas B,6,offline,20/10/2025,10:24:46,Tidak Tepat Waktu
+374,"Prof. Dr. H. Ishak Awaluddin, SE, M.Si, Ak, CA, CPA",Perpajakan I - Kelas B,7,offline,20/10/2025,10:25:08,Tidak Tepat Waktu
+375,"Prof. Dr. H. Ishak Awaluddin, SE, M.Si, Ak, CA, CPA",Perpajakan I - Kelas B,8,offline,20/10/2025,10:25:28,Tidak Tepat Waktu
+376,"Wa Ode Reni, S.Pd., M.H.",Pancasila - Kelas C,6,offline,20/10/2025,10:29:09,Tidak Tepat Waktu
+377,"Dr. Muh. Nur Afiat, SE., M.Si.",Pengantar Ilmu Ekonomi - Kelas B,5,offline,20/10/2025,10:47:07,Tepat Waktu
+378,"Dr. Tajuddin, SE., M.Si.",Pengantar Ilmu Ekonomi - Kelas D,6,offline,20/10/2025,14:05:46,Tidak Tepat Waktu
+379,"Wa Ode Reni, S.Pd., M.H.",Kewarganegaraan - Kelas C,7,offline,20/10/2025,15:53:16,Tidak Tepat Waktu
+380,"Wa Ode Reni, S.Pd., M.H.",Kewarganegaraan - Kelas C,8,offline,20/10/2025,15:56:17,Tidak Tepat Waktu
+381,"Wa Ode Reni, S.Pd., M.H.",Kewarganegaraan - Kelas A,7,offline,20/10/2025,15:57:27,Tidak Tepat Waktu
+382,"MUTMAINNAH, S.Ak., M.Acc",INTERNAL AUDIT - Kelas E,7,offline,21/10/2025,7:42:48,Tepat Waktu
+383,"Dr. Mulyati Akib, SE, M.Si, Ak, CA, CTA, CPA",Auditing I - Kelas C,7,offline,21/10/2025,8:08:55,Tidak Tepat Waktu
+384,"Si Made Ngurah Purnaman, S.Ak, M.Ak",Manajemen Strategi - Kelas A,6,offline,21/10/2025,8:29:59,Tidak Tepat Waktu
+385,"Dr. Tuti Dharmawati, SE, M.Si, Ak, QIA, CA, ACPA, CRMP, CMA",Pengantar Akuntansi I - Kelas E,6,offline,21/10/2025,8:40:02,Tidak Tepat Waktu
+386,"Dr. Intihanah, SE, M.Si, QIA",Pengantar Akuntansi I - Kelas D,7,offline,21/10/2025,10:55:23,Tepat Waktu
+387,"Dr. Intihanah, SE, M.Si, QIA",Pengantar Akuntansi I - Kelas D,8,offline,21/10/2025,10:56:11,Tepat Waktu
+388,"Dr. Intihanah, SE, M.Si, QIA",Pengantar Akuntansi I - Kelas C,8,offline,21/10/2025,10:57:06,Tepat Waktu
+389,"Taufan Sufatriansa Awal, S.Ak., M.Acc.",Sistem Informasi Manajemen - Kelas B,7,offline,21/10/2025,11:32:29,Tidak Tepat Waktu
+390,"Prof. Dr. Wali Aya Rumbia. SE., MSi.",Statistik Ekonomi - Kelas A,7,offline,21/10/2025,13:32:42,Tepat Waktu
+391,"Yuli Lestari Labangu, S.E., M.Sc.",Akuntansi Keuangan Daerah - Kelas E,6,offline,21/10/2025,13:36:15,Tepat Waktu
+392,"Prof. Dr. Rosnawintang, S.E., M.Si.",Statistik Ekonomi - Kelas B,7,offline,21/10/2025,15:59:25,Tidak Tepat Waktu
+393,"Yuli Lestari Labangu, S.E., M.Sc.",Analisa Laporan Keuangan - Kelas B,7,offline,22/10/2025,8:01:52,Tidak Tepat Waktu
+394,"Si Made Ngurah Purnaman, S.Ak, M.Ak",Manajemen Strategi - Kelas E,7,offline,22/10/2025,8:15:40,Tidak Tepat Waktu
+395,"Si Made Ngurah Purnaman, S.Ak, M.Ak",Akuntansi Keuangan Daerah - Kelas C,5,offline,22/10/2025,8:16:55,Tidak Tepat Waktu
+396,"Si Made Ngurah Purnaman, S.Ak, M.Ak",Akuntansi Keuangan Daerah - Kelas C,6,offline,22/10/2025,8:17:36,Tidak Tepat Waktu
+397,"Si Made Ngurah Purnaman, S.Ak, M.Ak",Akuntansi Keuangan Daerah - Kelas C,7,offline,22/10/2025,8:17:57,Tidak Tepat Waktu
+398,"MUTMAINNAH, S.Ak., M.Acc",Analisa Laporan Keuangan - Kelas C,8,offline,22/10/2025,13:35:08,Tepat Waktu
+399,"Dr. Mulyati Akib, S.E (Akt)., M.Si.",Teori Akuntansi - Kelas D,8,offline,22/10/2025,22:37:56,Tidak Tepat Waktu
+400,"Dr. Intihanah, SE, M.Si, QIA",AKUNTANSI KEUANGAN MENENGAH 1 - Kelas E,7,offline,23/10/2025,8:22:36,Tidak Tepat Waktu
+401,"Dr. Tuti Dharmawati, SE, M.Si, Ak, QIA, CA, ACPA, CRMP, CMA",Etika Bisnis dan Profesi Akuntan - Kelas A,6,offline,23/10/2025,9:14:19,Tidak Tepat Waktu
+402,"Dr. Tuti Dharmawati, SE, M.Si, Ak, QIA, CA, ACPA, CRMP, CMA",Etika Bisnis dan Profesi Akuntan - Kelas B,6,offline,23/10/2025,9:14:43,Tidak Tepat Waktu
+403,"MUTMAINNAH, S.Ak., M.Acc",Praktikum Audit - Kelas D,7,offline,23/10/2025,10:44:58,Tepat Waktu
+404,"Prof. Dr. H. Andi Basru Wawo, SE, M.Si, Ak, CA",Praktikum Audit - Kelas D,7,offline,23/10/2025,10:45:35,Tepat Waktu
+405,"Dr. Intihanah, SE, M.Si, QIA",INTERNAL AUDIT - Kelas A,8,offline,23/10/2025,10:50:28,Tepat Waktu
+406,"Prof. Dr. H. Ishak Awaluddin, SE, M.Si, Ak, CA, CPA",Pengantar Bisnis - Kelas A,5,offline,23/10/2025,11:36:24,Tidak Tepat Waktu
+407,"Prof. Dr. H. Ishak Awaluddin, SE, M.Si, Ak, CA, CPA",Pengantar Bisnis - Kelas A,6,offline,23/10/2025,11:37:06,Tidak Tepat Waktu
+408,"Prof. Dr. H. Ishak Awaluddin, SE, M.Si, Ak, CA, CPA",Perpajakan I - Kelas E,7,offline,23/10/2025,12:16:48,Tidak Tepat Waktu
+409,"Prof. Dr. H. Ishak Awaluddin, SE, M.Si, Ak, CA, CPA",Perpajakan I - Kelas E,8,offline,23/10/2025,12:17:22,Tidak Tepat Waktu
+410,"Hasnidar, S.E., M.Si.",Pasar Modal dan Manajemen Portofolio - Kelas D,7,offline,23/10/2025,12:18:20,Tidak Tepat Waktu
+411,"Dr. Nitri Mirosea, S.E., M.Si., MA.",AKUNTANSI KEUANGAN LANJUTAN 1 - Kelas D,5,offline,23/10/2025,15:20:37,Tidak Tepat Waktu
+412,"Dr. Nitri Mirosea, S.E., M.Si., MA.",AKUNTANSI KEUANGAN LANJUTAN 1 - Kelas D,6,offline,23/10/2025,15:21:04,Tidak Tepat Waktu
+413,"Dr. Nitri Mirosea, S.E., M.Si., MA.",AKUNTANSI KEUANGAN LANJUTAN 1 - Kelas D,7,offline,23/10/2025,15:21:25,Tidak Tepat Waktu
+414,"Dr. Nitri Mirosea, S.E., M.Si., MA.",AKUNTANSI KEUANGAN LANJUTAN 1 - Kelas D,8,offline,23/10/2025,15:21:40,Tidak Tepat Waktu
+415,"Yuli Lestari Labangu, S.E., M.Sc.",Akuntansi Keuangan Daerah - Kelas B,7,online,24/10/2025,7:42:06,Tepat Waktu
+416,"Taufan Sufatriansa Awal, S.Ak., M.Acc.",Statistik Ekonomi - Kelas D,6,offline,24/10/2025,8:35:26,Tidak Tepat Waktu
+417,"Taufan Sufatriansa Awal, S.Ak., M.Acc.",Praktikum Audit - Kelas B,5,offline,24/10/2025,8:36:17,Tidak Tepat Waktu
+418,"Taufan Sufatriansa Awal, S.Ak., M.Acc.",Praktikum Audit - Kelas B,6,offline,24/10/2025,8:36:30,Tidak Tepat Waktu
+419,"Prof. Dr. H. Ishak Awaluddin, SE, M.Si, Ak, CA, CPA",Praktikum Audit - Kelas B,5,offline,24/10/2025,8:37:32,Tidak Tepat Waktu
+420,"Prof. Dr. H. Ishak Awaluddin, SE, M.Si, Ak, CA, CPA",Praktikum Audit - Kelas B,6,offline,24/10/2025,8:37:43,Tidak Tepat Waktu
+421,"MUTMAINNAH, S.Ak., M.Acc",Etika Bisnis dan Profesi Akuntan - Kelas E,7,offline,24/10/2025,13:32:21,Tepat Waktu
+422,"Dr. Mulyati Akib, SE, M.Si, Ak, CA, CTA, CPA",Pengantar Akuntansi I - Kelas B,7,offline,27/10/2025,8:29:48,Tidak Tepat Waktu
+423,"Dr. Mulyati Akib, SE, M.Si, Ak, CA, CTA, CPA",Pengantar Akuntansi I - Kelas B,8,offline,27/10/2025,8:30:06,Tidak Tepat Waktu
+424,"MUHAMMAD ZAIKIN, S.Ak., M.Ak.",Praktikum Audit - Kelas C,7,offline,27/10/2025,9:39:25,Tidak Tepat Waktu
+425,"MUHAMMAD ZAIKIN, S.Ak., M.Ak.",Praktikum Audit - Kelas C,8,offline,27/10/2025,9:39:36,Tidak Tepat Waktu
+426,"Dr. Muh. Nur Afiat, SE., M.Si.",Pengantar Ilmu Ekonomi - Kelas B,7,offline,27/10/2025,10:53:53,Tepat Waktu
+427,"Wa Ode Reni, S.Pd., M.H.",Pancasila - Kelas C,7,offline,27/10/2025,13:21:55,Tidak Tepat Waktu
+428,"Wa Ode Reni, S.Pd., M.H.",Pancasila - Kelas C,8,offline,27/10/2025,13:22:51,Tidak Tepat Waktu
+429,"Taufan Sufatriansa Awal, S.Ak., M.Acc.",Sistem Informasi Manajemen - Kelas B,8,offline,27/10/2025,13:51:37,Tepat Waktu
+430,"Dr. Dzulfikri Azis Muthalib, S.E., M.Si.",Manajemen Strategi - Kelas C,1,offline,27/10/2025,16:10:40,Tidak Tepat Waktu
+431,"Dr. Tajuddin, SE., M.Si.",Pengantar Ilmu Ekonomi - Kelas D,7,offline,27/10/2025,16:45:35,Tepat Waktu
+432,"Dr. Drs. Husin, M.Si",Sistem Informasi Manajemen - Kelas C,9,offline,27/10/2025,19:06:18,Tidak Tepat Waktu
+433,"Yuli Lestari Labangu, S.E., M.Sc.",Sistem Informasi Manajemen - Kelas E,9,offline,28/10/2025,10:54:16,Tepat Waktu
+434,"MUTMAINNAH, S.Ak., M.Acc",Statistik Ekonomi - Kelas A,8,offline,28/10/2025,13:39:47,Tepat Waktu
+435,"Yuli Lestari Labangu, S.E., M.Sc.",Akuntansi Keuangan Daerah - Kelas E,7,offline,28/10/2025,13:47:13,Tepat Waktu
+436,"Prof. Dr. Rosnawintang, S.E., M.Si.",Statistik Ekonomi - Kelas B,8,offline,28/10/2025,14:52:05,Tidak Tepat Waktu
+437,"Yuli Lestari Labangu, S.E., M.Sc.",Analisa Laporan Keuangan - Kelas B,8,offline,29/10/2025,7:51:50,Tepat Waktu
+438,"Prof. Dr. H. Ishak Awaluddin, SE, M.Si, Ak, CA, CPA",Pengantar Bisnis - Kelas A,7,offline,29/10/2025,15:18:59,Tidak Tepat Waktu
+439,"MUTMAINNAH, S.Ak., M.Acc",Praktikum Audit - Kelas D,8,offline,30/10/2025,10:40:50,Tepat Waktu
+440,"Prof. Dr. H. Andi Basru Wawo, SE, M.Si, Ak, CA",Praktikum Audit - Kelas D,8,offline,30/10/2025,10:41:24,Tepat Waktu
+441,"Prof. Dr. H. Hasbudin, SE, M.Si, Ak, QIA, CA, ACPA, CTA",Pasar Modal dan Manajemen Portofolio - Kelas D,9,offline,30/10/2025,11:06:04,Tidak Tepat Waktu
+442,"Hasnidar, S.E., M.Si.",Pasar Modal dan Manajemen Portofolio - Kelas D,8,offline,30/10/2025,12:17:38,Tidak Tepat Waktu
+443,"Hasnidar, S.E., M.Si.",Metodologi Penelitian - Kelas LAMA,7,online,30/10/2025,12:17:59,Tidak Tepat Waktu
+444,"Hasnidar, S.E., M.Si.",Metodologi Penelitian - Kelas LAMA,8,offline,30/10/2025,12:18:14,Tidak Tepat Waktu
+445,"Hasnidar, S.E., M.Si.",Metodologi Penelitian - Kelas LAMA,9,online,30/10/2025,12:18:26,Tidak Tepat Waktu
+446,"Wa Ode Aswati, S.E., M.Si., CRP",MANAJEMEN RISIKO - Kelas B,5,offline,01/11/2025,11:12:29,Tidak Tepat Waktu
+447,"Wa Ode Aswati, S.E., M.Si., CRP",MANAJEMEN RISIKO - Kelas B,6,online,01/11/2025,11:12:43,Tidak Tepat Waktu
+448,"Wa Ode Aswati, S.E., M.Si., CRP",MANAJEMEN RISIKO - Kelas B,7,online,01/11/2025,11:13:01,Tidak Tepat Waktu
+449,"Wa Ode Aswati, S.E., M.Si., CRP",MANAJEMEN RISIKO - Kelas B,8,offline,01/11/2025,11:13:23,Tidak Tepat Waktu
+450,"Wa Ode Aswati, S.E., M.Si., CRP",MANAJEMEN RISIKO - Kelas C,5,offline,01/11/2025,11:14:18,Tidak Tepat Waktu
+451,"Wa Ode Aswati, S.E., M.Si., CRP",MANAJEMEN RISIKO - Kelas C,6,offline,01/11/2025,11:14:30,Tidak Tepat Waktu
+452,"Wa Ode Aswati, S.E., M.Si., CRP",MANAJEMEN RISIKO - Kelas C,7,online,01/11/2025,11:14:43,Tidak Tepat Waktu
+453,"Wa Ode Aswati, S.E., M.Si., CRP",MANAJEMEN RISIKO - Kelas C,8,offline,01/11/2025,11:14:56,Tidak Tepat Waktu
+454,"La Ode Muhammad Arfan Samrin, S.E., M.Ak.",MANAJEMEN RISIKO - Kelas E,9,offline,03/11/2025,12:35:05,Tidak Tepat Waktu
+455,"Wa Ode Reni, S.Pd., M.H.",Kewarganegaraan - Kelas E,7,offline,03/11/2025,13:06:56,Tidak Tepat Waktu
+456,"Wa Ode Reni, S.Pd., M.H.",Kewarganegaraan - Kelas A,8,offline,03/11/2025,13:10:43,Tidak Tepat Waktu
+457,"Wa Ode Reni, S.Pd., M.H.",Pancasila - Kelas D,9,online,04/11/2025,8:27:28,Tidak Tepat Waktu
+458,"Ika Maya Sari, SE., M.Si, Ak, CA, CTT, CRA, CRP",Auditing I - Kelas C,1,offline,04/11/2025,9:43:55,Tidak Tepat Waktu
+459,"Ika Maya Sari, SE., M.Si, Ak, CA, CTT, CRA, CRP",Pengantar Akuntansi I - Kelas D,1,offline,04/11/2025,9:46:08,Tidak Tepat Waktu
+460,"Ika Maya Sari, SE., M.Si, Ak, CA, CTT, CRA, CRP",Pengantar Akuntansi I - Kelas D,2,offline,04/11/2025,9:46:23,Tidak Tepat Waktu
+461,"Yuli Lestari Labangu, S.E., M.Sc.",Sistem Informasi Manajemen - Kelas E,10,offline,04/11/2025,11:51:30,Tidak Tepat Waktu
+462,"MUTMAINNAH, S.Ak., M.Acc",Statistik Ekonomi - Kelas A,9,offline,04/11/2025,13:33:02,Tepat Waktu
+463,"MUTMAINNAH, S.Ak., M.Acc",Statistik Ekonomi - Kelas A,10,offline,04/11/2025,13:33:58,Tepat Waktu
+464,"Yuli Lestari Labangu, S.E., M.Sc.",Akuntansi Keuangan Daerah - Kelas E,8,offline,04/11/2025,14:15:20,Tidak Tepat Waktu
+465,"Hasnidar, S.E., M.Si.",Statistik Ekonomi - Kelas B,9,offline,04/11/2025,14:49:26,Tidak Tepat Waktu
+466,"Wa Ode Reni, S.Pd., M.H.",Kewarganegaraan - Kelas E,8,online,04/11/2025,15:53:20,Tidak Tepat Waktu
+467,"Dr. Intihanah, SE, M.Si, QIA",AKUNTANSI KEUANGAN MENENGAH 1 - Kelas D,9,offline,05/11/2025,8:05:01,Tidak Tepat Waktu
+468,"Ika Maya Sari, SE., M.Si, Ak, CA, CTT, CRA, CRP",Analisa Laporan Keuangan - Kelas A,9,offline,05/11/2025,14:39:01,Tidak Tepat Waktu
+469,"Prof. Dr. H. Andi Basru Wawo, SE, M.Si, Ak, CA",Praktikum Audit - Kelas D,9,offline,06/11/2025,10:39:44,Tepat Waktu
+470,"MUTMAINNAH, S.Ak., M.Acc",Praktikum Audit - Kelas D,9,offline,06/11/2025,10:40:09,Tepat Waktu
+471,"Dr. Intihanah, SE, M.Si, QIA",INTERNAL AUDIT - Kelas C,9,offline,06/11/2025,10:54:08,Tepat Waktu
+472,"Prof. Dr. H. Hasbudin, SE, M.Si, Ak, QIA, CA, ACPA, CTA",Pasar Modal dan Manajemen Portofolio - Kelas D,10,offline,06/11/2025,10:57:54,Tepat Waktu
+473,"La Ode Muhammad Arfan Samrin, S.E., M.Ak.",INTERNAL AUDIT - Kelas B,9,offline,06/11/2025,11:08:10,Tidak Tepat Waktu
+474,"Yuli Lestari Labangu, S.E., M.Sc.",MANAJEMEN RISIKO - Kelas D,10,offline,06/11/2025,15:17:05,Tidak Tepat Waktu
+475,"Yuli Lestari Labangu, S.E., M.Sc.",MANAJEMEN RISIKO - Kelas C,9,offline,06/11/2025,15:17:25,Tidak Tepat Waktu
+476,"Wa Ode Aswati, S.E., M.Si., CRP",INTERNAL AUDIT - Kelas D,1,offline,07/11/2025,9:55:56,Tidak Tepat Waktu
+477,"Wa Ode Aswati, S.E., M.Si., CRP",INTERNAL AUDIT - Kelas D,2,offline,07/11/2025,9:56:44,Tidak Tepat Waktu
+478,"Wa Ode Aswati, S.E., M.Si., CRP",INTERNAL AUDIT - Kelas E,1,offline,07/11/2025,9:57:55,Tidak Tepat Waktu
+479,"Wa Ode Aswati, S.E., M.Si., CRP",INTERNAL AUDIT - Kelas E,2,offline,07/11/2025,9:58:13,Tidak Tepat Waktu
+480,"MUHAMMAD ZAIKIN, S.Ak., M.Ak.",Analisa Laporan Keuangan - Kelas E,9,offline,07/11/2025,14:07:20,Tidak Tepat Waktu
+481,"MUHAMMAD ZAIKIN, S.Ak., M.Ak.",Akuntansi Keuangan Daerah - Kelas A,9,offline,07/11/2025,14:07:55,Tidak Tepat Waktu
+482,"MUHAMMAD ZAIKIN, S.Ak., M.Ak.",Praktikum Audit - Kelas C,9,offline,07/11/2025,14:08:24,Tidak Tepat Waktu

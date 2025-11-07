@@ -298,6 +298,39 @@ function filterMatkulData(searchTerm) {
     renderMatkulCards();
 }
 
+// Helper function to extract angkatan from NIM
+// Format: B1C125065 -> setelah C1 ada 25 berarti angkatan 2025
+function extractAngkatan(nim) {
+    if (!nim || typeof nim !== 'string') return null;
+    
+    // Cari pattern C1 diikuti 2 digit angka
+    const match = nim.match(/C1(\d{2})/);
+    if (match && match[1]) {
+        return parseInt(match[1], 10);
+    }
+    return null;
+}
+
+// Helper function to extract tingkatan from data
+function extractTingkatan(ketua) {
+    // Coba ambil dari kolom Tingkatan
+    let tingkatan = ketua.Tingkatan || ketua['Tingkatan'] || ketua['Tingkat'] || '';
+    
+    if (!tingkatan) {
+        // Coba cari secara dinamis
+        const tingkatanKey = Object.keys(ketua).find(k => 
+            k.toLowerCase().includes('tingkat') || 
+            k.toLowerCase().includes('level') ||
+            k.toLowerCase().includes('semester')
+        );
+        if (tingkatanKey) {
+            tingkatan = ketua[tingkatanKey] || '';
+        }
+    }
+    
+    return tingkatan || 'Tidak Diketahui';
+}
+
 function filterKetuaData(searchTerm) {
     filteredKetuaData = [];
     const ketuaMap = window.processedKetuaMap || {};
@@ -336,13 +369,17 @@ function filterKetuaData(searchTerm) {
                     nama: nama,
                     nim: nim,
                     noWhatsApp: noWhatsApp,
-                    matkulList: []
+                    matkulList: [],
+                    angkatan: extractAngkatan(nim),
+                    tingkatan: extractTingkatan(ketua)
                 };
             }
             ketuaGroup[key].matkulList.push(matkulKelas);
         });
     });
 
+    // Filter berdasarkan search term
+    const filteredKetuaList = [];
     Object.keys(ketuaGroup).forEach(key => {
         const ketua = ketuaGroup[key];
         
@@ -354,7 +391,43 @@ function filterKetuaData(searchTerm) {
             if (!matches) return;
         }
 
-        filteredKetuaData.push(ketua);
+        filteredKetuaList.push(ketua);
+    });
+
+    // Group by tingkatan and angkatan
+    const groupedData = {};
+    filteredKetuaList.forEach(ketua => {
+        const tingkatan = ketua.tingkatan;
+        const angkatan = ketua.angkatan !== null ? ketua.angkatan : 0; // Default untuk yang tidak ada angkatan
+        
+        if (!groupedData[tingkatan]) {
+            groupedData[tingkatan] = {};
+        }
+        
+        if (!groupedData[tingkatan][angkatan]) {
+            groupedData[tingkatan][angkatan] = [];
+        }
+        
+        groupedData[tingkatan][angkatan].push(ketua);
+    });
+
+    // Sort angkatan descending (25, 24, 23, dst) dan convert ke array
+    filteredKetuaData = [];
+    Object.keys(groupedData).sort().forEach(tingkatan => {
+        const angkatanGroups = groupedData[tingkatan];
+        const angkatanKeys = Object.keys(angkatanGroups).map(Number).sort((a, b) => b - a); // Sort descending
+        
+        angkatanKeys.forEach(angkatan => {
+            filteredKetuaData.push({
+                groupHeader: true,
+                tingkatan: tingkatan,
+                angkatan: angkatan
+            });
+            
+            // Sort ketua dalam angkatan (opsional: bisa ditambahkan sorting berdasarkan nama)
+            angkatanGroups[angkatan].sort((a, b) => a.nama.localeCompare(b.nama));
+            filteredKetuaData.push(...angkatanGroups[angkatan]);
+        });
     });
 
     renderKetuaCards();
@@ -486,31 +559,59 @@ function renderKetuaCards() {
 
     if (noDataEl) noDataEl.style.display = 'none';
 
-    filteredKetuaData.forEach(ketua => {
+    let isFirstGroup = true;
+    filteredKetuaData.forEach(item => {
+        // Jika item adalah group header
+        if (item.groupHeader) {
+            const groupHeader = document.createElement('div');
+            groupHeader.className = 'group-header';
+            const marginTop = isFirstGroup ? '0' : '20px';
+            groupHeader.style.cssText = `
+                grid-column: 1 / -1;
+                margin-top: ${marginTop};
+                margin-bottom: 10px;
+                padding: 12px 16px;
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                color: white;
+                border-radius: 8px;
+                font-weight: 600;
+                font-size: 1.1em;
+                box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            `;
+            
+            const angkatanText = item.angkatan !== 0 ? `Angkatan ${item.angkatan}` : 'Angkatan Tidak Diketahui';
+            groupHeader.textContent = `${item.tingkatan} - ${angkatanText}`;
+            
+            cardsContainer.appendChild(groupHeader);
+            isFirstGroup = false;
+            return;
+        }
+
+        // Jika item adalah ketua data
         const card = document.createElement('div');
         card.className = 'dosen-card';
         card.style.cursor = 'pointer';
 
         card.addEventListener('click', () => {
-            showKetuaDetail(ketua);
+            showKetuaDetail(item);
         });
 
         card.innerHTML = `
             <div class="card-icon">👥</div>
             <div class="card-content">
-                <div class="card-title">${escapeHtml(ketua.nama)}</div>
+                <div class="card-title">${escapeHtml(item.nama)}</div>
                 <div class="card-stats">
                     <div class="stat-item">
                         <span class="stat-label">NIM</span>
-                        <span class="stat-value">${escapeHtml(ketua.nim)}</span>
+                        <span class="stat-value">${escapeHtml(item.nim)}</span>
                     </div>
                     <div class="stat-item">
                         <span class="stat-label">No WhatsApp</span>
-                        <span class="stat-value">${escapeHtml(ketua.noWhatsApp || '-')}</span>
+                        <span class="stat-value">${escapeHtml(item.noWhatsApp || '-')}</span>
                     </div>
                     <div class="stat-item">
                         <span class="stat-label">Jumlah Mata Kuliah</span>
-                        <span class="stat-value">${ketua.matkulList.length}</span>
+                        <span class="stat-value">${item.matkulList.length}</span>
                     </div>
                 </div>
             </div>
