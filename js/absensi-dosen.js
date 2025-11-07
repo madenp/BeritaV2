@@ -64,6 +64,9 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         // Render cards
         renderAbsensiCards();
+        
+        // Render average indicator
+        renderAverageIndicator();
 
         // Hide loading, show container
         loadingEl.style.display = 'none';
@@ -204,6 +207,52 @@ function renderAbsensiCards() {
         const card = createAbsensiCard(item);
         absensiCards.appendChild(card);
     });
+}
+
+// Calculate and render average indicator
+function renderAverageIndicator() {
+    const averageIndicator = document.getElementById('average-indicator');
+    const avgTepatWaktuBar = document.getElementById('avg-tepat-waktu-bar');
+    const avgTepatWaktuValue = document.getElementById('avg-tepat-waktu-value');
+    const avgTidakTepatWaktuBar = document.getElementById('avg-tidak-tepat-waktu-bar');
+    const avgTidakTepatWaktuValue = document.getElementById('avg-tidak-tepat-waktu-value');
+    
+    if (!averageIndicator || filteredAbsensiData.length === 0) {
+        if (averageIndicator) averageIndicator.style.display = 'none';
+        return;
+    }
+    
+    // Calculate average percentages
+    let totalTepatWaktuPercent = 0;
+    let totalTidakTepatWaktuPercent = 0;
+    let count = 0;
+    
+    filteredAbsensiData.forEach(item => {
+        totalTepatWaktuPercent += item.tepatWaktuPercent;
+        totalTidakTepatWaktuPercent += item.tidakTepatWaktuPercent;
+        count++;
+    });
+    
+    const avgTepatWaktu = count > 0 ? Math.round(totalTepatWaktuPercent / count) : 0;
+    const avgTidakTepatWaktu = count > 0 ? Math.round(totalTidakTepatWaktuPercent / count) : 0;
+    
+    // Update UI with animation
+    if (avgTepatWaktuBar && avgTepatWaktuValue) {
+        setTimeout(() => {
+            avgTepatWaktuBar.style.width = `${avgTepatWaktu}%`;
+            avgTepatWaktuValue.textContent = `${avgTepatWaktu}%`;
+        }, 100);
+    }
+    
+    if (avgTidakTepatWaktuBar && avgTidakTepatWaktuValue) {
+        setTimeout(() => {
+            avgTidakTepatWaktuBar.style.width = `${avgTidakTepatWaktu}%`;
+            avgTidakTepatWaktuValue.textContent = `${avgTidakTepatWaktu}%`;
+        }, 150);
+    }
+    
+    // Show indicator
+    averageIndicator.style.display = 'block';
 }
 
 // Create card element
@@ -366,6 +415,7 @@ function filterAbsensiData(searchTerm) {
     }
     
     renderAbsensiCards();
+    renderAverageIndicator();
 }
 
 // Show detail absensi for selected mata kuliah
@@ -463,6 +513,10 @@ function showDetailAbsensi(matkulKelas) {
     if (absensiContainer) absensiContainer.style.display = 'none';
     detailSection.style.display = 'block';
     if (breadcrumb) breadcrumb.style.display = 'block';
+    
+    // Hide average indicator when viewing details
+    const averageIndicator = document.getElementById('average-indicator');
+    if (averageIndicator) averageIndicator.style.display = 'none';
 }
 
 // Show cards view (back to list)
@@ -470,10 +524,12 @@ function showCardsView() {
     const absensiContainer = document.getElementById('absensi-container');
     const detailSection = document.getElementById('detail-absensi-section');
     const breadcrumb = document.getElementById('breadcrumb-absensi');
+    const averageIndicator = document.getElementById('average-indicator');
     
     if (detailSection) detailSection.style.display = 'none';
     if (breadcrumb) breadcrumb.style.display = 'none';
     if (absensiContainer) absensiContainer.style.display = 'block';
+    if (averageIndicator) averageIndicator.style.display = 'block';
 }
 
 // Escape HTML to prevent XSS

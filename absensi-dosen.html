@@ -34,6 +34,10 @@
                     <span class="nav-icon">📊</span>
                     <span class="nav-text">Absensi Dosen</span>
                 </a>
+                <a href="pembelajaran.html" class="nav-item">
+                    <span class="nav-icon">📖</span>
+                    <span class="nav-text">Pembelajaran</span>
+                </a>
             </nav>
         </aside>
 
@@ -47,6 +51,35 @@
             </div>
             <div class="content-body">
                 <div class="loading" id="loading-absensi">Memuat data...</div>
+                
+                <!-- Average Statistics Indicator -->
+                <div id="average-indicator" class="average-indicator-container" style="display: none;">
+                    <div class="average-indicator-header">
+                        <h3>📊 Statistik Rata-Rata Keseluruhan</h3>
+                    </div>
+                    <div class="average-indicator-content">
+                        <div class="average-item">
+                            <div class="average-label">
+                                <span class="average-dot" style="background-color: #28a745"></span>
+                                Rata-Rata Tepat Waktu
+                            </div>
+                            <div class="average-bar-container">
+                                <div class="average-bar" id="avg-tepat-waktu-bar" style="width: 0%; background-color: #28a745"></div>
+                                <span class="average-value" id="avg-tepat-waktu-value">0%</span>
+                            </div>
+                        </div>
+                        <div class="average-item">
+                            <div class="average-label">
+                                <span class="average-dot" style="background-color: #dc3545"></span>
+                                Rata-Rata Tidak Tepat Waktu
+                            </div>
+                            <div class="average-bar-container">
+                                <div class="average-bar" id="avg-tidak-tepat-waktu-bar" style="width: 0%; background-color: #dc3545"></div>
+                                <span class="average-value" id="avg-tidak-tepat-waktu-value">0%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 
                 <!-- Breadcrumb Navigation -->
                 <div id="breadcrumb-absensi" class="breadcrumb" style="display: none;">

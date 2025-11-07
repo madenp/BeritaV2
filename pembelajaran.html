@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pembelajaran - Dashboard</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h2>Dashboard</h2>
+            </div>
+            <nav class="sidebar-nav">
+                <a href="index.html" class="nav-item">
+                    <span class="nav-icon">🏠</span>
+                    <span class="nav-text">Halaman Utama</span>
+                </a>
+                <a href="berita-acara.html" class="nav-item">
+                    <span class="nav-icon">📝</span>
+                    <span class="nav-text">Berita Acara</span>
+                </a>
+                <a href="jadwal.html" class="nav-item">
+                    <span class="nav-icon">📅</span>
+                    <span class="nav-text">Jadwal</span>
+                </a>
+                <a href="ketua-tingkat.html" class="nav-item">
+                    <span class="nav-icon">👥</span>
+                    <span class="nav-text">Ketua Tingkat</span>
+                </a>
+                <a href="absensi-dosen.html" class="nav-item">
+                    <span class="nav-icon">📊</span>
+                    <span class="nav-text">Absensi Dosen</span>
+                </a>
+                <a href="pembelajaran.html" class="nav-item active">
+                    <span class="nav-icon">📖</span>
+                    <span class="nav-text">Pembelajaran</span>
+                </a>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <div class="content-header">
+                <h1>Proses Pembelajaran</h1>
+                <div class="header-actions">
+                    <input type="text" id="search-pembelajaran" placeholder="Cari mata kuliah..." class="search-input">
+                </div>
+            </div>
+            <div class="content-body">
+                <div class="semester-info">
+                    <p><strong>Semester Genap 2024/2025</strong></p>
+                </div>
+                
+                <div class="loading" id="loading-pembelajaran">Memuat data...</div>
+                
+                <!-- Breadcrumb Navigation -->
+                <div id="breadcrumb-pembelajaran" class="breadcrumb" style="display: none;">
+                    <button id="btn-back-to-cards" class="btn-back">← Kembali ke Daftar Mata Kuliah</button>
+                </div>
+                
+                <!-- Cards Container -->
+                <div id="pembelajaran-container" class="cards-container" style="display: none;">
+                    <div id="pembelajaran-cards" class="cards-grid">
+                        <!-- Cards will be inserted here -->
+                    </div>
+                </div>
+                
+                <!-- Detail Section -->
+                <div id="detail-pembelajaran-section" class="detail-container" style="display: none;">
+                    <div class="section-header">
+                        <h2 id="detail-matkul-name"></h2>
+                        <p id="detail-matkul-info"></p>
+                    </div>
+                    <div id="detail-pembelajaran-table-wrapper">
+                        <table class="data-table">
+                            <thead>
+                                <tr>
+                                    <th>No</th>
+                                    <th>Nama Dosen</th>
+                                    <th>Pertemuan</th>
+                                    <th>Materi yang Diberikan</th>
+                                    <th>Kesesuaian dengan RPS</th>
+                                    <th>Mahasiswa Hadir</th>
+                                </tr>
+                            </thead>
+                            <tbody id="detail-pembelajaran-table-body">
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                
+                <div id="no-data-pembelajaran" class="no-data" style="display: none;">
+                    Tidak ada data pembelajaran ditemukan
+                </div>
+                
+                <div id="error-pembelajaran" class="error-message" style="display: none;"></div>
+            </div>
+        </main>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/pembelajaran.js"></script>
+</body>
+</html>
+

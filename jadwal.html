@@ -34,6 +34,10 @@
                     <span class="nav-icon">📊</span>
                     <span class="nav-text">Absensi Dosen</span>
                 </a>
+                <a href="pembelajaran.html" class="nav-item">
+                    <span class="nav-icon">📖</span>
+                    <span class="nav-text">Pembelajaran</span>
+                </a>
             </nav>
         </aside>
 
@@ -47,18 +51,9 @@
             </div>
             <div class="content-body">
                 <div class="loading" id="loading-jadwal">Memuat data...</div>
-                <div id="jadwal-container" class="table-container" style="display: none;">
-                    <table class="data-table">
-                        <thead>
-                            <tr>
-                                <th>ID</th>
-                                <th>Nama Dosen</th>
-                                <th>Mata Kuliah - Kelas</th>
-                            </tr>
-                        </thead>
-                        <tbody id="jadwal-table-body">
-                        </tbody>
-                    </table>
+                <div id="jadwal-container" class="cards-container" style="display: none;">
+                    <div id="jadwal-cards-grid" class="cards-grid">
+                    </div>
                 </div>
                 <div id="error-jadwal" class="error-message" style="display: none;"></div>
             </div>

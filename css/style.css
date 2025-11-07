@@ -577,7 +577,8 @@ body {
     margin-top: 20px;
 }
 
-#detail-absensi-table-wrapper {
+#detail-absensi-table-wrapper,
+#detail-pembelajaran-table-wrapper {
     overflow-x: auto;
     margin-top: 20px;
     background: white;
@@ -824,6 +825,195 @@ body {
     padding-left: 2px;
 }
 
+/* Average Indicator Container */
+.average-indicator-container {
+    background: white;
+    border-radius: 12px;
+    padding: 25px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    border: 2px solid #e0e0e0;
+}
+
+.average-indicator-header {
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #f0f0f0;
+}
+
+.average-indicator-header h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.average-indicator-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.average-item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.average-label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+}
+
+.average-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: inline-block;
+    flex-shrink: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+.average-bar-container {
+    position: relative;
+    width: 100%;
+    height: 35px;
+    background-color: #e8e8e8;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.average-bar {
+    height: 100%;
+    border-radius: 18px;
+    transition: width 1s cubic-bezier(0.4, 0, 0.2, 1);
+    position: absolute;
+    left: 0;
+    top: 0;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.average-value {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 14px;
+    font-weight: 700;
+    color: #333;
+    z-index: 2;
+    text-shadow: 0 1px 3px rgba(255, 255, 255, 0.95);
+    pointer-events: none;
+    min-width: 45px;
+    text-align: right;
+}
+
+/* Jadwal Card Styles */
+.jadwal-card {
+    background: white;
+    border: 2px solid #e0e0e0;
+    border-radius: 12px;
+    padding: 25px;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    position: relative;
+    overflow: hidden;
+    min-height: 150px;
+}
+
+.jadwal-card::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 4px;
+    height: 100%;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    transform: scaleY(0);
+    transition: transform 0.3s ease;
+}
+
+.jadwal-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+    border-color: #667eea;
+}
+
+.jadwal-card:hover::before {
+    transform: scaleY(1);
+}
+
+.jadwal-card-icon {
+    font-size: 48px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 12px;
+    flex-shrink: 0;
+    box-shadow: 0 4px 10px rgba(102, 126, 234, 0.3);
+}
+
+.jadwal-card-content {
+    flex: 1;
+    width: 100%;
+    min-width: 0;
+}
+
+.jadwal-card-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    margin: 0 0 20px 0;
+    line-height: 1.5;
+    word-break: break-word;
+}
+
+.jadwal-card-details {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.jadwal-dosen-item {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 12px;
+    background: linear-gradient(135deg, #f8f9ff 0%, #f0f2ff 100%);
+    border-radius: 8px;
+    border-left: 3px solid #667eea;
+}
+
+.jadwal-dosen-label {
+    font-size: 12px;
+    color: #666;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    font-weight: 600;
+}
+
+.jadwal-dosen-value {
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+    line-height: 1.5;
+    word-break: break-word;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .sidebar {
@@ -859,13 +1049,15 @@ body {
 
     .dosen-card,
     .matkul-card,
-    .absensi-card {
+    .absensi-card,
+    .jadwal-card {
         padding: 15px;
     }
 
     .dosen-card .card-icon,
     .matkul-card .card-icon,
-    .absensi-card .card-icon {
+    .absensi-card .card-icon,
+    .jadwal-card-icon {
         width: 50px;
         height: 50px;
         font-size: 36px;
@@ -877,6 +1069,23 @@ body {
 
     .matkul-card .card-title {
         font-size: 14px;
+    }
+
+    .jadwal-card-title {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+
+    .jadwal-card-details {
+        gap: 12px;
+    }
+
+    .jadwal-dosen-item {
+        padding: 10px;
+    }
+
+    .jadwal-dosen-value {
+        font-size: 13px;
     }
 
     .absensi-card {
@@ -925,6 +1134,24 @@ body {
         height: 26px;
     }
 
+    .average-indicator-container {
+        padding: 18px;
+        margin-bottom: 20px;
+    }
+
+    .average-indicator-header h3 {
+        font-size: 18px;
+    }
+
+    .average-bar-container {
+        height: 30px;
+    }
+
+    .average-value {
+        font-size: 13px;
+        right: 12px;
+    }
+
     .percentage-value {
         font-size: 12px;
         right: 10px;
@@ -933,5 +1160,47 @@ body {
     .percentage-count {
         font-size: 10px;
     }
+}
+
+/* Attendance Info Styles */
+.attendance-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.attendance-percentage {
+    font-weight: 600;
+    font-size: 14px;
+    color: #28a745;
+    background: #e8f5e9;
+    padding: 4px 10px;
+    border-radius: 4px;
+}
+
+.attendance-detail {
+    font-size: 12px;
+    color: #666;
+}
+
+/* Semester Info Styles */
+.semester-info {
+    background: white;
+    padding: 15px 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    border-left: 4px solid #667eea;
+}
+
+.semester-info p {
+    margin: 0;
+    color: #333;
+    font-size: 14px;
+}
+
+.semester-info strong {
+    color: #667eea;
 }
 
