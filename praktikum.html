@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Absensi Dosen - Dashboard</title>
+    <title>Proses Praktikum - Dashboard</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -30,7 +30,7 @@
                     <span class="nav-icon">👥</span>
                     <span class="nav-text">Ketua Tingkat</span>
                 </a>
-                <a href="absensi-dosen.html" class="nav-item active">
+                <a href="absensi-dosen.html" class="nav-item">
                     <span class="nav-icon">📊</span>
                     <span class="nav-text">Absensi Dosen</span>
                 </a>
@@ -38,7 +38,7 @@
                     <span class="nav-icon">📖</span>
                     <span class="nav-text">Pembelajaran</span>
                 </a>
-                <a href="praktikum.html" class="nav-item">
+                <a href="praktikum.html" class="nav-item active">
                     <span class="nav-icon">🔬</span>
                     <span class="nav-text">Proses Praktikum</span>
                 </a>
@@ -48,90 +48,93 @@
         <!-- Main Content -->
         <main class="main-content">
             <div class="content-header">
-                <h1>Absensi Dosen</h1>
+                <h1>Proses Praktikum</h1>
                 <div class="header-actions">
-                    <input type="text" id="search-absensi" placeholder="Cari mata kuliah..." class="search-input">
+                    <input type="text" id="search-praktikum" placeholder="Cari mata kuliah..." class="search-input">
                 </div>
             </div>
             <div class="content-body">
-                <div class="loading" id="loading-absensi">Memuat data...</div>
+                <div class="semester-info">
+                    <p><strong>Semester Genap 2024/2025</strong></p>
+                </div>
+                
+                <div class="loading" id="loading-praktikum">Memuat data...</div>
                 
                 <!-- Average Statistics Indicator -->
-                <div id="average-indicator" class="average-indicator-container" style="display: none;">
+                <div id="average-indicator-praktikum" class="average-indicator-container" style="display: none;">
                     <div class="average-indicator-header">
-                        <h3>📊 Statistik Rata-Rata Keseluruhan</h3>
+                        <h3>📊 Statistik Rata-Rata Praktikum - Semester Genap 2024/2025</h3>
                     </div>
                     <div class="average-indicator-content">
                         <div class="average-item">
                             <div class="average-label">
-                                <span class="average-dot" style="background-color: #28a745"></span>
-                                Rata-Rata Tepat Waktu
+                                <span class="average-dot" style="background-color: #667eea"></span>
+                                Rata-Rata Persentase Kehadiran Dosen
                             </div>
                             <div class="average-bar-container">
-                                <div class="average-bar" id="avg-tepat-waktu-bar" style="width: 0%; background-color: #28a745"></div>
-                                <span class="average-value" id="avg-tepat-waktu-value">0%</span>
+                                <div class="average-bar" id="avg-kehadiran-dosen-bar" style="width: 0%; background-color: #667eea"></div>
+                                <span class="average-value" id="avg-kehadiran-dosen-value">0%</span>
                             </div>
                         </div>
                         <div class="average-item">
                             <div class="average-label">
-                                <span class="average-dot" style="background-color: #dc3545"></span>
-                                Rata-Rata Tidak Tepat Waktu
+                                <span class="average-dot" style="background-color: #10b981"></span>
+                                Rata-Rata Persentase Kehadiran Mahasiswa
                             </div>
                             <div class="average-bar-container">
-                                <div class="average-bar" id="avg-tidak-tepat-waktu-bar" style="width: 0%; background-color: #dc3545"></div>
-                                <span class="average-value" id="avg-tidak-tepat-waktu-value">0%</span>
+                                <div class="average-bar" id="avg-kehadiran-mahasiswa-bar" style="width: 0%; background-color: #10b981"></div>
+                                <span class="average-value" id="avg-kehadiran-mahasiswa-value">0%</span>
                             </div>
                         </div>
                     </div>
                 </div>
                 
                 <!-- Breadcrumb Navigation -->
-                <div id="breadcrumb-absensi" class="breadcrumb" style="display: none;">
+                <div id="breadcrumb-praktikum" class="breadcrumb" style="display: none;">
                     <button id="btn-back-to-cards" class="btn-back">← Kembali ke Daftar Mata Kuliah</button>
                 </div>
                 
-                <div id="absensi-container" class="cards-container" style="display: none;">
-                    <div id="absensi-cards" class="cards-grid">
+                <!-- Cards Container -->
+                <div id="praktikum-container" class="cards-container" style="display: none;">
+                    <div id="praktikum-cards" class="cards-grid">
                         <!-- Cards will be inserted here -->
                     </div>
                 </div>
                 
-                <!-- Detail Absensi Section -->
-                <div id="detail-absensi-section" class="detail-container" style="display: none;">
+                <!-- Detail Section -->
+                <div id="detail-praktikum-section" class="detail-container" style="display: none;">
                     <div class="section-header">
                         <h2 id="detail-matkul-name"></h2>
                         <p id="detail-matkul-info"></p>
                     </div>
-                    <div id="detail-absensi-table-wrapper">
+                    <div id="detail-praktikum-table-wrapper">
                         <table class="data-table">
                             <thead>
                                 <tr>
                                     <th>No</th>
                                     <th>Nama Dosen</th>
                                     <th>Pertemuan</th>
-                                    <th>Status</th>
-                                    <th>Tanggal</th>
-                                    <th>Jam</th>
-                                    <th>Kesesuaian</th>
+                                    <th>Materi yang Diberikan</th>
+                                    <th>Mahasiswa Hadir</th>
                                 </tr>
                             </thead>
-                            <tbody id="detail-absensi-table-body">
+                            <tbody id="detail-praktikum-table-body">
                             </tbody>
                         </table>
                     </div>
                 </div>
                 
-                <div id="no-data-absensi" class="no-data" style="display: none;">
-                    Tidak ada data absensi ditemukan
+                <div id="no-data-praktikum" class="no-data" style="display: none;">
+                    Tidak ada data praktikum ditemukan
                 </div>
                 
-                <div id="error-absensi" class="error-message" style="display: none;"></div>
+                <div id="error-praktikum" class="error-message" style="display: none;"></div>
             </div>
         </main>
     </div>
 
     <script src="js/main.js"></script>
-    <script src="js/absensi-dosen.js"></script>
+    <script src="js/praktikum.js"></script>
 </body>
 </html>
 
