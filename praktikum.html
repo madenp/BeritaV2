@@ -55,7 +55,11 @@
             </div>
             <div class="content-body">
                 <div class="semester-info">
-                    <p><strong>Semester Genap 2024/2025</strong></p>
+                    <label for="semester-select" style="margin-right: 10px;"><strong>Pilih Semester:</strong></label>
+                    <select id="semester-select" class="semester-select" style="padding: 8px 12px; font-size: 14px; border: 1px solid #ddd; border-radius: 4px; background: white; cursor: pointer;">
+                        <option value="genap">Semester Genap 2024/2025</option>
+                        <option value="ganjil" selected>Semester Ganjil 2025/2026</option>
+                    </select>
                 </div>
                 
                 <div class="loading" id="loading-praktikum">Memuat data...</div>
@@ -63,7 +67,7 @@
                 <!-- Average Statistics Indicator -->
                 <div id="average-indicator-praktikum" class="average-indicator-container" style="display: none;">
                     <div class="average-indicator-header">
-                        <h3>📊 Statistik Rata-Rata Praktikum - Semester Genap 2024/2025</h3>
+                        <h3 id="average-indicator-title">📊 Statistik Rata-Rata Praktikum</h3>
                     </div>
                     <div class="average-indicator-content">
                         <div class="average-item">

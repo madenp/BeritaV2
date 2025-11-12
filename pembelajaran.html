@@ -55,10 +55,43 @@
             </div>
             <div class="content-body">
                 <div class="semester-info">
-                    <p><strong>Semester Genap 2024/2025</strong></p>
+                    <label for="semester-select" style="margin-right: 10px;"><strong>Pilih Semester:</strong></label>
+                    <select id="semester-select" class="semester-select" style="padding: 8px 12px; font-size: 14px; border: 1px solid #ddd; border-radius: 4px; background: white; cursor: pointer;">
+                        <option value="genap">Semester Genap 2024/2025</option>
+                        <option value="ganjil" selected>Semester Ganjil 2025/2026</option>
+                    </select>
                 </div>
                 
                 <div class="loading" id="loading-pembelajaran">Memuat data...</div>
+                
+                <!-- Average Statistics Indicator -->
+                <div id="average-indicator-pembelajaran" class="average-indicator-container" style="display: none;">
+                    <div class="average-indicator-header">
+                        <h3 id="average-indicator-title">📊 Statistik Rata-Rata Pembelajaran</h3>
+                    </div>
+                    <div class="average-indicator-content">
+                        <div class="average-item">
+                            <div class="average-label">
+                                <span class="average-dot" style="background-color: #667eea"></span>
+                                Rata-Rata Kesesuaian dengan RPS
+                            </div>
+                            <div class="average-bar-container">
+                                <div class="average-bar" id="avg-rps-compliance-bar" style="width: 0%; background-color: #667eea"></div>
+                                <span class="average-value" id="avg-rps-compliance-value">0%</span>
+                            </div>
+                        </div>
+                        <div class="average-item">
+                            <div class="average-label">
+                                <span class="average-dot" style="background-color: #10b981"></span>
+                                Rata-Rata Persentase Kehadiran Mahasiswa
+                            </div>
+                            <div class="average-bar-container">
+                                <div class="average-bar" id="avg-kehadiran-mahasiswa-bar" style="width: 0%; background-color: #10b981"></div>
+                                <span class="average-value" id="avg-kehadiran-mahasiswa-value">0%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 
                 <!-- Breadcrumb Navigation -->
                 <div id="breadcrumb-pembelajaran" class="breadcrumb" style="display: none;">

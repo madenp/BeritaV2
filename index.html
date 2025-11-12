@@ -51,35 +51,175 @@
                 <h1>Halaman Utama</h1>
             </div>
             <div class="content-body">
+                <!-- Welcome Card -->
                 <div class="welcome-card">
                     <h2>Selamat Datang di Dashboard</h2>
                     <p>Sistem Manajemen Berita Acara dan Jadwal Perkuliahan</p>
+                    <div class="welcome-stats">
+                        <span>📊 Total Modul: 6</span>
+                        <span>📅 Semester Aktif: Ganjil 2025/2026</span>
+                    </div>
                 </div>
                 
+                <!-- Quick Stats Grid -->
                 <div class="stats-grid">
                     <div class="stat-card">
                         <div class="stat-icon">📝</div>
                         <div class="stat-info">
                             <h3>Berita Acara</h3>
-                            <p id="total-berita">Memuat...</p>
+                            <p class="stat-value" id="total-berita">0</p>
+                            <p class="stat-label">Total Data</p>
                         </div>
                     </div>
                     <div class="stat-card">
                         <div class="stat-icon">📅</div>
                         <div class="stat-info">
                             <h3>Jadwal</h3>
-                            <p id="total-jadwal">Memuat...</p>
+                            <p class="stat-value" id="total-jadwal">0</p>
+                            <p class="stat-label">Mata Kuliah</p>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">👨‍🏫</div>
+                        <div class="stat-info">
+                            <h3>Dosen</h3>
+                            <p class="stat-value" id="total-dosen">0</p>
+                            <p class="stat-label">Total Dosen</p>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">📚</div>
+                        <div class="stat-info">
+                            <h3>Mata Kuliah</h3>
+                            <p class="stat-value" id="total-matkul">0</p>
+                            <p class="stat-label">Total Matkul</p>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">👥</div>
+                        <div class="stat-info">
+                            <h3>Ketua Tingkat</h3>
+                            <p class="stat-value" id="total-ketua">0</p>
+                            <p class="stat-label">Total Ketua</p>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">📊</div>
+                        <div class="stat-info">
+                            <h3>Absensi Dosen</h3>
+                            <p class="stat-value" id="total-absensi">0</p>
+                            <p class="stat-label">Total Pertemuan</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="info-section">
-                    <h3>Informasi</h3>
-                    <ul>
-                        <li>Klik <strong>Berita Acara</strong> di sidebar untuk melihat data berita acara perkuliahan</li>
-                        <li>Klik <strong>Jadwal</strong> di sidebar untuk melihat jadwal mata kuliah</li>
-                        <li>Data diambil dari file CSV yang tersedia</li>
-                    </ul>
+                <!-- Statistik Detail dengan Progress Bar -->
+                <div class="stats-detail-section">
+                    <h3>Statistik Detail</h3>
+                    <div class="stats-detail-grid">
+                        <!-- Online/Offline -->
+                        <div class="stat-detail-card">
+                            <h4>Mode Perkuliahan</h4>
+                            <div class="progress-group">
+                                <div class="progress-item">
+                                    <span>Online</span>
+                                    <div class="progress-bar">
+                                        <div class="progress-fill" id="online-progress" style="width: 0%; background: #10b981;"></div>
+                                        <span class="progress-value" id="online-value">0%</span>
+                                    </div>
+                                </div>
+                                <div class="progress-item">
+                                    <span>Offline</span>
+                                    <div class="progress-bar">
+                                        <div class="progress-fill" id="offline-progress" style="width: 0%; background: #667eea;"></div>
+                                        <span class="progress-value" id="offline-value">0%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Tepat Waktu -->
+                        <div class="stat-detail-card">
+                            <h4>Ketepatan Waktu Dosen</h4>
+                            <div class="progress-group">
+                                <div class="progress-item">
+                                    <span>Tepat Waktu</span>
+                                    <div class="progress-bar">
+                                        <div class="progress-fill" id="tepat-waktu-progress" style="width: 0%; background: #28a745;"></div>
+                                        <span class="progress-value" id="tepat-waktu-value">0%</span>
+                                    </div>
+                                </div>
+                                <div class="progress-item">
+                                    <span>Tidak Tepat Waktu</span>
+                                    <div class="progress-bar">
+                                        <div class="progress-fill" id="tidak-tepat-progress" style="width: 0%; background: #dc3545;"></div>
+                                        <span class="progress-value" id="tidak-tepat-value">0%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Kesesuaian RPS -->
+                        <div class="stat-detail-card">
+                            <h4>Kesesuaian dengan RPS</h4>
+                            <div class="progress-bar">
+                                <div class="progress-fill" id="rps-progress" style="width: 0%; background: #667eea;"></div>
+                                <span class="progress-value" id="rps-value">0%</span>
+                            </div>
+                        </div>
+                        
+                        <!-- Kehadiran Mahasiswa -->
+                        <div class="stat-detail-card">
+                            <h4>Kehadiran Mahasiswa</h4>
+                            <div class="progress-bar">
+                                <div class="progress-fill" id="kehadiran-mhs-progress" style="width: 0%; background: #10b981;"></div>
+                                <span class="progress-value" id="kehadiran-mhs-value">0%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Quick Access Cards -->
+                <div class="quick-access-section">
+                    <h3>Akses Cepat ke Modul</h3>
+                    <div class="quick-access-grid">
+                        <a href="berita-acara.html" class="quick-access-card">
+                            <div class="quick-icon">📝</div>
+                            <h4>Berita Acara</h4>
+                            <p>Lihat data perkuliahan</p>
+                        </a>
+                        <a href="jadwal.html" class="quick-access-card">
+                            <div class="quick-icon">📅</div>
+                            <h4>Jadwal</h4>
+                            <p>Lihat jadwal mata kuliah</p>
+                        </a>
+                        <a href="ketua-tingkat.html" class="quick-access-card">
+                            <div class="quick-icon">👥</div>
+                            <h4>Ketua Tingkat</h4>
+                            <p>Kelola ketua tingkat</p>
+                        </a>
+                        <a href="absensi-dosen.html" class="quick-access-card">
+                            <div class="quick-icon">📊</div>
+                            <h4>Absensi Dosen</h4>
+                            <p>Lihat absensi dosen</p>
+                        </a>
+                        <a href="pembelajaran.html" class="quick-access-card">
+                            <div class="quick-icon">📖</div>
+                            <h4>Pembelajaran</h4>
+                            <p>Evaluasi pembelajaran</p>
+                        </a>
+                        <a href="praktikum.html" class="quick-access-card">
+                            <div class="quick-icon">🔬</div>
+                            <h4>Praktikum</h4>
+                            <p>Proses praktikum</p>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Alert/Info Section -->
+                <div class="alert-section" id="alert-section" style="display: none;">
+                    <h3>Informasi Penting</h3>
+                    <div id="alert-content"></div>
                 </div>
             </div>
         </main>
