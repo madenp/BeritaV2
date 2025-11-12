@@ -1014,6 +1014,216 @@ body {
     word-break: break-word;
 }
 
+/* Welcome Stats */
+.welcome-stats {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.welcome-stats span {
+    font-size: 16px;
+    opacity: 0.95;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 8px 16px;
+    border-radius: 6px;
+}
+
+/* Stat Value and Label */
+.stat-value {
+    font-size: 32px;
+    font-weight: 700;
+    color: #333;
+    margin: 5px 0;
+}
+
+.stat-label {
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+}
+
+/* Stats Detail Section */
+.stats-detail-section {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.stats-detail-section h3 {
+    font-size: 24px;
+    margin-bottom: 25px;
+    color: #333;
+    border-bottom: 2px solid #667eea;
+    padding-bottom: 10px;
+}
+
+.stats-detail-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+}
+
+.stat-detail-card {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    border-left: 4px solid #667eea;
+}
+
+.stat-detail-card h4 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+/* Progress Bar Styles */
+.progress-group {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.progress-item {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.progress-item span {
+    font-size: 14px;
+    font-weight: 500;
+    color: #555;
+}
+
+.progress-bar {
+    position: relative;
+    width: 100%;
+    height: 32px;
+    background: #e0e0e0;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.progress-fill {
+    height: 100%;
+    border-radius: 16px;
+    transition: width 0.8s ease;
+    position: relative;
+}
+
+.progress-value {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+    z-index: 1;
+}
+
+/* Quick Access Section */
+.quick-access-section {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.quick-access-section h3 {
+    font-size: 24px;
+    margin-bottom: 25px;
+    color: #333;
+    border-bottom: 2px solid #667eea;
+    padding-bottom: 10px;
+}
+
+.quick-access-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.quick-access-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 20px;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    border-radius: 10px;
+    text-decoration: none;
+    color: #333;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+}
+
+.quick-access-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(102, 126, 234, 0.3);
+    border-color: #667eea;
+}
+
+.quick-icon {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.quick-access-card h4 {
+    font-size: 18px;
+    margin-bottom: 8px;
+    color: #333;
+    font-weight: 600;
+}
+
+.quick-access-card p {
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+    margin: 0;
+}
+
+/* Alert Section */
+.alert-section {
+    background: #fff3cd;
+    border: 2px solid #ffc107;
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 30px;
+}
+
+.alert-section h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #856404;
+}
+
+.alert-item {
+    color: #856404;
+}
+
+.alert-item strong {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.alert-item ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.alert-item li {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .sidebar {
@@ -1159,6 +1369,90 @@ body {
 
     .percentage-count {
         font-size: 10px;
+    }
+
+    /* Dashboard New Elements Responsive */
+    .welcome-stats {
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+
+    .welcome-stats span {
+        font-size: 14px;
+        padding: 6px 12px;
+    }
+
+    .stat-value {
+        font-size: 24px;
+    }
+
+    .stats-detail-section {
+        padding: 20px;
+    }
+
+    .stats-detail-section h3 {
+        font-size: 20px;
+    }
+
+    .stats-detail-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .stat-detail-card {
+        padding: 15px;
+    }
+
+    .stat-detail-card h4 {
+        font-size: 16px;
+    }
+
+    .progress-bar {
+        height: 28px;
+    }
+
+    .progress-value {
+        font-size: 12px;
+        right: 10px;
+    }
+
+    .quick-access-section {
+        padding: 20px;
+    }
+
+    .quick-access-section h3 {
+        font-size: 20px;
+    }
+
+    .quick-access-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+
+    .quick-access-card {
+        padding: 20px 15px;
+    }
+
+    .quick-icon {
+        font-size: 36px;
+        margin-bottom: 10px;
+    }
+
+    .quick-access-card h4 {
+        font-size: 16px;
+    }
+
+    .quick-access-card p {
+        font-size: 12px;
+    }
+
+    .alert-section {
+        padding: 20px;
+    }
+
+    .alert-section h3 {
+        font-size: 18px;
     }
 }
 
