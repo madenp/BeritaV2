@@ -1,5 +1,12 @@
-let praktikumData = [];
-let groupedPraktikumData = [];
+let praktikumData = {
+    genap: [],
+    ganjil: []
+};
+let groupedPraktikumData = {
+    genap: [],
+    ganjil: []
+};
+let currentSemester = 'ganjil';
 
 // Load dan tampilkan data praktikum
 document.addEventListener('DOMContentLoaded', async () => {
@@ -26,36 +33,57 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
 
     try {
-        // Load CSV file
-        console.log('Loading Evaluasi_RPS_MHS.csv...');
-        const allData = await loadCSV('Evaluasi_RPS_MHS.csv');
+        // Load both CSV files
+        console.log('Loading Evaluasi_RPS_MHS.csv (Genap)...');
+        const allDataGenap = await loadCSV('Evaluasi_RPS_MHS.csv');
         
-        if (!allData || allData.length === 0) {
-            throw new Error('Data CSV kosong atau tidak valid');
+        console.log('Loading Evaluasi_RPS_MHS_ganjil25.csv (Ganjil)...');
+        const allDataGanjil = await loadCSV('Evaluasi_RPS_MHS_ganjil25.csv');
+        
+        if (!allDataGenap || allDataGenap.length === 0) {
+            throw new Error('Data CSV Semester Genap kosong atau tidak valid');
+        }
+        
+        if (!allDataGanjil || allDataGanjil.length === 0) {
+            console.warn('Data CSV Semester Ganjil kosong atau tidak valid');
         }
 
-        // Filter data where Praktikum column = "Praktikum"
-        praktikumData = allData.filter(row => {
+        // Filter data where Praktikum column = "Praktikum" for both semesters
+        praktikumData.genap = allDataGenap.filter(row => {
+            const praktikum = getColumnValue(row, 'Praktikum').toString().trim();
+            return praktikum.toLowerCase() === 'praktikum';
+        });
+        
+        praktikumData.ganjil = allDataGanjil.filter(row => {
             const praktikum = getColumnValue(row, 'Praktikum').toString().trim();
             return praktikum.toLowerCase() === 'praktikum';
         });
 
         console.log('Data loaded:', {
-            total: allData.length,
-            praktikum: praktikumData.length
+            genap: {
+                total: allDataGenap.length,
+                praktikum: praktikumData.genap.length
+            },
+            ganjil: {
+                total: allDataGanjil.length,
+                praktikum: praktikumData.ganjil.length
+            }
         });
 
         // Debug: Log sample data
-        if (praktikumData.length > 0) {
-            console.log('Sample praktikum data:', praktikumData[0]);
-            console.log('Praktikum keys:', Object.keys(praktikumData[0]));
+        if (praktikumData.genap.length > 0) {
+            console.log('Sample praktikum data (Genap):', praktikumData.genap[0]);
+        }
+        if (praktikumData.ganjil.length > 0) {
+            console.log('Sample praktikum data (Ganjil):', praktikumData.ganjil[0]);
         }
 
-        // Process data: Group by Mata Kuliah
-        processPraktikumData();
+        // Process data for both semesters
+        processPraktikumData('genap');
+        processPraktikumData('ganjil');
 
-        // Render cards
-        renderPraktikumCards(groupedPraktikumData);
+        // Render cards for current semester
+        renderPraktikumCards(groupedPraktikumData[currentSemester]);
         
         // Render average indicator
         renderAverageIndicator();
@@ -64,11 +92,27 @@ document.addEventListener('DOMContentLoaded', async () => {
         loadingEl.style.display = 'none';
         praktikumContainer.style.display = 'block';
 
+        // Setup semester selector
+        const semesterSelect = document.getElementById('semester-select');
+        if (semesterSelect) {
+            semesterSelect.addEventListener('change', (e) => {
+                currentSemester = e.target.value;
+                // Clear search when switching semester
+                if (searchInput) {
+                    searchInput.value = '';
+                }
+                // Show cards view
+                showCardsView();
+                // Update average indicator
+                renderAverageIndicator();
+            });
+        }
+
         // Setup search
         if (searchInput) {
             searchInput.addEventListener('input', (e) => {
                 const searchTerm = e.target.value.toLowerCase();
-                const filtered = groupedPraktikumData.filter(item => {
+                const filtered = groupedPraktikumData[currentSemester].filter(item => {
                     const matakuliah = (item.matakuliah || '').toLowerCase();
                     return matakuliah.includes(searchTerm);
                 });
@@ -115,10 +159,11 @@ function getColumnValue(row, columnName) {
 }
 
 // Process data: Group by Mata Kuliah and calculate statistics
-function processPraktikumData() {
+function processPraktikumData(semester) {
     const groupedData = {};
+    const data = praktikumData[semester] || [];
     
-    praktikumData.forEach((row) => {
+    data.forEach((row) => {
         // Get Mata Kuliah value
         const matakuliah = getColumnValue(row, 'Mata Kuliah').toString().trim();
         
@@ -143,7 +188,7 @@ function processPraktikumData() {
     });
     
     // Convert to array and calculate statistics
-    groupedPraktikumData = Object.values(groupedData).map(item => {
+    groupedPraktikumData[semester] = Object.values(groupedData).map(item => {
         const jumlahPertemuan = item.pertemuanSet.size;
         
         // Calculate Persentase Kehadiran Dosen = Jumlah Pertemuan / 14
@@ -185,9 +230,9 @@ function processPraktikumData() {
         };
     }).sort((a, b) => a.matakuliah.localeCompare(b.matakuliah));
     
-    console.log('Grouped praktikum data:', groupedPraktikumData.length);
-    if (groupedPraktikumData.length > 0) {
-        console.log('Sample grouped data:', groupedPraktikumData[0]);
+    console.log(`Grouped praktikum data (${semester}):`, groupedPraktikumData[semester].length);
+    if (groupedPraktikumData[semester].length > 0) {
+        console.log(`Sample grouped data (${semester}):`, groupedPraktikumData[semester][0]);
     }
 }
 
@@ -198,8 +243,11 @@ function renderAverageIndicator() {
     const avgKehadiranDosenValue = document.getElementById('avg-kehadiran-dosen-value');
     const avgKehadiranMahasiswaBar = document.getElementById('avg-kehadiran-mahasiswa-bar');
     const avgKehadiranMahasiswaValue = document.getElementById('avg-kehadiran-mahasiswa-value');
+    const averageIndicatorTitle = document.getElementById('average-indicator-title');
     
-    if (!averageIndicator || groupedPraktikumData.length === 0) {
+    const currentData = groupedPraktikumData[currentSemester] || [];
+    
+    if (!averageIndicator || currentData.length === 0) {
         if (averageIndicator) averageIndicator.style.display = 'none';
         return;
     }
@@ -209,7 +257,7 @@ function renderAverageIndicator() {
     let totalKehadiranMahasiswa = 0;
     let count = 0;
     
-    groupedPraktikumData.forEach(item => {
+    currentData.forEach(item => {
         totalKehadiranDosen += item.persentaseKehadiranDosen;
         totalKehadiranMahasiswa += item.rataRataMahasiswaHadir;
         count++;
@@ -233,10 +281,10 @@ function renderAverageIndicator() {
         }, 150);
     }
     
-    // Update header with total count (optional enhancement)
-    const header = averageIndicator.querySelector('.average-indicator-header h3');
-    if (header && count > 0) {
-        header.textContent = `📊 Statistik Rata-Rata Praktikum - Semester Genap 2024/2025 (${count} Mata Kuliah)`;
+    // Update header with semester and total count
+    const semesterName = currentSemester === 'genap' ? 'Semester Genap 2024/2025' : 'Semester Ganjil 2025/2026';
+    if (averageIndicatorTitle && count > 0) {
+        averageIndicatorTitle.textContent = `📊 Statistik Rata-Rata Praktikum - ${semesterName} (${count} Mata Kuliah)`;
     }
     
     // Show indicator
@@ -410,14 +458,17 @@ function showCardsView() {
     const searchInput = document.getElementById('search-praktikum');
     if (searchInput) {
         const searchTerm = searchInput.value.toLowerCase();
-        const filtered = groupedPraktikumData.filter(item => {
+        const filtered = groupedPraktikumData[currentSemester].filter(item => {
             const matakuliah = (item.matakuliah || '').toLowerCase();
             return matakuliah.includes(searchTerm);
         });
         renderPraktikumCards(filtered);
     } else {
-        renderPraktikumCards(groupedPraktikumData);
+        renderPraktikumCards(groupedPraktikumData[currentSemester]);
     }
+    
+    // Update average indicator
+    renderAverageIndicator();
 }
 
 function escapeHtml(text) {
